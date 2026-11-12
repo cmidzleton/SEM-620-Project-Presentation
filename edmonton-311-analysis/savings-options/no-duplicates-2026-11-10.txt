@@ -1,0 +1,23 @@
+
+=== ORIGINAL (with duplicates): 2026 wasted-visit 10070, wasted-desk 7436
+th>20%: codes 150, flagged 18.6% of 2026 phone referrals (32508), wasted visits caught 68.3% (6880), desk caught 2904, precision 30.1%
+   flagged/yr 38,245; gross $404K (P10-P90 $201K-$651K); cost $30K (P10-P90 $20K-$38K); net $375K (P10-P90 $171K-$622K); P(net<0) 0.0%; break-even avoided 2.6%
+th>30%: codes 72, flagged 11.7% of 2026 phone referrals (20548), wasted visits caught 50.0% (5033), desk caught 1960, precision 34.0%
+   flagged/yr 24,174; gross $295K (P10-P90 $146K-$475K); cost $19K (P10-P90 $13K-$24K); net $276K (P10-P90 $127K-$457K); P(net<0) 0.0%; break-even avoided 2.2%
+
+=== NO DUPLICATES (keep File Already under Investigation): 2026 wasted-visit 10070, wasted-desk 3472
+th>20%: codes 87, flagged 13.6% of 2026 phone referrals (23831), wasted visits caught 60.4% (6083), desk caught 1618, precision 32.3%
+   flagged/yr 28,036; gross $353K (P10-P90 $173K-$570K); cost $22K (P10-P90 $15K-$28K); net $331K (P10-P90 $151K-$549K); P(net<0) 0.0%; break-even avoided 2.2%
+th>30%: codes 39, flagged 7.2% of 2026 phone referrals (12591), wasted visits caught 43.7% (4399), desk caught 916, precision 42.2%
+   flagged/yr 14,813; gross $254K (P10-P90 $124K-$411K); cost $12K (P10-P90 $8K-$15K); net $242K (P10-P90 $112K-$400K); P(net<0) 0.0%; break-even avoided 1.6%
+
+=== NO DUPLICATES, NO 'File Already under Investigation': 2026 wasted-visit 10070, wasted-desk 2368
+th>20%: codes 84, flagged 10.9% of 2026 phone referrals (19090), wasted visits caught 52.9% (5326), desk caught 537, precision 30.7%
+   flagged/yr 22,459; gross $304K (P10-P90 $148K-$494K); cost $17K (P10-P90 $12K-$22K); net $287K (P10-P90 $130K-$477K); P(net<0) 0.0%; break-even avoided 2.0%
+th>30%: codes 35, flagged 4.3% of 2026 phone referrals (7492), wasted visits caught 29.6% (2978), desk caught 203, precision 42.5%
+   flagged/yr 8,814; gross $170K (P10-P90 $82K-$276K); cost $7K (P10-P90 $5K-$9K); net $163K (P10-P90 $75K-$269K); P(net<0) 0.0%; break-even avoided 1.4%
+
+NOTES (Nov 10, 2026): Curtis decided duplicates stay out of the savings because the City is already working on them (Council motion Jul 2, 2025; auto-linking at intake).
+HEADLINE TO USE: "No duplicates, no 'File Already under Investigation'", flag codes >20% 2025 wasted-referral risk:
+ 84 codes; 10.9% of 2026 phone referrals flagged; 52.9% of wasted field visits caught; net $287K/yr (P10-P90 $130K-$477K); gross $304K; agent-time cost $17K; break-even 2.0% avoided.
+Data: 6-part CSV export of 311 Requests (q7ua-agfg), phone Referral tickets 2025 (191,521) and 2026 to Nov 6 (179,139). Same assumptions as s1b.py (avoid 20/35/50%, visit $22/$84/$280, seed 20261110).

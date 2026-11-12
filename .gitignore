@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+*.bak
+# Raw City of Edmonton 311 extracts (~1.4 GB, over GitHub's 100 MB file limit)
+311_Requests_*.csv

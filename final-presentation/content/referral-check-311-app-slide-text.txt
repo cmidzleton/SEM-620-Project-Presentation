@@ -1,0 +1,1299 @@
+Referral Check deck, Edmonton 311 app style (V6, Nov 11 2026). Text of every slide and its speaker notes.
+
+===== PAGE 1 =====
+10:12
+311  ·  LTE  ·  ▮▮▮
+‹
+311 · Referral Check · SEM 620 final presentation
+311
+01 / 17
+CITY OF EDMONTON  ·  311 AND CUSTOMER ACCESS  ·  ONE SMALL DECISION, ONE SIMPLE ALGORITHM
+Referral Check
+Before a 311 referral goes out, a 20-second check on the codes that most often end with nothing for the City to do
+SEM 620  ·  FINAL PRESENTATION  ·  25% OF THE GROUP PROJECT
+Team 2 · Lauren Lonsberry · Nav Sekhon · Rick Auger · Curtis Middleton
+Session 11 · Monday, December 7, 2026 · 15 minutes + Q&A
+$287K A YEAR OF FIELD AND DESK CAPACITY  ·  P10-P90 $130K-$477K  ·  CAPACITY, NOT CASH
+Dollar figures are the mean of 50,000 Monte Carlo draws on the team's own cost ranges, trained on 2025 tickets and tested on 2026. The share of empty visits the check avoids (35%) is our assumption; the pilot measures it. Duplicate requests are left out: the City is already working on them.
+01 Decision
+02 Algorithm
+03 Lenses
+04 Data & plan
+05 Appendix
+311
+Edmonton Transit Service
+Referral Check
+a 20-second check
+swipe to begin  ›
+ALBERTA SCHOOL OF BUSINESS  ·  University of Alberta  ·  Team 2
+1
+--- SPEAKER NOTES ---
+Cover. Open on the decision, not the agenda: one 311 agent, one code, 20 seconds, and whether a City officer drives across town. Referral Check is the algorithm that sits between the pick and the referral. Say up front: capacity, not cash; the 35% is ours to test; duplicate requests are left out of every figure because the City is already working on them. The deck moves like the 311 app: swipe left; the bus at the bottom shows which stop we are at.
+
+===== PAGE 2 =====
+10:12
+311  ·  LTE  ·  ▮▮▮
+‹
+311 · Referral Check · Home
+311
+Agenda
+01
+Decision
+Caller 7, the pick restated and refined, the problem tree, the profit tree
+slides 2 to 5  ›
+02
+Algorithm
+One ratio per code, the routine, who decides and what happens when it is wrong, the backtest
+slides 6 to 9  ›
+03
+Lenses
+Rational, psychological and political lenses; the ten biases, including ours
+slides 10 to 11  ›
+04
+Data & plan
+Data inventory, the 90-day data set, the gate, the measures, the ask, AI process reflection
+slides 12 to 17  ›
+05
+Appendix
+Score method, the codes, ten-year check, Monte Carlo, pilot length, the political game, concept map, sources
+A1 to A8  ›
+01 Decision
+02 Algorithm
+03 Lenses
+04 Data & plan
+05 Appendix
+ALBERTA SCHOOL OF BUSINESS  ·  University of Alberta  ·  Team 2
+--- SPEAKER NOTES ---
+Agenda, laid out like the app's home screen. Each row and each stop on the bottom bar is a link to that section. Five stops; the bus shows where we are. Timing: 17 core slides will not fit in 15 minutes if every slide is read. A spoken path of about nine slides at 90 seconds each: 2 (Caller 7), 5 (profit tree), 6 (the algorithm), 9 (evidence), 10 (lenses), 12 (the 90-day data set), 13 (plan and gate), 15 (the ask), 16 (AI reflection). On 3, 4, 7, 8, 11 and 14, say the headline and move on; they are there for the rubric and for questions.
+
+===== PAGE 3 =====
+10:12
+311  ·  LTE  ·  ▮▮▮
+‹
+01 · THE DECISION
+311
+01
+Decision
+One pick on one call, 190,000 times a year. What it costs when the referral should not have gone out, and the tree behind it.
+311
+Edmonton Transit Service
+Referral Check
+a 20-second check
+swipe  ›
+01 Decision
+02 Algorithm
+03 Lenses
+04 Data & plan
+05 Appendix
+ALBERTA SCHOOL OF BUSINESS  ·  University of Alberta  ·  Team 2
+
+===== PAGE 4 =====
+10:12
+311  ·  LTE  ·  ▮▮▮
+‹
+TUE 10:12 · CALLER 7 ON THE LINE · THE SAME CALL, TWICE
+311
+02 / 17
+01 Decision
+02 Algorithm
+03 Lenses
+04 Data & plan
+05 Appendix
+ALBERTA SCHOOL OF BUSINESS  ·  University of Alberta  ·  Team 2
+311 Requests open data (q7ua-agfg), 2023 to Nov 6, 2026, re-run on the team's six-part export. Caller 7 is illustrative; every code, count and closure label is real. 2025: 191,521 phone referrals; 12,583 closed with a field outcome of nothing to act on, called an empty visit in this deck (Does Not Meet Bylaw Offence Standards, Assessed - No Action Required, Unable to Locate Animal, Location Not Found, Unable to Contact Complainant; the last two, 739 tickets, do not prove an officer attended). 2026 to Nov 6: 179,139 and 10,609. Duplicate requests are left out of every figure: the City is already working on them.
+2
+01 DECISION  ·  THE DECISION, AS IT HAPPENS
+One pick on one call decides whether an officer is sent. 12,583 times in 2025 the referral ended with nothing for the City to act on.
+TODAY · THE CALL AS IT RUNS
+10:12
+Caller 7: "The yard next door is full of junk again."
+10:13
+Agent searches "untidy", picks Complaint Registered - Untidy Property, refers to Municipal Enforcement. Clock: 120-second answer target.
+Thu
+A peace officer drives out. Ordinary household items, nothing that meets the bylaw standard.
+Thu
+Closed: Does Not Meet Bylaw Offence Standards. 1,350 of 4,877 such phone referrals ended this way in 2026 (28%).
+Later
+Nothing goes back to the agent. The scorecard counts the ticket as resolved on first contact.
+WITH REFERRAL CHECK · 20 SECONDS ADDED
+10:12
+Same call, same words.
+10:13
+Agent picks the same code. The screen shows AMBER: 29.9% of these referrals ended with nothing to act on last year (1,493 of 4,988), and two screening questions written by Municipal Enforcement.
+10:13
+"Is it visible from the street or a neighbour's yard? More than ordinary household items?" Caller: "Just bins and a bike." Agent gives the bylaw information; caller can still insist on a referral.
+Thu
+No officer dispatched. If the referral had gone out, the officer's closure reason would return to the agent within a day.
+Weekly
+The code's risk table updates. Codes that stay flagged go to a fix queue 311 reviews with the area.
+1 in 17
+phone referrals ends with nothing to act on in the field (5.9%, 2026)
+1 in 14
+ends in any wasted outcome, desk or field (7.3%; duplicates left out)
+84 codes
+carry 50% of the empty visits (11% of calls)
+$287K / yr
+field and desk capacity freed, mean; P10-P90 $130K-$477K
+CONCEPTS
+BRIEF · ONE CONCRETE SITUATION
+S7 · ROUTINE AS PERFORMED
+S3 · FEEDBACK LINKS ACTION TO RESULT
+--- SPEAKER NOTES ---
+The hook. Caller 4 told you about bounces in October; Caller 7 is the bigger cost. Illustrative dialogue; real code (Complaint Registered - Untidy Property), real counts. The screening questions are examples of what the area would write; the area owns them. Key line: the caller can always insist on a referral. The algorithm never says no. The card is amber, not red: the code's 2025 rate is 29.9%, a hair under the 30% red line, which is a fair example of why the cut-offs are a value choice. Two of the five closure labels (Unable to Contact Complainant, Location Not Found) do not prove an officer attended; 'empty visit' is the deck's short name for all five.
+
+===== PAGE 5 =====
+10:12
+311  ·  LTE  ·  ▮▮▮
+‹
+TUE 10:13 · THE PICK · WHAT DECISION ARE WE IMPROVING?
+311
+03 / 17
+01 Decision
+02 Algorithm
+03 Lenses
+04 Data & plan
+05 Appendix
+ALBERTA SCHOOL OF BUSINESS  ·  University of Alberta  ·  Team 2
+311 Requests open data (q7ua-agfg), 2023 to Nov 6, 2026, re-run on the team's six-part export. October figures from the team's Oct 26 Strategic Analytics Initiative deck. Five-part test and grain-size rule from the SEM 620 Group Project brief; McGarry (ready-mix dispatcher) is the brief's benchmark for a decision an algorithm can take. 1,917 codes as counted in the team's October deck; 1,930 when a code is service area + category + description (Appendix A1).
+3
+01 DECISION  ·  THE CORE ANALYTIC DECISION · RESTATED, REFINED
+Same 20-second pick as October. The refinement: the code chooses whether the work goes out, not only where.
+OCTOBER · DIAGNOSIS
+Which service code does a new 311 phone ticket get?
+Agent picks 1 of 1,917 codes. A wrong code bounces between areas: 1,062 phone-referral bounces in 2025, about $100K a year, 98.9% of referrals land first time.
+DECEMBER · THE DECISION WE DESIGN FOR
+On each phone referral: route on the code as picked, or check first whether the referral should go out at all?
+The code sets resolve-or-refer on 99.4% of tickets. 1,062 bounced; 12,583 went out and ended with nothing to act on. Same pick, same screen, a bigger loss.
+FIVE-PART TEST | FINDING | SOURCE
+Who makes it, how often | A 311 agent, live, once per phone referral: 191,521 in 2025, about one every 100 seconds the line is open | open data
+Inputs used now | Caller's words and address, a code search, 900 area scripts, experience. Nothing on screen says how a code usually ends | OCA 2023; CSD03148
+Options | Resolve on the call, refer under one of 1,917 codes, or ask one more question first | team deck, Oct 26
+Bad instance x frequency | Empty visit $22 / $84 / $280 (team ranges) x 12,583 a year; bounce $36 x 1,062; days residents wait in the wrong queue | stake model
+Could an algorithm make it? | Not the pick: only the agent hears the caller. But a lookup can say, before the referral, how often this code ends with nothing | this proposal
+WHY THE DIAGNOSIS MOVED
+1  The pick is right for routing
+98.9% of 2026 phone referrals did not bounce. Fixing bounces alone frees $7K to $17K a year.
+2  The bigger loss is the referral that should not have gone
+5.9% of phone referrals end with nothing to act on in the field; 7.3% in some wasted outcome, duplicates left out. Each visit costs far more than a bounce.
+3  Grain size
+One agent, one code, 20 seconds, 190,000 times a year. One level narrower than "intake", as the brief asks. McGarry's board was replaced; this agent is not.
+CONCEPTS
+BRIEF · FIVE-PART TEST
+BRIEF · GRAIN SIZE
+S7 · McGARRY BENCHMARK
+S2 · IS THIS THE DECISION WE FACE?
+--- SPEAKER NOTES ---
+Restate, then refine. The October decision stands; the diagnosis moved because the open data showed the pick is almost always right for routing, while one referral in 14 ends with nothing for the City to do. Name the change openly: October's alternatives slide ranked complaint-intake screening sixth; the data moved it up.
+
+===== PAGE 6 =====
+10:12
+311  ·  LTE  ·  ▮▮▮
+‹
+THU · THE OFFICER FINDS NOTHING · WHY DOES IT KEEP HAPPENING?
+311
+04 / 17
+01 Decision
+02 Algorithm
+03 Lenses
+04 Data & plan
+05 Appendix
+ALBERTA SCHOOL OF BUSINESS  ·  University of Alberta  ·  Team 2
+Problem tree after Glaser, Analytic Trees pp. 5-10: a root sentence with a result and a puzzle, branches by stage of one call (MECE by time), evidence marked on every leaf. 311 Requests open data (q7ua-agfg), 2023 to Nov 6, 2026, re-run on the team's six-part export; OCA 2023 pp. 3, 16, 19, 20; CSD03148 (Sep 2, 2026) p. 2, Att. 2.
+4
+01 DECISION  ·  PROBLEM TREE · WHY, IN ONE CALL
+Empty referrals start before the call, are picked during it, and after it no one is told, so no one learns.
+ROOT QUESTION
+Why does one phone referral in 14 end with nothing for the City to do, and why does no one learn from it?
+ASSUMED, STATED
+An empty visit is treated as avoidable at intake. Some are not: the condition changed, or the caller was right and the officer could not see it.
+THREE REAL EVENTS, ONE BRANCH EACH
+Garbage-can bounce (4 codes, 4 owners): BEFORE. Untidy yard, no offence: DURING. 2026 bounce rise, 39% from new recording: AFTER.
+BEFORE THE CALL · THE CODE SET
+Codes name an owner, not a standard
+The bylaw criteria live in 900 scripts the areas sign off; the code itself carries none of them.
+VERIFIED
+Ownership follows the asset
+One garbage can, four codes, four owners. The caller's words rarely name the owner.
+VERIFIED
+Risk is invisible
+No published rate per code. Untidy Property: 28% empty; the average referral: 5.9%.
+VERIFIED
+DURING THE CALL · THE PICK
+The words do not say whether the standard is met
+"Junk in the yard" fits the code; whether an officer can act is a second question nobody asks.
+INFERRED
+Speed is what is measured
+120-second answer target; script AI framed around shorter calls. The first code that fits saves time.
+VERIFIED
+System 1 picks, System 2 defends
+A familiar phrase calls up a familiar code; the search then confirms it. No feedback ever arrives to retrain the intuition.
+HYPOTHESIS
+AFTER THE CALL · NO LEARNING
+No count on the scorecard
+"Resolved on Initial Contact" 98.7% counts an empty visit nobody chased as resolved.
+ABSENCE
+No word back
+No process we found returns the closure reason to the agent who picked the code.
+ABSENCE
+Labels are built differently by area
+Eight areas began recording bounces only in 2026; closure reasons vary by area. The measure moves when recording moves.
+VERIFIED
+CONCEPTS
+S2 · PROBLEM TREE
+S2 · MECE BY STAGE
+S2 · EXPLANATION AS HYPOTHESIS
+S3 · SYSTEM 1 / SYSTEM 2
+S6 · METRIC BUILT SLIGHTLY WRONG
+S5 · WHAT THE DATA CANNOT SHOW
+--- SPEAKER NOTES ---
+The October problem tree, widened from bounces to every referral that ends with nothing to do. Root is a sentence with a result and a puzzle. Branches are MECE by stage of one call. Each leaf carries its evidence grade. The assumption is on the slide: not every empty visit is an intake error. Three real events each land in exactly one branch, the test the reading prescribes. The design on slide 6 answers one leaf per branch: show the risk (before), ask the standard (during), send the reason back (after).
+
+===== PAGE 7 =====
+10:12
+311  ·  LTE  ·  ▮▮▮
+‹
+THU · WHAT THE EMPTY VISIT COST · THE STAKE AS A TREE
+311
+05 / 17
+01 Decision
+02 Algorithm
+03 Lenses
+04 Data & plan
+05 Appendix
+ALBERTA SCHOOL OF BUSINESS  ·  University of Alberta  ·  Team 2
+Profit tree after Glaser, Analytic Trees Fig 2.1: each box is the sum or product of the boxes to its right and the tree reconciles. Triangular inputs (min / likely / max): field visit $22 / $84 / $280 and desk time 5 / 10 / 20 min at $36.93-$52.09 an hour (team's Oct 26 ranges, CSU 52 rates); avoided share 20 / 35 / 50% (assumed); check 20 s at $0.30-$1.02 (agent time only to average cost per contact, $16.29 per contact from the $14.66M budget). 50,000 draws, seed 20261110. Volumes: 2026 to Nov 6, annualised x 12/10.2. Duplicate requests left out.
+5
+01 DECISION  ·  PROFIT TREE · CAPACITY AT STAKE
+Checking the 84 riskiest codes frees about $287K a year of officer and desk time. Capacity, not cash: no budget line moves.
+NET CAPACITY FREED, A YEAR
+$287K
+mean of 50,000 draws; median $265K; every draw above zero
+P10-P90 $130K-$477K
+GROSS TIME FREED
+$304K
+field visits avoided + desk work avoided
+COST OF THE CHECK
+-$17K
+22,460 flagged calls x about $0.78 of agent time (20 s)
+FIELD VISITS AVOIDED
+$301K
+2,192 visits x $137.51 (visit + desk)
+DESK WORK AVOIDED
+$3K
+221 desk closures x $12.55
+VISITS REACHED
+6,270
+50% of 12,480 a year, in the 84 flagged codes
+x AVOIDED
+35%
+assumed 20 / 35 / 50%; pilot measures it
+x COST PER VISIT
+$137
+$22 / $84 / $280 + desk
+x
+x
+MIX EFFECT
+The City-wide rate (5.9%) hides codes at 28%, 43%, 62%. Judge the pilot inside flagged codes, never on the average, or a change in call mix will read as a result.
+SENSITIVITY
+Break-even if the check avoids only 2.0% of flagged empty visits: the 35% can be wrong 17 times over. Halve the visit cost: $145K. Price every check at the full $1.02: $281K. Leave desk closures out: $284K.
+What the dollars leave out: residents' days in the wrong queue (16,987 in 2025 on bounces alone), hazard tickets delayed, and the calls the officer could have served instead. Bounces are counted once, in the desk row. Duplicate requests (6,249 in 2025) are left out: the City is already working on them.
+CONCEPTS
+S2 · PROFIT TREE RECONCILES
+S2 · EXPECTED VALUE IS NOT A FORECAST
+S2 · MIX EFFECT
+S2 · SENSITIVITY
+S5 · DISAGGREGATE
+DECK STD · UNITS, SOURCE, ASSUMPTIONS
+--- SPEAKER NOTES ---
+The stake as a profit tree: children multiply to the parent, the tree reconciles to $287K. Every input is a range with a source or a stated assumption; the one that matters most, the 35% avoided, is ours, and the pilot measures it. Say it out loud: break-even is 2.0%, so the 35% can be wrong 17 times over and the check still pays. Duplicate requests are left out because the City is already working on them; with them counted the figure was $375K. Say 'capacity, not cash' before anyone asks: officers freed for calls that need them; no budget line moves and no position is cut. The Monte Carlo spread is wide because visit cost is wide ($22 to $280).
+
+===== PAGE 8 =====
+10:12
+311  ·  LTE  ·  ▮▮▮
+‹
+02 · THE ALGORITHM
+311
+02
+Algorithm
+One ratio per code, three colours, and a routine where the agent still decides. Tested on a year it had never seen.
+311
+Edmonton Transit Service
+Referral Check
+a 20-second check
+swipe  ›
+01 Decision
+02 Algorithm
+03 Lenses
+04 Data & plan
+05 Appendix
+ALBERTA SCHOOL OF BUSINESS  ·  University of Alberta  ·  Team 2
+
+===== PAGE 9 =====
+10:12
+311  ·  LTE  ·  ▮▮▮
+‹
+TUE 10:13 · THE PICK IS SCORED · ONE RATIO PER CODE
+311
+06 / 17
+01 Decision
+02 Algorithm
+03 Lenses
+04 Data & plan
+05 Appendix
+ALBERTA SCHOOL OF BUSINESS  ·  University of Alberta  ·  Team 2
+Risk score: last 12 months' empty outcomes per referral for the code, shrunk toward the City average with a prior of about 10 tickets (empirical Bayes), refreshed weekly from CRM closures. Trained on 2025, tested on Jan-Nov 2026. Shares of 2026 phone referrals: green 89.3%, amber 6.5%, red 4.2%. Threshold maths: ask cost $1.02 / (35% x $137) = 2.1% (0.6% at agent-time pricing). 311 Requests open data (q7ua-agfg), 2023 to Nov 6, 2026, re-run on the team's six-part export. Duplicate requests left out.
+6
+02 ALGORITHM  ·  THE ALGORITHM · SIMPLE ON PURPOSE
+The algorithm is one number per code: how often it ended with nothing last year. A rule turns it into three colours; the agent does the rest.
+THE WHOLE MODEL · EXPLAINABLE IN ONE SENTENCE
+risk(code) = (empty visits + 10 x 6.6%) / (referrals + 10)
++ the same ratio for desk outcomes (prior 0.8%). The priors are last year's City-wide rates.
+Counted over the last 12 months of closed phone referrals, refreshed weekly. "This code ended with nothing to act on 1,493 of 4,988 times last year" is the whole explanation an agent needs. Rare codes are pulled toward the average so a code used five times cannot go red on one closure. New codes sit amber for 90 days.
+WHAT KIND OF SYSTEM, AND THE QUESTION EACH KIND RAISES
+KIND (SESSION 1) | IN REFERRAL CHECK | THE QUESTION TO ASK, AND OUR ANSWER
+Learns a predictive pattern | The ratio per code, from past closures | How were the examples labelled? By the receiving area's closure reason, so the label is the area's verdict. Build a required reason field; audit a sample.
+Applies an explicit rule | 20% and 30% cut-offs; amber for new codes | Who set the conditions and exceptions? 311 with the three pilot areas and CSU 52; reviewed at the gate.
+Generates content | Nothing. No text is written or read by a model in phase one | Is it faithful to the source? Not triggered until phase two, when the Generative AI Standard's human-review rule applies.
+WHAT THE RULE PUTS OUT · THREE TIERS
+GREEN
+risk under 20%
+89% of referrals, 50% of empty visits
+Nothing. Route as today.
+ROUTE
+AMBER
+risk 20% to 30%
+6.5% of referrals, 22% of empty visits
+The code's rate and the area's screening questions, one click to confirm.
+CONFIRM OR SWITCH
+RED
+risk over 30%
+4.2% of referrals, 28% of empty visits
+Rate, two screening questions to ask, and the alternatives (information, self-serve, report again if it persists).
+ASK, THEN DECIDE
+TIER
+RULE
+AGENT SEES
+AGENT DOES
+WHY 20%, WHEN THE DECISION TREE SAYS 2%
+Rolled back right to left, a 20-second check pays whenever a code's risk is above about 2%: $1.02 against 35% of a $137 visit. That is more than half of all referrals. Attention does not scale like expected value: a prompt on every second call becomes wallpaper. So the cut-off is set by the agent's attention, not the arithmetic: flag about one call in nine and still reach 50% of the empty visits. The 2% line is the floor; the gate tests the 20% line. A 15% line would flag one call in six and reach 64%: a choice to revisit at the gate.
+CONCEPTS
+S1 · THREE KINDS OF SYSTEM
+S1 · HOW WERE EXAMPLES LABELLED
+S2 · DECISION TREE THRESHOLD
+S2 · SENSITIVITY
+S3 · ATTENTION NEEDS ONE QUESTION
+S1 · PREDICTION MACHINE
+--- SPEAKER NOTES ---
+The algorithm is deliberately the simplest thing that works: a shrunk ratio per code, a rule, three colours. Session 1's three kinds of system each raise a question; answer all three on the slide. The rational threshold (2%) and the psychological constraint (attention) disagree; the design sides with attention and says so. A logistic model with more features did worse out of time (AUC 0.69 vs 0.82 on bounces).
+
+===== PAGE 10 =====
+10:12
+311  ·  LTE  ·  ▮▮▮
+‹
+TUE 10:13 · THE CHECK · WHO DOES WHAT, IN ORDER
+311
+07 / 17
+01 Decision
+02 Algorithm
+03 Lenses
+04 Data & plan
+05 Appendix
+ALBERTA SCHOOL OF BUSINESS  ·  University of Alberta  ·  Team 2
+Routine decomposed after Feldman and Pentland (2003): ostensive (the steps as understood), performative (as carried out), artifacts (screens, lists, fields). Ironstone Ready-Mix (Session 7): the scheduling system removed the afternoon readiness calls nobody had written down. OCA 2023 p. 19: agents are expected to ask clarifying questions.
+7
+02 ALGORITHM  ·  THE ROUTINE · INPUTS, OUTPUTS, WHO ACTS
+Four actors, one new artifact. The algorithm scores; the agent asks; the area closes with a reason; the reason comes back.
+DURING THE CALL
+THE PICK (20 s)
+THE CHECK (+20 s)
+ROUTE
+AFTER (DAYS)
+LEARN (WEEKLY)
+RESIDENT
+311 AGENT
+REFERRAL CHECK
+RECEIVING AREA
+"The yard next door is full of junk." Gives the address.
+Answers two questions. Can always insist on a referral.
+Hears the outcome once, with the reason, by text or email (phase 2).
+Listens; searches the code list under a 120-s answer target.
+Picks Complaint Registered - Untidy Property.
+Reads the tier, asks the two questions, then refers with the answers or gives information.
+Final call on the referral stays here.
+Sees the closure reason in a daily digest to the team lead. Coaching only.
+Looks up the code's risk and tier. Takes in: code, risk table, screening set.
+Puts out: tier, rate, questions, alternatives. Logs tier, answers and the agent's choice.
+Recomputes every code's ratio; drift alerts; codes that stay flagged go to the fix queue.
+Receives the ticket with the two answers attached.
+Officer attends; closes with a required reason (one of five).
+Owns the screening questions and the fix queue with 311: retire, merge, reword, re-script.
+OSTENSIVE · THE STEPS AS UNDERSTOOD
+Find the right code; resolve or refer. Unchanged. We add one step inside it: on risky codes, ask the standard before referring.
+PERFORMATIVE · AS CARRIED OUT
+Search a phrase, pick the first fit, refer, next call. Where judgment moves: the "can an officer act?" question moves from the curb on Thursday to the line on Tuesday. The pick itself does not move.
+ARTIFACTS · OLD AND NEW
+Old: 1,917-code list, 900 scripts, CRM status field. New: the tier on the pick screen, the screening card, a required closure reason, the weekly fix queue. Ironstone's lesson: before we add the card, ask senior agents what they already ask.
+CONCEPTS
+S7 · OSTENSIVE / PERFORMATIVE / ARTIFACT
+S7 · IRONSTONE · TACIT WORK
+S7 · WHERE JUDGMENT MOVES
+BRIEF · IN, OUT, WHO ACTS
+S1 · AGENCY IN THE ASSEMBLAGE
+--- SPEAKER NOTES ---
+The brief's four questions in one picture: what goes in (the code, the risk table, the area's screening set), what comes out (tier, rate, questions, alternatives, a log), who acts (agent decides, area closes with a reason, 311 and the area run the fix queue), and the loop back. Session 7 decomposition at the bottom: the ostensive routine barely changes; the performative one gains one question; the artifacts are where the algorithm lives. Ironstone: co-design with senior agents so we do not pave over what they already ask.
+
+===== PAGE 11 =====
+10:12
+311  ·  LTE  ·  ▮▮▮
+‹
+TUE 10:14 · THE AGENT OVERRIDES · WHO DECIDES WHAT, AND WHAT IF IT IS WRONG
+311
+08 / 17
+01 Decision
+02 Algorithm
+03 Lenses
+04 Data & plan
+05 Appendix
+ALBERTA SCHOOL OF BUSINESS  ·  University of Alberta  ·  Team 2
+Three elements of agency and the four agent questions: Session 1 (Reassembly of Agency); Northfield Credit Union case (score, 1-in-20 override, throughput metric). Robodebt and proxy drift: Session 9, Lindebaum et al. (2022). Refusals: Session 10 brief. Green (2022): oversight people cannot perform is not oversight; Bucinca et al. (2021): answer-first designs cut over-reliance.
+8
+02 ALGORITHM  ·  AUTOMATE VS LEAVE TO A PERSON · AND WHEN IT IS WRONG
+Automate the counting and the reminder. Never the decision to refer, close or decline: those stay with people who can be asked why.
+STEP | AUTOMATED | A PERSON | WHY
+Score and tier every pick | Yes: one ratio, one rule, weekly | Sets the thresholds; reviews at the gate | Counting is what machines do well; the cut-off is a value choice
+Show the screening questions | Yes: the card appears on amber and red | The area writes them; the agent asks them | Only the agent hears the caller (Northfield: the interface shapes the outcome)
+Decide to refer, inform or switch code | No | The agent, every time; one-click override, logged | Decision authority stays where the information is; overrides are a signal, not a fault
+Close a ticket or declare no offence | No, ever | The receiving area | Accountability sits with the area that must explain the result
+Retire, merge or reword a code | No: the queue is automatic, the decision is not | 311 knowledge team with the owning area | Political, not statistical: areas sign off scripts today
+Coach an agent | No: the digest is coaching material only | Team lead | Feedback works from a person the agent trusts; agreed in writing with CSU 52
+FOUR QUESTIONS FOR ANY AGENT · ACCESS · CHANGE · STOP · CORRECT
+Access: code, closure and referral tables in the CRM; no caller notes, no names. Change: nothing; it displays and logs. Stop: tiers fall back to green if override rate passes 80%, recording drops in a pilot area, or the service is down; agents route as today. Correct: the weekly fix queue, owned jointly; an agent can flag a wrong tier from the card.
+WHEN IT IS WRONG · FIVE WAYS, FIVE ANSWERS
+FALSE ALARM
+A flag on a real offence costs 20 to 40 seconds and one click. The override feeds the table; a code that is overridden 80% of the time is noise and goes green.
+MISSED ONE
+A green code sends an officer to nothing: the same as today. The closure reason now returns within a day and the code's ratio moves.
+DRIFT
+An area changes how it closes tickets (eight began recording bounces in 2026). Track recording rate by area; judge the pilot only against its control group.
+RUBBER STAMP
+Agents accept every prompt: audit a sample when acceptance passes 95%. Answer-first design: the questions, never a pre-selected outcome.
+TURNED INTO A GATE
+The Robodebt failure: a proxy becomes a reason to refuse service and the burden shifts to the resident. Rule: the algorithm never declines a referral; the caller can always insist; "referrals declined without consent" is measured and must read zero.
+CONCEPTS
+S1 · THREE ELEMENTS OF AGENCY
+S1 · FOUR AGENT QUESTIONS
+S1 · NORTHFIELD
+S10 · WHAT TO REFUSE TO AUTOMATE
+S9 · ROBODEBT · BURDEN OF PROOF
+--- SPEAKER NOTES ---
+Be explicit, as the brief asks. Influence: the card changes what gets asked. Decision authority: agent recommends and executes the referral; area approves the outcome; 311 and the area revise codes. Accountability: whoever must explain the result keeps the decision. Zuboff's worry (people who depend on the machine and lose the knowledge) is answered by keeping the ask with the agent and returning the outcome to them; Davenport's promise (strip bias, automate the structured part) is kept to the counting. Robodebt is the Q&A trap: say the refusal rule before anyone asks.
+
+===== PAGE 12 =====
+10:12
+311  ·  LTE  ·  ▮▮▮
+‹
+WOULD THE FLAG HAVE BEEN RIGHT? · 2025 PREDICTS 2026
+311
+09 / 17
+01 Decision
+02 Algorithm
+03 Lenses
+04 Data & plan
+05 Appendix
+ALBERTA SCHOOL OF BUSINESS  ·  University of Alberta  ·  Team 2
+311 Requests open data (q7ua-agfg), 2023 to Nov 6, 2026, re-run on the team's six-part export. Score trained on 2025 closures only and tested on 179,139 phone referrals from Jan 1 to Nov 6, 2026 (10,609 empty visits). Ten-year check: the same score, each year scored with the year before, on the City's yearly 311 datasets 2016-2022 and the current dataset 2023-2026 (empty_visit_backtest_2017_2026.csv). On bounces alone the lookup scored AUC 0.82 in 2026 against 0.69 for a richer logistic model. Peer results: team research, Nov 1 report (city self-reports; vendor claims excluded).
+9
+02 ALGORITHM  ·  EVIDENCE · OUT-OF-TIME BACKTEST
+Last year's ratio picks this year's empty visits: 11% of calls, 50% of the empty visits. It has ranked the next year's empty visits in each of ten years.
+0.86
+AUC on 2026 empty visits
+0.86 to 0.92 since 2017
+31%
+of flagged referrals end with nothing to act on
+vs 7% of all
+r 0.91
+code rate, 2024 vs 2025
+401 codes, 30+ each
+1%
+of 2026 empty visits on codes new that year
+new codes start amber
+WHAT THIS DATA CANNOT SHOW · SAID BEFORE ANYONE ASKS
+Why the officer found nothing (the resident was wrong, or the condition changed) or, for two of the five labels, whether an officer attended at all. Whether the first code differed from the final one: no re-route link exists. Which agent picked. Quiet misroutes an area fixes without a label. Peers measure what we cannot: Winnipeg publishes returns due to agent error (1.62%, 2024); Madrid's receiving units validated 79% of 38,221 AI routings. The 90-day data set (slide 12) is built to close these gaps.
+CONCEPTS
+S3 · OVERFITTING TRAP · TEST ON UNSEEN CASES
+S5 · DISAGGREGATE BEFORE YOU CONCLUDE
+S4 · DATA LIMITS · WHAT NO PHOTO SHOWS
+S4 · ADVISERS WHO KNOW YOUR ANSWER
+--- SPEAKER NOTES ---
+Evidence slide. The test was specified before the 2026 data was scored: trained on 2025, scored on 2026, so the overfitting trap is addressed. The coverage curve is the design choice made visible: pick any point; we picked 11% of calls for 50% of empty visits. Ten years of the same score on the same outcome show the ratio is not fitted to one odd year: AUC 0.86 to 0.92. Say the uncomfortable part too: 2026 is the weakest of the ten years, and at the same 20% line the rule would have caught 56% to 64% of empty visits in 2023 to 2025. Then say what the data cannot show, before the executive does.
+
+===== PAGE 13 =====
+10:12
+311  ·  LTE  ·  ▮▮▮
+‹
+03 · THE LENSES
+311
+03
+Lenses
+Rational, psychological, political: each lens changes one design choice. Then the ten biases, including our own.
+311
+Edmonton Transit Service
+Referral Check
+a 20-second check
+swipe  ›
+01 Decision
+02 Algorithm
+03 Lenses
+04 Data & plan
+05 Appendix
+ALBERTA SCHOOL OF BUSINESS  ·  University of Alberta  ·  Team 2
+
+===== PAGE 14 =====
+10:12
+311  ·  LTE  ·  ▮▮▮
+‹
+THE SHIFT DEBRIEF · THREE LENSES ON THE SAME DESIGN
+311
+10 / 17
+01 Decision
+02 Algorithm
+03 Lenses
+04 Data & plan
+05 Appendix
+ALBERTA SCHOOL OF BUSINESS  ·  University of Alberta  ·  Team 2
+Rational: Glaser, Analytic Trees (threshold p. 20; option value of waiting; loss beside the average p. 21). Psychological: Glaser, The Psychological Perspective (3.2 attention, 3.3 feedback, 3.6 reference point); Kahneman and Klein (2009). Political: Session 4 (the political game; Allison: where you stand depends on where you sit; mirror imaging; sedimented assumptions; strategic foresight). CSD03148 p. 2: areas assume full ownership after routing; OCA 2023 p. 20: areas sign off scripts.
+10
+03 LENSES  ·  THE LENS · RATIONAL, PSYCHOLOGICAL, POLITICAL
+Each lens changes one design choice: the rational lens sets the floor, the psychological lens sets the cut-off, the political lens sets the order of asking.
+LOGICAL LAUREN  ·  RATIONAL
+The arithmetic says check almost everything. I set the floor, not the ceiling.
+EXPECTED VALUE
+A 20-second check pays above about 2% risk; rolled back, $287K a year of capacity across the 84 flagged codes. An average, not a forecast.
+LOSS BESIDE THE AVERAGE
+P10 is $130K; no draw is negative. The loss case is not money, it is 20 seconds on 22,500 calls and a prompt agents stop reading.
+OPTION VALUE OF WAITING
+Waiting for the 2030 CRM costs three years of freed capacity (about $0.86M) and arrives with no labelled data. Waiting has a price; we state it.
+DOING NOTHING, STAGED OPTIONS
+The base case is on slide 14. The pilot is the small, staged option; phase two and three are bought only if the gate passes.
+NEURO NAV  ·  PSYCHOLOGICAL
+Agents do not need to be more careful. They need one concrete question and to hear how it turned out.
+ATTENTION
+"Be more thoughtful" does nothing on a 120-second clock. The card gives one manageable question on one call in nine, and the clock pauses for flagged calls.
+FEEDBACK FOR INTUITION
+Kahneman and Klein: intuition needs feedback that links action to result. Today a closure reason never reaches the agent; the digest returns it within a day.
+ANCHORING
+A suggested outcome would anchor. The card shows the rate and the questions, never a pre-selected answer; the agent writes the answer.
+GAIN, LOSS, REFERENCE POINT
+Reference point is speed. Frame what agents gain (officers not sent to nothing, a fair measure) and name the loss (20 seconds). Calling concern "resistance" answers nothing.
+RULING RICK  ·  POLITICAL
+The ratio is harmless. Publishing it is political: it makes the areas' closures visible for the first time.
+THE PLAYERS
+311 owns the pick; areas own the outcome labels and sign off scripts; CSU 52 represents the agents; Council asked for closure and duplicate numbers, not misroutes; the Auditor closed all five recommendations.
+WHERE YOU STAND
+An area may read a published empty-visit rate as an audit of its officers. Mirror imaging: do not assume they want it counted. So the area writes the questions and co-owns the queue.
+SEDIMENTED ASSUMPTION
+"98.7% resolved on initial contact" and "efficiently routed" have been repeated to Council since 2023. Nobody in the room is lying; nobody is counting.
+STRATEGIC FORESIGHT
+Future to now: the 2030 CRM replacement will inherit whatever labels exist. Now to future: every pilot field is written as a requirement for it.
+CONCEPTS
+S2 · EV · OPTION VALUE · LOSS
+S3 · ATTENTION · FEEDBACK · ANCHORING · FRAMING
+S4 · PLAYERS · WHERE YOU SIT · MIRROR IMAGING · FORESIGHT
+S3 · ETHICS TEST
+--- SPEAKER NOTES ---
+The three characters from October assess the proposal. Rational: EV, loss beside the average, option value of waiting, staged options. Psychological: attention needs a concrete question (3.2), feedback for intuition (3.3, Kahneman and Klein), anchoring, gain/loss framing (3.6), and the ethics test: we use what we know about agents to help them see the 20 seconds, never to hide it. Political: the game's five questions (full table in Appendix A6), where you stand, mirror imaging, sedimentation, foresight both directions. Each lens changes a design choice; say which.
+
+===== PAGE 15 =====
+10:12
+311  ·  LTE  ·  ▮▮▮
+‹
+WED · THE TEAM CHAT · "WHY DIDN'T WE CATCH IT?" · THE BIASES, AND OURS
+311
+11 / 17
+01 Decision
+02 Algorithm
+03 Lenses
+04 Data & plan
+05 Appendix
+ALBERTA SCHOOL OF BUSINESS  ·  University of Alberta  ·  Team 2
+Biases as taught in Session 3 (Glaser, The Psychological Perspective; Tversky and Kahneman 1974, 1981; Nickerson 1998; Moore and Healy 2008; Kahneman and Tversky 1979; Arkes and Blumer 1985; Fazio et al. 2015; MacGarvie and McElheran 2018). Method rule: say what happened, then the tendency, then what is neglected; a heuristic is a shortcut, a bias is a systematic distortion under particular conditions.
+11
+03 LENSES  ·  BIASES · SAY WHAT HAPPENED BEFORE NAMING ONE
+Ten biases from the course, each with the situation first, and the design choice that answers it. Two of them are ours.
+BIAS | WHAT HAPPENS (THE SITUATION) | WHAT IS NEGLECTED | WHAT THE DESIGN DOES
+Availability | A memorable empty visit (or a memorable real offence) stands in for how often each happens | The ordinary, unmemorable cases: 4,877 untidy-property referrals a year | The ratio counts every case; the card shows the rate, not an anecdote
+Confirmation | System 2 searches the code list to confirm the code System 1 offered | Evidence the standard is not met | The screening questions ask the other way round: what would make this not an offence?
+Anchoring | A ranked suggestion on screen becomes the answer | The caller's actual words | No pre-selected outcome; the agent records the answers and decides
+Overconfidence | "99% of referrals land correctly" reads as "the pick is fine" | Overprecision: the 99% is routing, not usefulness | Report precision per code (28%, 43%, 62%), never a city-wide average
+Framing | "98.7% resolved on initial contact" vs "1 in 14 referrals ends with nothing to do" | The same facts, said the other way | The scorecard carries both lines
+Loss aversion | Agents' reference point is the 120-second clock; areas' is control of their closures | What each side experiences as lost | Pause the clock on flagged calls; areas write the questions and co-own the queue
+Sunk cost | "Wait for the 2030 CRM" or "we already built the script search" | What can still change now at low cost | A lookup table and a card; every field doubles as a CRM requirement
+Jumping to conclusions | "Agents are careless" is a coherent story | The code set and the labels are built by the system, not the agent | The problem tree names nine causes; the agent is one leaf
+Illusory truth | "Efficiently routed to the appropriate department" repeated in reports since 2023 | Where the claim originated: no routing measure exists | Put a measured rate beside the repeated phrase
+Overfitting | A model that explains 2025 perfectly | Whether it predicts cases not yet seen | Trained on one year, tested on the next, ten years running (AUC 0.86 to 0.92); one ratio, not a feature-rich model
+OUR OWN · DECLARED BEFORE Q&A
+CONFIRMATION
+We went looking for a bigger dollar case after the bounce case came in at $7K to $17K, and found one. Our first figure ($375K) counted duplicate requests the City is already fixing; a team member caught it. Re-run without them: $287K. The out-of-time test held.
+OVERCONFIDENCE
+The 35% avoided share has no source; it is a team judgment with a 20% to 50% range. The case holds down to 2.0%. The pilot replaces the assumption with a measurement.
+PROMPT FRAMING
+Asking an AI for "the most savings" produces savings. We asked the loss side separately: who pays for the 20 seconds, and who could be refused service.
+HEURISTIC OR BIAS?
+"Untidy yard means the untidy-property code" is a useful shortcut. It becomes a bias only under one condition: no feedback. The design changes the condition, not the person.
+CONCEPTS
+S3 · TEN BIASES
+S3 · SITUATION, TENDENCY, NEGLECTED
+S3 · HEURISTIC VS BIAS
+S3 · PROMPT FRAMING MOVES THE ANSWER
+S2 · SIX QUESTIONS FOR AN ANALYSIS
+--- SPEAKER NOTES ---
+Each row follows the method rule: the situation, then the tendency, then what is neglected, then the design answer. Keep the agents out of the dock: the biases live in the system (no feedback, a speed clock, a label built by the area). Own ours in the room before the examiner finds them: confirmation (we wanted a dollar case), overconfidence (35%), framing of our own prompts.
+
+===== PAGE 16 =====
+10:12
+311  ·  LTE  ·  ▮▮▮
+‹
+04 · DATA AND PLAN
+311
+04
+Data & plan
+The data the City has, the 90-day data set it does not, the gate, the measures, and the three decisions for this room.
+311
+Edmonton Transit Service
+Referral Check
+a 20-second check
+swipe  ›
+01 Decision
+02 Algorithm
+03 Lenses
+04 Data & plan
+05 Appendix
+ALBERTA SCHOOL OF BUSINESS  ·  University of Alberta  ·  Team 2
+
+===== PAGE 17 =====
+10:12
+311  ·  LTE  ·  ▮▮▮
+‹
+THU · THE AREA CLOSES THE TICKET · WHAT RECORD DOES THAT LEAVE?
+311
+12 / 17
+01 Decision
+02 Algorithm
+03 Lenses
+04 Data & plan
+05 Appendix
+ALBERTA SCHOOL OF BUSINESS  ·  University of Alberta  ·  Team 2
+Inventory columns after the Session 6 exercise (Scandinavian Building Services, Ivey W35309): have it, structured or not, real-time or batch, decision it serves, gap. SBS lesson: the 10-1-24 figure measured the reply, not the fix. Session 1: how the examples were labelled. Volumes: about 1,870 flagged phone referrals a month at the 20% cut-off (2026 pace).
+12
+04 DATA & PLAN  ·  DATA · CONSTRUCTED, THEN LEVERAGED
+The ratio needs five fields the City already has. Learning needs a data set that does not exist yet: we build it in the first 90 days.
+DATA | HAVE IT? | FORM | USED FOR | WHO MUST CHANGE BEHAVIOUR
+Code, area, channel, referral type, closure label, dates | Yes, public | Structured, batch | The ratio, the tiers, the backtest | No one
+Ticket address, agent ID, handle time | Yes, in the CRM (inferred; not public) | Structured, real-time | Digest routing, handle-time guardrail, phase-two owner lookup | CRM owner: a data agreement with 311
+Closure reason, consistent across areas | Partly: eight areas began recording in 2026 | Structured, batch | The label every ratio learns from | Receiving areas: a required reason on every closure
+Screening answers on flagged calls | No | Structured, real-time (two fields) | The 90-day data set; answer-level risk in phase two | Agents: record two answers; CSU 52 agreement
+Agent's choice after the card (refer / inform / caller insisted) | No | Structured, real-time | Override rate, consent guardrail, training label | Comes free with the card
+Link from a referred ticket to its final code (re-route) | No; cannot be rebuilt from open data | Structured, batch | Whether the picked code was the right code | Area dispatch clerks: one field on reassignment
+Accuracy of codes on calls resolved on the phone (473,564) | No | Sampled QA | Replaces the stake's biggest unknown | 311 QA: about 200 calls a month
+Data is built. The label we learn from is the receiving area's verdict, written under its own incentives. A measure constructed slightly wrong rewards the wrong thing: an empty-visit rate on its own rewards areas for closing "no action" less often, whatever happened at the curb. So every rate is paired with resident re-contact within 30 days, and the labels are audited by sample.
+THE 90-DAY DATA SET · BUILT SO THE ALGORITHM CAN LEARN
+One row per flagged phone referral, from day 31:
+code picked · tier and rate shown · the two answers · agent's choice · caller insisted (y/n) · days to closure · closure reason · reassigned to (final code) · re-contact within 30 days
+SIZE BY DAY 90
+About 3,700 flagged referrals logged (30 days of shadow, 30 of pilot); about 2,800 closed with a reason by day 90; about 780 empty visits labelled by then, about 1,000 once all have closed. Enough to re-estimate the ratio of every code with 30 or more closures.
+WHAT IT LETS THE ALGORITHM LEARN
+1  Whether the two answers predict an empty visit better than the code alone (answer-level risk, phase two).
+2  Whether the picked code and the final code differ: the first ground truth for "coded correctly" the City will ever have.
+3  Which codes are confusing versus which standards are unclear: two different fixes.
+RULES FOR THE SET
+No caller names or notes. Agent ID held by 311 QA only, never in the digest. Held out by time before any model is trained on it. Every field written as a requirement for the 2030 CRM.
+CONCEPTS
+S6 · DATA IS BUILT
+S6 · INVENTORY COLUMNS
+S6 · SBS · REPLY IS NOT FIX
+S1 · HOW EXAMPLES WERE LABELLED
+S1 · DATA STRUCTURE IS A CHOICE
+S5 · WHAT IT CANNOT SHOW
+--- SPEAKER NOTES ---
+This is the 30% criterion. Left: the inventory in the Session 6 columns, with the behaviour change each gap needs. Right: the data set the City does not have and the pilot creates: one row per flagged call with the answers, the agent's choice, the outcome and the re-route. By day 90 it is large enough to re-estimate pilot codes from their own closures and to test whether answers beat codes. Labels are the area's verdict: audit them, pair them with re-contact.
+
+===== PAGE 18 =====
+10:12
+311  ·  LTE  ·  ▮▮▮
+‹
+THE PLAN · FIRST 90 DAYS, THE GATE, THEN PHASES TWO AND THREE
+311
+13 / 17
+01 Decision
+02 Algorithm
+03 Lenses
+04 Data & plan
+05 Appendix
+ALBERTA SCHOOL OF BUSINESS  ·  University of Alberta  ·  Team 2
+Split after the course's consulting-deck standard (USPS 2010): what 311 can do within its own authority vs what needs others. Pilot by team-week randomisation, half the teams; at about 1,870 flagged calls a month a 20% relative drop needs about 940 flagged referrals in each arm, about one month of pilot calls, and reads out near week seven once those visits close (80% power, 5% two-sided; team-week clustering makes this a minimum). Strategic foresight: Session 4. Generative AI Standard (Jul 2024, s. 3.2 Jul 2025) and the Privacy Impact Assessment standard (May 2026) apply from phase two.
+13
+04 DATA & PLAN  ·  INTEGRATION · PHASED, GATED
+Ninety days inside 311's own authority, three areas, half the teams. Phase two is bought only if the gate passes.
+DAYS 1-30 · BUILD, NO SCREEN CHANGE
+311
+Re-run the backtest on internal closures; pick the three pilot areas (Municipal Enforcement, Peace Officers, Parking: 3 of every 4 flagged empty visits).
+311 + AGENTS + CSU 52
+Co-design the card with senior agents: what do they already ask? Agree in writing: digest is coaching only, no individual ranking.
+NEEDS OTHERS
+Data agreement with the CRM owner; required closure reason and a reassignment field in the three areas; each area writes its two screening questions.
+DAYS 31-60 · SHADOW MODE
+311
+Score every pick, show nothing. Confirm about 11% would be flagged and the mix matches the backtest.
+DATA SET STARTS
+Log tier, outcome, reason and re-route for every flagged referral. Daily digest and weekly fix queue begin.
+NEEDS OTHERS
+Areas close with a reason on 80% or more of flagged referrals, or the pilot waits.
+DAYS 61-90 · PILOT
+311
+Card on for half the teams, chosen by team-week at random; the other half is the control. Clock paused on flagged calls.
+DATA SET FILLS
+Two answers and the agent's choice logged on every flagged call; QA samples 200 resolved calls a month.
+NEEDS OTHERS
+Weekly fix queue with the three areas: retire, merge, reword, re-script. Union walkthrough at day 75.
+THE GATE · DAY 120 · ALL MUST BE TRUE
+□
+Empty-visit rate on flagged codes, pilot teams vs control: down 20% or more
+□
+Referrals a caller wanted and did not get: zero
+□
+Handle time on flagged calls: up 15 seconds or less; 120-s answer target still met
+□
+Override rate between 20% and 80%
+□
+Closure reason present on 80%+ of flagged referrals in all three areas
+□
+Data set: 3,500+ flagged calls with a closure reason
+□
+Three areas and CSU 52 sign the phase-two scope
+PHASE TWO · MONTHS 5-12 · IF THE GATE PASSES
+All teams and all areas. Retrain the ratio on the 90-day set; test answer-level risk in shadow first. Then the text suggestion on the agent's typed notes (top three codes, never pre-selected), reusing the City's app AI of July 2026: Generative AI Standard human review, a privacy impact assessment, 85% top-three accuracy offline before it is shown. Resident sees the closure reason by text or email.
+PHASE THREE · 2027 ON · OPTIONS WITH A START CONDITION
+Every pilot field becomes a requirement for the 2030 CRM replacement (future to now). The shared app and web intake platform the team debated starts only if the phone pilot passes and app bounce rates move after the City's own AI suggestion (no visible fall in three months so far). Full automatic routing is not on the roadmap: no accuracy test, no stop rule, and the Standard requires review.
+CONCEPTS
+DECK STD · WITHIN CONTROL VS NEEDS OTHERS
+S4 · STRATEGIC FORESIGHT
+S2 · STAGED OPTIONS
+S7 · DASHBOARD SIM · WHAT THE SYSTEM MAKES INVISIBLE
+S10 · GOVERNANCE
+--- SPEAKER NOTES ---
+Ninety days in three columns, each split into what 311 controls and what needs others. The gate is numeric and complete: every line must be true. Phase two is where the AI assistant from the team's plan enters, gated and in shadow first. Phase three carries the CRM requirements and the platform option with its start condition. Pilot length: about a month of pilot calls reads out a 20% drop; the day-120 gate leaves room for those visits to close and for team-week clustering.
+
+===== PAGE 19 =====
+10:12
+311  ·  LTE  ·  ▮▮▮
+‹
+THE DEBRIEF · HOW WILL 311 KNOW IT WORKED?
+311
+14 / 17
+01 Decision
+02 Algorithm
+03 Lenses
+04 Data & plan
+05 Appendix
+ALBERTA SCHOOL OF BUSINESS  ·  University of Alberta  ·  Team 2
+Measures chosen before launch (Session 9: proxies drift from what they stand for; values wither when nothing measures them). Base case: 27.9% of flagged referrals ended in an empty visit in 2026. Weekly City-wide phone-referral bounce rates ran 0.79% to 2.05% between April and October 2026, so the City-wide average cannot be the test. Robodebt: the burden of proof must stay with the City.
+14
+04 DATA & PLAN  ·  HOW THE CITY WOULD KNOW · MEASURES CHOSEN BEFORE LAUNCH
+One primary measure, paired with the thing it could corrupt. Containment and handle time are guardrails, never targets.
+MEASURE | BASELINE | GATE / TARGET | TYPE | WHAT IT COULD REWARD BY MISTAKE, AND THE PAIR
+Empty-visit rate on flagged codes, pilot vs control | 27.9% (2026) | down 20%+ at the gate; 35% expected | Primary | Areas closing "no action" less often on paper: paired with the re-contact line below
+Resident re-contact within 30 days on flagged calls | to be measured in shadow | no rise | Resident-facing | Catches a check that talks residents out of real problems
+Referrals a caller wanted and did not get | none today | zero | Guardrail (Robodebt) | The algorithm becoming a gate; burden shifting to the resident
+Median days in the wrong queue per bounce | 2.0 days (2026 phone) | down | Resident-facing | Kept from October; bounces still matter for hazards
+Closure reason back to the agent within 24 h | none today | 90% | Learning loop | A digest nobody opens: track opens, not sends
+Codes cleared from the fix queue per quarter | none today | rising, then falling | Learning loop | Clearing codes by deleting them: pair with re-contact
+Average handle time on flagged calls | from 311 | +15 s or less | Guardrail | Never a target: a target here recreates the speed incentive
+Override rate | none today | 20% to 80% | Guardrail | Below 20%: rubber stamp. Above 80%: the tier is noise
+Recording rate by area | varies | stable | Data health | Judge the model only where recording is stable
+WHAT WOULD CHANGE OUR MINDS
+Shadow mode flags 20%+ of calls rather than 11%: raise the cut-off before any agent sees it.
+Re-contact rises on flagged calls: the check is talking residents out of real problems; stop and redesign the questions.
+Empty-visit rate falls in the control group too: a recording change, not us; extend the pilot.
+Handle time rises more than 15 s: the card is too long; cut to one question.
+Values we refuse to trade: no resident is refused a referral; no agent is ranked by the digest.
+CONCEPTS
+S9 · PROXY DRIFT · VALUES WITHER
+S9 · MEASURES BEFORE LAUNCH
+S6 · EVERY MEASURE REWARDS SOMETHING
+S2 · WHAT FLIPS THE RECOMMENDATION
+DECK STD · BASE CASE FIRST
+--- SPEAKER NOTES ---
+Session 9 applied to ourselves. The primary measure (empty-visit rate on flagged codes) could be gamed by areas closing differently, so it is paired with resident re-contact. The Robodebt guardrail is explicit: referrals a caller wanted and did not get must be zero. Handle time and containment stay guardrails, not targets, or the routine recreates the speed incentive the problem tree found. 'What would change our minds' pre-empts the Q&A.
+
+===== PAGE 20 =====
+10:12
+311  ·  LTE  ·  ▮▮▮
+‹
+THE ASK · THREE DECISIONS FOR THIS ROOM
+311
+15 / 17
+01 Decision
+02 Algorithm
+03 Lenses
+04 Data & plan
+05 Appendix
+ALBERTA SCHOOL OF BUSINESS  ·  University of Alberta  ·  Team 2
+Premortem after Klein (2007). Peer evidence: team research Nov 1 and Nov 11 reports (Amsterdam Signalen, Dutch algorithm register gm0363; Winnipeg 311 budget presentation Dec 9, 2025 p. 6; Madrid SyRCI-IA, Interoperable Europe listing; Denver Council record 26-1373 and Auditor report Aug 2025; Toronto 'Simplifying the 311 Intake Experience' Apr 30, 2026). One-time cost is a team estimate with no City quote: a lookup table, one card and two CRM fields, not a platform.
+15
+04 DATA & PLAN  ·  RECOMMENDATION
+Approve a 90-day pilot in three areas and decide again at day 120 with the numbers on the previous slide.
+1
+APPROVE THE PILOT
+Referral Check on the 84 codes above 20% risk, three areas, half the teams by team-week. One-time configuration estimated at $10K to $150K (assumed; no City quote); running cost about $17K a year of agent time, inside the $287K of capacity it frees. Capacity, not cash.
+2
+SIGN THE DATA AGREEMENT
+Two CRM fields (closure reason, reassignment) in Municipal Enforcement, Peace Officers and Parking Enforcement, and 311's access to internal closures. This is the step that needs people outside 311.
+3
+SET THE TERMS WITH CSU 52
+Coaching only, no individual ranking, the clock paused on flagged calls, and a walkthrough at day 75. Agreed before any agent sees a card.
+PREMORTEM · IT IS DECEMBER 2027 AND IT FAILED. WHY?
+THE RATE FELL ON PAPER
+Areas closed fewer tickets as "no action" and more as "resolved". Residents re-contacted more. Answer: the paired re-contact measure, label audits by sample.
+AGENTS CLICKED THROUGH
+The card became wallpaper; override rate sat at 5%. Answer: the 20% to 80% guardrail, one question not two, coaching from a team lead who sees the digest.
+THE SIGNAL DROWNED
+Two more areas changed recording mid-pilot and the control group moved too. Answer: judge pilot against control, by area, never on the City-wide rate.
+A REASON NOT ON THE TREE
+The CRM vendor could not add two fields before 2028. Answer: the shadow phase and the data set run on exports; the card waits.
+UPSIDE AND DOWNSIDE
+UPSIDE
+P90 $477K; answer-level risk in phase two reaches the 50% of empty visits that sit in green codes; residents hear the reason.
+DOWNSIDE
+P10 $130K; 20 seconds on 22,500 calls a year; a published rate the areas resent. Nothing in the pilot is hard to undo: turn the card off and the fields remain useful.
+WHAT OTHER CITIES TEACH
+Winnipeg already publishes returns due to agent error (1.62% in 2024): measuring misroutes is normal.
+Madrid: rules first, then AI; the receiving unit validated 79% of 38,221 routings and rejections retrain the model.
+Amsterdam (Signalen, live since 2022): a model suggests the category, anything under 40% confidence goes to a human desk, staff corrections retrain it. The closest precedent for a human-in-the-loop check.
+Denver: a chatbot paired with cuts; Council voted 9 to 3 against a US$3.9M extension. A tool plus job cuts invites a fight. Ours cuts no position.
+CONCEPTS
+S2 · PREMORTEM
+S2 · DOING NOTHING · STAGED OPTIONS
+DECK STD · RISKS BESIDE THE FORECAST
+S4 · THE POLITICAL GAME · WHO SAYS YES, IN ORDER
+BRIEF · NOT ALREADY DOING IT
+--- SPEAKER NOTES ---
+Close on the decision the room can take today. Three asks, in the order the political game requires: 311 approves, the CRM owner and three areas sign, the union agrees the terms. Premortem (Klein): four failure stories, each with the answer already in the design; the fourth is the reason not on the tree. Upside and downside beside the forecast, as the consulting standard asks. Peers: measuring misroutes is ordinary (Winnipeg); humans validate AI routing (Madrid); tools paired with cuts fail politically (Denver).
+
+===== PAGE 21 =====
+10:12
+311  ·  LTE  ·  ▮▮▮
+‹
+AI PROCESS REFLECTION · HOW WE WORKED, WHERE THE AI WAS WRONG
+311
+16 / 17
+01 Decision
+02 Algorithm
+03 Lenses
+04 Data & plan
+05 Appendix
+ALBERTA SCHOOL OF BUSINESS  ·  University of Alberta  ·  Team 2
+Sloan and Glaser (2026), Stop Prompting AI, Start Directing It; Glaser, Sloan and Knight (2025): assistant, analyst, coach; Mollick (2024) four rules; AI Literacy Exercise brief: tools, crux moves, validation, errors. All analysis and final writing are the team's own; AI drafts were rewritten and every figure re-derived from the open data by a team member.
+16
+04 DATA & PLAN  ·  REQUIRED SLIDE
+AI Process Reflection · how we worked, and where the AI was wrong
+TOOLS, AND THE KIND OF TASK EACH DID
+• Analyst: Claude with Python and DuckDB over 3.5 million open-data rows (the backtest, the ten-year check, the Monte Carlo). Source-grounded, re-runnable scripts in the project folder.
+• Assistant: first drafts of slide text, the swim lane and this deck's build script; the team rewrote every slide in its own words.
+• Coach: AI played the skeptical 311 director ("why fix something 99% right?", "is this cash?") and the CSU 52 representative before each team meeting.
+• Fact-checkers: separate AI agents checked the Nov 1 research report against its sources: 610 rows, 369 verified, 208 corrected, 25 unverified, 8 wrong.
+TWO CRUX MOVES
+• The AI argued against our own AI idea. Asked to validate an AI code suggester trained on past tickets, it showed the training labels are agents' own picks (errors included) and that LLM-written test tickets would be circular. We kept the suggester, but as a gated phase two behind a human-built data set.
+• "Give me the most savings" moved the decision. The first routine (bounces only) came back at $7K to $17K a year. Directed to find the larger loss, the analysis found 12,583 referrals that ended with nothing to act on. Re-running it showed the flagged codes are bylaw complaints, so the question on the card changed from "who owns it?" to "does it meet the standard?".
+HOW WE VALIDATED
+• Two independent pulls: the City's API and the team's own six-part CSV export; counts matched (191,521 phone referrals 2025; 179,139 in 2026).
+• Every model was trained on one year and tested on the next; a richer model that scored better in-sample scored worse out of time and was dropped.
+• Every figure on a slide has a source or is labelled assumed; where a citation could not be opened, it was dropped.
+• Framing test: the same question asked gain-first and loss-first; the loss-first run produced the refusal rule and the re-contact pairing.
+WHERE THE AI WAS WRONG, AND WHAT WE DID
+• Its first savings figure ($375K) counted duplicate requests, which the City is already fixing. A team member caught it. Re-run without them: $287K, and 84 codes instead of 150.
+• It wrote that red codes hold 65% of empty visits; that was amber and red together (red alone: 28%). It also offered ten years of bounce results as evidence about empty visits. A second AI review caught both, and we re-ran the right test.
+• It proposed the 35% avoided share with confidence and no source. We kept it only as a labelled assumption with a range, and built the pilot to replace it.
+• It drafted fluent slide prose that read as our own. The syllabus says the final writing must be ours; we rewrote, and kept a log of what changed.
+CONCEPTS
+S8 · DIRECT, DON'T PROMPT
+S1 · ASSISTANT / ANALYST / COACH
+S1 · MOLLICK · HUMAN IN THE LOOP
+S3 · PROMPT FRAMING
+BRIEF · TOOLS · CRUX · VALIDATION · ERRORS
+--- SPEAKER NOTES ---
+Draft only: the team must write this slide in its own voice and with its own log. The four quadrants follow the brief: tools by kind of task, one or two crux moves, how outputs were validated, and what happened when the AI was wrong. 'A reflection that reports only successes has not been written honestly.' The figures in the fact-check line come from the Nov 1 team report: have it on hand, or drop the line. The duplicates catch is the strongest example on the slide because a person, not the AI, found it.
+
+===== PAGE 22 =====
+10:12
+311  ·  LTE  ·  ▮▮▮
+‹
+END OF THE FEED · QUESTIONS
+311
+17 / 17
+01 Decision
+02 Algorithm
+03 Lenses
+04 Data & plan
+05 Appendix
+ALBERTA SCHOOL OF BUSINESS  ·  University of Alberta  ·  Team 2
+17
+04 DATA & PLAN  ·  QUESTIONS
+Every empty visit avoided is an officer on a call that needed one. Decide again at day 120.
+FLAGGED REFERRALS ENDING IN AN EMPTY VISIT · % · PILOT TEAMS VS CONTROL
+27.9%
+Today
+2026 base
+22.3%
+Pilot gate
+20% drop
+18.1%
+Expected
+35% drop
+13.9%
+Upside
+50% drop
+$287K a year
+of officer and desk capacity freed; P10-P90 $130K-$477K; no budget line moves
+84 codes
+11% of phone referrals checked; 50% of the empty visits reached
+Day 120
+the gate: all seven lines true, or the card comes off and the fields stay
+You're all caught up.
+Thank you. Questions?
+CONCEPTS
+S2 · DECIDE AGAIN AT THE GATE
+S9 · MEASURES BEFORE LAUNCH
+BRIEF · Q&A IS MARKED
+PLACEHOLDER FOR MAYOR KNACK  ·  SWAP IN A PHOTO (SEE NOTES)
+--- SPEAKER NOTES ---
+Closing slide after the ask. The bars are the gate arithmetic from Appendix A5: 27.9% today, 22.3% at the gate, 18.1% expected, 13.9% upside. The head at the bottom edge is a placeholder for Mayor Knack watching the bars fall; to swap in a photo, delete the drawn shapes, insert a head-and-shoulders picture, crop it so only the top of the head and the eyes show, and rest it on the bottom edge at the right. Take questions here; the appendix follows for the numbers.
+
+===== PAGE 23 =====
+10:12
+311  ·  LTE  ·  ▮▮▮
+‹
+05 · APPENDIX
+311
+05
+Appendix
+For the questions: how the score is built, the codes behind it, the ten-year check, the Monte Carlo inputs, the pilot length, the political game, the concept map and the sources.
+311
+Edmonton Transit Service
+Referral Check
+a 20-second check
+swipe  ›
+01 Decision
+02 Algorithm
+03 Lenses
+04 Data & plan
+05 Appendix
+ALBERTA SCHOOL OF BUSINESS  ·  University of Alberta  ·  Team 2
+
+===== PAGE 24 =====
+10:12
+311  ·  LTE  ·  ▮▮▮
+‹
+APPENDIX · INDEX
+311
+APPENDIX
+05 APPENDIX
+Appendix
+A1
+How the risk score is built
+A2
+The codes behind the empty visits
+A3
+Ten-year check of the score
+A4
+Monte Carlo inputs and sensitivity
+A5
+How long the pilot must run
+A6
+The political game: players, goals, moves
+A7
+Every course concept, and the design choice it changed
+A8
+Sources
+01 Decision
+02 Algorithm
+03 Lenses
+04 Data & plan
+05 Appendix
+ALBERTA SCHOOL OF BUSINESS  ·  University of Alberta  ·  Team 2
+--- SPEAKER NOTES ---
+Appendix index. Each square is a link to that appendix slide.
+
+===== PAGE 25 =====
+10:12
+311  ·  LTE  ·  ▮▮▮
+‹
+APPENDIX A1 · HOW THE RISK SCORE IS BUILT
+311
+APPENDIX
+01 Decision
+02 Algorithm
+03 Lenses
+04 Data & plan
+05 Appendix
+ALBERTA SCHOOL OF BUSINESS  ·  University of Alberta  ·  Team 2
+311 Requests open data (q7ua-agfg), 2023 to Nov 6, 2026, re-run on the team's six-part export. Scripts in the project folder: final-presentation/assets/app311/figs.py (every figure in this deck), edmonton-311-analysis/scripts/hist.py (ten-year check), s1c_no_duplicates.py, a1-a4.py (Route Check). Duplicate requests left out.
+A1
+05 APPENDIX  ·  A1
+The score is a shrunk ratio per code, computed from fields the City already publishes.
+DEFINITIONS
+Code = service area + category + description: 1,930 phone codes in 2025. The team's October deck counted 1,917 on its own definition; the slides keep that figure.
+Empty field outcome = closure label in {Does Not Meet Bylaw Offence Standards, Assessed - No Action Required, Unable to Locate Animal, Location Not Found, Unable to Contact Complainant}. The last two (739 of 12,583 in 2025) do not prove an officer attended.
+Wasted desk outcome = {311 Redirecting to Other Business Area (a bounce), Non-City Service or Location, Reported on same day}. Left out: the three Duplicate Request labels and File Already under Investigation (6,249 in 2025; 5,100 in 2026 to Nov 6), because the City is already working on duplicates.
+Left out: Parking "Vehicle Gone Upon Arrival" (4,886 in 2025) because it depends on dispatch speed (9.7% when closed within an hour vs 44.2% at 3-12 hours), not on intake.
+Score = (empty + prior mean x 10) / (referrals + 10), separately for field and desk outcomes, then summed. Prior means 2025: field 6.6%, desk 0.8%.
+Refresh: weekly, rolling 12 months. New codes: amber for 90 days, then scored. Three years of history did no better than one (AUC within 0.01).
+Route Check lives inside Referral Check: bounces sit in the desk term, so the October design is a special case of this one.
+CUT-OFF | CODES | 2026 REFERRALS FLAGGED | EMPTY VISITS CAUGHT | DESK WASTE CAUGHT | WASTE RATE IN FLAGGED SET
+> 10% | 222 | 25.7% | 76.4% | 50.1% | 20.2%
+> 15% | 142 | 17.1% | 63.7% | 36.6% | 25.0%
+> 20% (chosen) | 84 | 10.7% | 50.2% | 22.0% | 30.7%
+> 25% | 52 | 8.8% | 43.9% | 15.6% | 32.0%
+> 30% (red line) | 35 | 4.2% | 28.1% | 8.3% | 42.5%
+> 40% | 15 | 2.5% | 19.8% | 4.9% | 50.0%
+> 50% | 6 | 0.7% | 7.3% | 1.1% | 64.7%
+Base rates, 2026 to Nov 6: 5.9% of phone referrals ended in an empty field visit, 1.4% in a wasted desk outcome, 7.3% in either. 2025: 12,583 field, 1,566 desk, of 191,521 referrals.
+Precision reads: a red code at 30%+ means three in ten of its referrals end in some wasted outcome; the card says so in words.
+The 15% line (142 codes, 17% of calls, 64% of empty visits, about $359K) was considered. The team kept the 20% line it had set before duplicates were taken out, so the threshold did not move with the result.
+
+===== PAGE 26 =====
+10:12
+311  ·  LTE  ·  ▮▮▮
+‹
+APPENDIX A2 · THE CODES BEHIND THE EMPTY VISITS
+311
+APPENDIX
+01 Decision
+02 Algorithm
+03 Lenses
+04 Data & plan
+05 Appendix
+ALBERTA SCHOOL OF BUSINESS  ·  University of Alberta  ·  Team 2
+311 Requests open data (q7ua-agfg), 2023 to Nov 6, 2026, re-run on the team's six-part export, phone referrals, Jan 1 to Nov 6, 2026. Flagged set = 84 codes above 20% 2025 risk. Duplicate requests left out.
+A2
+05 APPENDIX  ·  A2
+Ten codes carry 81% of the flagged empty visits, and three areas carry three in four.
+AREA | FLAGGED REFERRALS | EMPTY VISITS | SHARE OF FLAGGED EMPTY VISITS
+Community Standards - Municipal Enforcement | 6,196 | 2,055 | 39%
+Community Standards - Peace Officers | 3,218 | 1,446 | 27%
+Roadway Maintenance | 3,524 | 817 | 15%
+Parking Enforcement | 1,448 | 550 | 10%
+Animal Control | 2,210 | 225 | 4%
+Park Rangers | 1,560 | 123 | 2%
+All other | 934 | 110 | 2%
+Why the question changed: the flagged codes are complaints where an officer must judge a standard (untidy property, noise, parking on private property, business licences, zoning), not assets with an ambiguous owner. Municipal Enforcement, Peace Officers and Parking Enforcement are the three pilot areas (76% of flagged empty visits). Roadway Maintenance (snow) is seasonal and depends on timing; it joins in phase two. Just under the line and still green: weed complaints (18.5% in 2025) and snow on walk (16.1%).
+
+===== PAGE 27 =====
+10:12
+311  ·  LTE  ·  ▮▮▮
+‹
+APPENDIX A3 · TEN-YEAR CHECK OF THE SCORE
+311
+APPENDIX
+01 Decision
+02 Algorithm
+03 Lenses
+04 Data & plan
+05 Appendix
+ALBERTA SCHOOL OF BUSINESS  ·  University of Alberta  ·  Team 2
+City of Edmonton yearly 311 datasets 2016-2022 (distinct Row ID) and the current dataset 2023-2026. The deck's score (field and desk ratios, duplicates left out) is trained on the prior year and tested on the year shown; flag = 20% risk. Script: edmonton-311-analysis/scripts/hist.py; table: empty_visit_backtest_2017_2026.csv. The bounce-only lookup from October scored AUC 0.82 to 0.93 over the same years (stability_backtest_2017_2026.csv).
+A3
+05 APPENDIX  ·  A3
+The same lookup has ranked the next year's empty visits in each of ten years (AUC 0.86 to 0.92). 2026 is the weakest of the ten.
+YEAR TESTED | PHONE REFERRALS | EMPTY VISITS | RATE | AUC, PRIOR YEAR'S SCORE | CODES OVER 20% | REFERRALS FLAGGED | EMPTY VISITS CAUGHT
+2026 (to Nov 6) | 179,139 | 10,609 | 5.9% | 0.86 | 84 | 10.7% | 50%
+2025 | 191,521 | 12,583 | 6.6% | 0.89 | 84 | 13.3% | 64%
+2024 | 188,003 | 11,567 | 6.2% | 0.92 | 101 | 9.6% | 56%
+2023 | 193,077 | 11,306 | 5.9% | 0.92 | 99 | 10.9% | 63%
+2022 | 223,944 | 12,613 | 5.6% | 0.89 | 59 | 6.6% | 41%
+2021 | 225,435 | 8,933 | 4.0% | 0.92 | 36 | 5.4% | 47%
+2020 | 200,313 | 9,761 | 4.9% | 0.90 | 26 | 7.3% | 45%
+2019 | 254,693 | 11,178 | 4.4% | 0.91 | 19 | 5.4% | 40%
+2018 | 261,243 | 11,105 | 4.2% | 0.90 | 21 | 6.1% | 42%
+2017 | 259,028 | 10,347 | 4.0% | 0.88 | 21 | 4.4% | 33%
+WHAT THE HISTORY ADDS
+The ratio is not fitted to one odd year. Scored with the year before, it ranked empty visits with AUC 0.86 to 0.92 in every year from 2017 to 2026.
+2026 is the weakest year. At the same 20% line the rule would have caught 63%, 56% and 64% of empty visits in 2023, 2024 and 2025, against 50% in 2026. The deck leads with 2026 because that test was specified before it was scored; the other nine years are a later check.
+Before 2022 fewer codes crossed 20% and the rule flagged 4% to 7% of calls. Closure labels changed over the decade (Unable to Contact Complainant first appears in 2022), so the count tracks recording as much as conduct.
+Phone volume fell by two thirds (1.83M phone tickets in 2016 to 0.67M in 2025) while phone codes grew from 1,701 to 1,930: less practice per code each year, which is the Kahneman and Klein condition eroding.
+One year of history is enough: three years changed the AUC by less than 0.01.
+
+===== PAGE 28 =====
+10:12
+311  ·  LTE  ·  ▮▮▮
+‹
+APPENDIX A4 · MONTE CARLO INPUTS AND SENSITIVITY
+311
+APPENDIX
+01 Decision
+02 Algorithm
+03 Lenses
+04 Data & plan
+05 Appendix
+ALBERTA SCHOOL OF BUSINESS  ·  University of Alberta  ·  Team 2
+Triangular distributions (min / most likely / max), 50,000 draws, seed 20261110, independent draws. Volumes annualised from Jan 1 to Nov 6, 2026 (x 12 / 10.2). Six questions for reviewing an analysis: Session 2.
+A4
+05 APPENDIX  ·  A4
+Every input is a range with a source or a flag; the one that moves the answer most is ours.
+INPUT | MIN / LIKELY / MAX | SOURCE OR STATUS
+Empty field visits a year in flagged codes | 6,270 (counted) | Open data, 2026 annualised
+Wasted desk closures a year in flagged codes | 632 (counted) | Open data, 2026 annualised; duplicates left out
+Flagged referrals a year | 22,460 (counted) | Open data, 2026 annualised
+Cost of a field visit | $22 / $84 / $280 | Team's Oct 26 stake model ranges; no City figure
+Desk time per closure | 5 / 10 / 20 min at $36.93 / $41.99 / $52.09 an hour | CSU 52 collective agreement rates
+Share of flagged empty visits avoided by the check | 20% / 35% / 50% | ASSUMED; the pilot measures it; break-even 2.0%
+Agent time per flagged call (20 s) | $0.30 / $1.02 / $1.02 | Agent-only to average cost per contact ($16.29 per contact, $14.66M budget / 900K contacts)
+311 re-handling share on desk waste | 25% x $16.29 | Team judgment
+SIX QUESTIONS FOR REVIEWING THIS ANALYSIS
+Is this the decision we face? Yes: the pick on a phone referral, as in October, with its consequence widened.
+What is missing, overlapping, dependent? Vehicle Gone and duplicate requests are left out; bounces are counted once, in the desk row.
+Observed vs estimated? Volumes observed; costs are team ranges; the avoided share is assumed.
+Does it account for what averages hide? Rates are per code; the pilot is judged inside flagged codes.
+What flips it? Avoided share under 2.0%, or a cost per empty visit under about $7. Neither is plausible; both are tested.
+What could we lose that the numbers leave out? Agent trust if the card is noise; area goodwill if the rate is published as a league table.
+Results: net mean $287K; median $265K; P10 $130K; P90 $477K; no draw below zero. Gross $304K; check cost $17K. Halve visit cost: $145K. Every check priced at $1.02: $281K. Desk row left out: $284K. Red codes only (30% line): $163K (P10-P90 $75K-$269K). With duplicates counted, the earlier figure was $375K.
+
+===== PAGE 29 =====
+10:12
+311  ·  LTE  ·  ▮▮▮
+‹
+APPENDIX A5 · HOW LONG THE PILOT MUST RUN
+311
+APPENDIX
+01 Decision
+02 Algorithm
+03 Lenses
+04 Data & plan
+05 Appendix
+ALBERTA SCHOOL OF BUSINESS  ·  University of Alberta  ·  Team 2
+Two-proportion test, 80% power, 5% two-sided significance; baseline 27.9% of flagged referrals ending in an empty visit; about 1,870 flagged phone referrals a month at the 20% cut-off, split 50/50 by team-week. Clustering by team-week adds a design effect: treat the figures as minimums.
+A5
+05 APPENDIX  ·  A5
+Because the outcome is common (more than one in four flagged referrals), the pilot reads out in weeks, not quarters.
+DROP TO DETECT | FLAGGED REFERRALS PER ARM | MONTHS OF PILOT (50/50 SPLIT)
+20% relative (27.9% to 22.3%) | 944 | 1.0
+35% relative (27.9% to 18.1%) | 288 | 0.3
+Red codes only, 20% drop (39.7% to 31.8%) | 567 | 1.5
+For comparison, Route Check (bounces, 7.0% base), 30% drop | about 2,000 | 3.6
+Design: half the teams see the card in a given week, chosen at random by team-week; the other half is the control. Both halves log the two answers only when the card is shown, so the control measures today's routine. The gate decision is set at day 120 (60 days of pilot) to allow for clustering and for the areas' closure lag (most field outcomes close within three weeks).
+GATE ARITHMETIC
+Baseline inside flagged codes: 27.9% empty field visits (5,326 of 19,090 in 2026 to Nov 6).
+Gate: 22.3% or lower in pilot teams while control stays near 28%.
+Expected: 18.1% (35% avoided). Upside: 13.9% (50%).
+Dollar read-across at the gate: 20% avoided is about $156K a year; 35% is $287K; 50% is about $417K.
+Read-out: about 944 flagged referrals in each arm is about one month of pilot calls at 1,870 a month; add about three weeks for those visits to close.
+
+===== PAGE 30 =====
+10:12
+311  ·  LTE  ·  ▮▮▮
+‹
+APPENDIX A6 · THE POLITICAL GAME · PLAYERS, GOALS, MOVES
+311
+APPENDIX
+01 Decision
+02 Algorithm
+03 Lenses
+04 Data & plan
+05 Appendix
+ALBERTA SCHOOL OF BUSINESS  ·  University of Alberta  ·  Team 2
+Session 4: who are the players, what are their goals, what actions can they take, which maximise their benefit, what are they likely to do. CSD03148 (Sep 2, 2026); OCA 2023; CSU 52 collective agreement Art. 11.03 (technological change). 'At stake' cells are hypotheses to test in the day 1-30 interviews, not findings.
+A6
+05 APPENDIX  ·  A6
+Who must say yes, in what order, and what each stands to lose.
+PLAYER | MEASURED ON TODAY | GOAL | MOVES OPEN | WHAT IS AT STAKE (HYPOTHESIS) | LIKELY MOVE, AND OUR ANSWER
+311 and Customer Access | 98.7% resolved on initial contact; 120-s answer | Fewer repeat calls; a defensible scorecard | Approve the pilot; publish or not | A new line on its own scorecard that can go down | Approves if the measure is paired and framed as capacity: it is
+Receiving areas (3 pilot) | Closed within timelines (81%); audit compliance | Officers on real work; control of outcome labels | Write the questions; record reasons; sign or stall | A published empty-visit rate read as an audit of officers | Stall unless they own the questions and the queue: they do
+Agents and CSU 52 | Answer speed; Art. 11.03 on technological change | No hidden ranking; no job loss; less rework | Accept, bargain, grieve | 20 s per flagged call; a digest that could become a performance file | Accept with coaching-only terms and a paused clock, agreed in writing first
+CRM owner / IT | Uptime; 2030 replacement scope | No scope creep on a dying system | Add two fields, or export instead | Effort on a platform being replaced | Two fields, or exports in the shadow phase; every field a 2030 requirement
+Council and Auditor | Closures, duplicates, compliance (July 2025 motion) | Residents served; audit findings closed | Ask for a routing measure | A number that was never reported before | Welcome a measure that is already in open data
+Residents | Nothing | One call, the right outcome, a reason | Call again or give up | Being talked out of a real problem | The consent rule: a referral on request, always
+
+===== PAGE 31 =====
+10:12
+311  ·  LTE  ·  ▮▮▮
+‹
+APPENDIX A7 · EVERY COURSE CONCEPT, AND THE DESIGN CHOICE IT CHANGED (1 OF 2)
+311
+APPENDIX
+01 Decision
+02 Algorithm
+03 Lenses
+04 Data & plan
+05 Appendix
+ALBERTA SCHOOL OF BUSINESS  ·  University of Alberta  ·  Team 2
+A concept earns its place only if it changed a design choice (Group Project brief: not a tour of the syllabus).
+A7a
+05 APPENDIX  ·  A7
+Sessions 1 to 3: each concept, where it appears, and what it changed.
+SESSION · CONCEPT | WHERE | THE DESIGN CHOICE IT CHANGED
+S1 · AI as prediction machine; three kinds of system and their questions | 6 | A learned ratio plus an explicit rule, no generative step in phase one; the labelling question answered on the slide
+S1 · Four agent questions (access, change, stop, correct) | 8 | Read-only access, no caller text, a kill switch to green, a joint fix queue
+S1 · Three elements of agency; Organizations as Algorithms | 7, 8 | Authority stays with the agent; accountability with the area; data categories named as choices
+S1 · Northfield Credit Union | 8 | The interface and the metric shape the outcome: no pre-selected answer, no throughput target
+S1 · Assistant, analyst, coach; Mollick's rules; Zuboff vs Davenport | 16, 8 | AI used in three roles; the human keeps the knowledge by asking the question
+S2 · Problem tree, MECE, explanation as hypothesis | 4 | Branches by stage of one call; the agent is one leaf of nine
+S2 · Profit tree that reconciles; EV; mix effect; sensitivity | 5 | Capacity case with ranges; judge inside flagged codes; break-even stated
+S2 · Decision tree threshold; option value of waiting; staged options; premortem; six questions | 6, 10, 13, 15, A4 | 2% floor, 20% cut-off; cost of waiting for 2030 stated; pilot as the small option; four failure stories
+S3 · System 1 / 2; attention needs one concrete question | 4, 6, 10 | One question, one call in nine, clock paused
+S3 · Kahneman and Klein: feedback for intuition | 10, 12 | Closure reason back to the agent within a day
+S3 · Ten biases; situation before tendency; heuristic vs bias; prompt framing; ethics test | 11, 16 | Answer-first card, paired measures, our own biases declared
+
+===== PAGE 32 =====
+10:12
+311  ·  LTE  ·  ▮▮▮
+‹
+APPENDIX A7 · EVERY COURSE CONCEPT, AND THE DESIGN CHOICE IT CHANGED (2 OF 2)
+311
+APPENDIX
+01 Decision
+02 Algorithm
+03 Lenses
+04 Data & plan
+05 Appendix
+ALBERTA SCHOOL OF BUSINESS  ·  University of Alberta  ·  Team 2
+Sessions 8 to 10 entries follow the syllabus; the team will update them after those sessions (Nov 16, 23, 30).
+A7b
+05 APPENDIX  ·  A7 (CONTINUED)
+Sessions 4 to 10, the brief and the consulting standard.
+SESSION · CONCEPT | WHERE | THE DESIGN CHOICE IT CHANGED
+S4 · The political game; where you stand; mirror imaging; sedimented assumptions | 10, A6 | Areas write the questions and co-own the queue; asks ordered 311, areas, union
+S4 · Strategic foresight (now to future, future to now); data limits; advisers who know your answer | 13, 9, 16 | Every field a 2030 requirement; what the data cannot show said first; test specified before scoring
+S5 · Garneau: disaggregate; what the data structurally cannot show | 5, 9, 12 | Per-code rates; the gaps listed; the 90-day set built to close them
+S6 · Data is built; inventory columns; a metric constructed slightly wrong; SBS reply-not-fix | 12, 14 | Required closure reason; label audits; re-contact paired with the primary measure
+S7 · Ostensive / performative / artifact; McGarry; Ironstone tacit work; dashboard-sim questions | 3, 7, 13 | The algorithm as a new artifact; co-design with senior agents; what the system makes invisible
+S8 · Direct AI, don't prompt it (Sloan and Glaser 2026) | 16 | Roles assigned to AI; loss-first and gain-first runs compared
+S9 · Proxy drift; values wither; measures before launch; Robodebt burden of proof | 8, 14 | Zero declined referrals; consent rule; guardrails never targets
+S10 · What to refuse to automate | 8 | Closing, declining, deciding an offence, hazard routing: never automated
+Brief · Five-part test; grain size; not already doing it; one concrete situation | 2, 3, 15 | Caller 7; the pick, not intake; checked against the City's July 2026 app AI and script search
+Consulting standard · takeaway titles; base case; within control vs needs others; risks beside forecast | all, 13, 14, 15 | Every title a sentence; 90 days split by authority; upside and downside shown
+
+===== PAGE 33 =====
+10:12
+311  ·  LTE  ·  ▮▮▮
+‹
+APPENDIX A8 · SOURCES
+311
+APPENDIX
+01 Decision
+02 Algorithm
+03 Lenses
+04 Data & plan
+05 Appendix
+ALBERTA SCHOOL OF BUSINESS  ·  University of Alberta  ·  Team 2
+Full references in the team's Oct 26 deck appendices and the Nov 1 research report (Appendix D).
+A8
+05 APPENDIX  ·  A8
+Sources.
+City of Edmonton, 311 Requests open data (q7ua-agfg), accessed Nov 6-11, 2026, and yearly datasets 2016-2022. https://data.edmonton.ca/d/q7ua-agfg
+City of Edmonton, CSD03148 (Sep 2, 2026) and Attachments 1-2; Office of the City Auditor, City's Response to 311 Requests (Nov 2023); FCS02139 (Nov 30, 2023).
+City of Edmonton, Generative Artificial Intelligence Standard (Jul 25, 2024; s. 3.2 Jul 29, 2025); Administrative Standard on Privacy Impact Assessments (May 13, 2026); CSU 52 collective agreement 2024-2027, Art. 11.03.
+City of Edmonton operating budget: 311 and Customer Access $14.66M (2026). Toronto 311 cost per call $11-16 (Global News, Jan 19, 2024).
+Winnipeg 311 budget presentation (Dec 9, 2025) p. 6; Madrid SyRCI-IA (Interoperable Europe); Amsterdam Signalen (algoritmes.overheid.nl, gm0363); Dallas Auditor 311 SLA audit (Apr 2026); Denver Auditor (Aug 2025) and Council record 26-1373; Toronto, Simplifying the 311 Intake Experience (Apr 30, 2026).
+Glaser, V. L. (2026a) Analytic Trees; (2026b) The Psychological Perspective; Session 1 and 4 decks. Glaser, Sloan and Gehman (2024) Organizations as Algorithms, JMS 61(6). Glaser, Sloan and Knight (2025) FFI Practitioner. Sloan and Glaser (2026) Stop Prompting AI, MIT SMR.
+Kahneman and Klein (2009) Am. Psychologist 64(6); Klein (2007) HBR; Feldman and Pentland (2003) ASQ 48(1); Lindebaum, Glaser, Moser and Ashraf (2022) MIT SMR; Mollick (2024) Co-Intelligence; Tversky and Kahneman (1974, 1981); Moore and Healy (2008); Allison (2016).
+Green, B. (2022) The flaws of policies requiring human oversight of government algorithms; Bucinca et al. (2021) To trust or to think; Alon-Barkat and Busuioc (2023) Human-AI interactions in public sector decision making.
+Team materials: Strategic Analytics Initiative deck (Oct 26, 2026); Team research report (Nov 1, 2026); Final presentation plan (Nov 10, 2026); analysis scripts and tables in the project folder.

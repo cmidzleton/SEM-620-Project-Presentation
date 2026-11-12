@@ -1,0 +1,1774 @@
+===== SLIDE 1 =====
+INCOMING CALL
+Mon 9:05 · Caller 4 · "The garbage can by the park on our corner is overflowing again."
+ringing…
+00:00
+
+
+
+APPENDIX
+SEM 620 · STRATEGIC ANALYTICS INITIATIVE · CLIENT: 311 AND CUSTOMER ACCESS
+Which code fits
+these words?
+Monday, 4:29 PM
+A resident calls 311 about an overflowing garbage can by a park. The agent searches “garbage can” and four codes fit. The agent picks one, and the ticket goes to Facility Maintenance. It is the wrong queue. 
+The ticket waits 1.6 days before it is sent back.
+In 2025, 311 phone agents made that same pick 665,225 times, from 1,917 codes.
+Join us to see what goes wrong, what it costs, why it still feels right, and why it is not counted.
+SERVICE CODE
+ILLUSTRATIVE SCREEN
+garbage can|
+4 codes · 3 descriptions · 4 owners
+GARBAGE:Can Needs Emptying
+Parks
+283 tickets
+Overflowing Garbage Can
+Transit
+192 tickets
+311 - Empty Existing Garbage Can
+Facility Maintenance
+116 tickets
+PICKED
+GARBAGE:Can Needs Emptying
+River Valley Operations
+23 tickets
+61 of 116 tickets on the picked code were closed as not Facility Maintenance's (50 bounced, 11 non-City), 2025.
+[IMAGE]
+EVERY DOT = ONE PHONE CODE USED IN 2025 · 44 COVER HALF THE TICKETS · 660 USED FEWER THAN 10 TIMES
+Rick Auger · Lauren Lonsberry · Nav Sekhon · Curtis Middleton
+October 26, 2026
+NOTES: COVER. The question every 311 phone agent answers on every call: which code fits these words? The caller repeats the same report (the can overflows again; the caller calls again), which is the pattern this deck follows.
+The screen is illustrative. The four can codes and their 2025 phone ticket counts are real (311 Requests open data): three descriptions, four owning areas (Parks and River Valley Operations share "GARBAGE:Can Needs Emptying"). On the picked code, 116 phone tickets in 2025: 50 closed "311 Redirecting to Other Business Area", 11 "Non-City Service or Location", 55 stayed.
+Dot field: all 1,917 area + category + description combinations used on the phone in 2025, ranked by volume: 44 cover half of phone tickets; 660 were used fewer than 10 times.
+180 an hour = 2,148 phone tickets per service day in 2025 (308 service days) over a 12-hour day; the line is open 7 a.m. to 7 p.m., six days a week (CSD03148 p. 2), closed Sundays since Mar 2, 2025 (open data). A fifth emptying code (Transit, VLSE-Overflowing Garbage Can) was used once on the phone in 2025. The call bar's counter adds one code every 20 seconds.
+===== SLIDE 2 =====
+LIVE · 311 INTAKE
+Mon · Caller 4 is on the line · before the agent picks a code: the problem in brief
++0 codes picked while you read
+00:15
+
+
+
+APPENDIX
+THE PROBLEM IN BRIEF
+A wrong code on a phone or web ticket sends work to the wrong City area. It costs about $100K a year; no published measure tracks it
+EDMONTON 311
+1 311 Requests open data (q7ua-agfg), 2025: tickets by channel; closures "311 Redirecting to Other Business Area" (bounces); median days to the bounce (Appendix E, Q1-Q3). Web = web form 15,134, online map 11,334, email 3,443. 2 Stake model: mean of 50,000 draws; P10-P90; "counted" = tickets the open data records (slide 10, Appendix A). 3 CSD03148 (Sep 2, 2026): what the City reports on 311.
+THE DECISION WE DIAGNOSE
+Which service code does a new 311 ticket get?
+PHONE
+665,225
+tickets. A 311 agent picks the code on the call, from 1,917 codes.
+WEB
+29,911
+tickets. The form or map assigns the code by rule; 311 staff code the rest..
+The code decides which City area receives the work.1
+WHAT GOES WRONG
+The wrong area gets the ticket, and the resident waits.
+VISIBLE IN OPEN DATA
+In 2025, receiving areas sent back 1,323 phone and web tickets (“bounces”), typically 1.6 days after the ticket was opened.”.1
+NOT VISIBLE
+Misroutes fixed quietly, and wrong answers among 473,564 phone-resolved calls, leave no record in the data.
+THE STAKE · CITY COST, A YEAR2
+$100K
+80% of draws: $74K-$131K (P10-P90)
+“$47K of the total sits in tickets the open data counts; the rest is modelled from assumptions we state. 
+Against 311’s $14.3M budget the number is small, but the costs behind it (desk time, field visits, repeat calls) appear in no published measure.”3
+THREE CHARACTERS CARRY THE ANALYSIS · ONE QUESTION EACH (COMPOSITES; APPENDIX B)
+[IMAGE]
+LOGICAL LAUREN  ·  RATIONAL  ·  Slides 10, 11, 17
+"What does a wrong code cost, and who pays?"
+[IMAGE]
+NEURO NAV  ·  PSYCHOLOGICAL  ·  Slides 7, 12, 17
+"Why does a wrong code still feel right?"
+[IMAGE]
+RULING RICK  ·  POLITICAL  ·  Slides 6, 13, 15, 17
+"Who decides, and why is the miss not counted?"
+HOW TO READ THIS DECK
+The bar follows Caller 4's ticket from Monday's first ring to Thursdays debrief. The counter shows the codes the 311 floor picks while you read (about 180 an hour).
+Real and illustrative: Caller 4, the dialogue and the times are illustrative; every code, count and day-level timing is sourced.
+Labels: VERIFIED (public source), INFERRED (our reasoning), HYPOTHESIS (to test), CORRELATION (not proven cause), ABSENCE (searched, not found). "We found no ..." means not in the sources in Appendix H.
+Misroute: sent to the wrong area. Bounce: closed "311 Redirecting to Other Business Area" (by the area, we infer).
+Quiet misroute: fixed in the area, no bounce (modelled).
+Wrong jurisdiction: not a City service.
+Referral: sent to an area. 
+Full service: resolved on the call.
+1
+NOTES: SLIDE 2. The problem in brief, for a reader with no presenter. The decision: which service code a new 311 ticket gets. On the phone (665,225 tickets in 2025) a 311 agent picks it, live, from 1,917 codes in use. On the web (29,911 tickets: web form 15,134, online map 11,334, email 3,443) the web form sets one of two Taxation codes, the online map mostly sets "Auto Reported" codes, and 311 staff code emails (inferred). Phone and web are grouped as in the team's stake model (team decision, Oct 19); about a third of web tickets carry codes never used on the phone.
+What goes wrong: a wrong code sends the ticket to the wrong area. Visible: 1,323 phone and web tickets closed "311 Redirecting to Other Business Area" in 2025 (1,128 phone, 161 map, 34 email), a median 1.6 days after creation (phone). Not visible: misroutes fixed inside the area without that closure, and wrong answers on calls resolved on the phone (473,564).
+The stake: City cost only, mean of the Monte Carlo model (slide 10; inputs in Appendix A; calculation log in Appendix A2). The 2025 approved operating budget of 311 and Customer Access was $14,304,037 (open data; $14,656,680 in 2026). No published measure: CSD03148 reports answer speed, resolved on initial contact (98.7%), timeliness (81%) and audit compliance (94%); none measures whether a ticket reached the right area.
+How to read: the call bar follows Caller 4, an illustrative caller; the clock and counter (one code every 20 seconds while the line is open) show how often the decision is made.
+===== SLIDE 3 =====
+LIVE · 311 INTAKE
+Mon · Caller 4 · the agent searches "garbage can"…
++2 codes picked while you read
+00:47
+
+
+
+APPENDIX
+CALLER 4'S TICKET · MONDAY TO THURSDAY · AN ILLUSTRATIVE STORY; REAL CODES AND TIMINGS
+One wrong code cost Caller 4 two days in the wrong queue and a second call, and nothing we found tells the agent who picked it
+EDMONTON 311
+Illustrative story: caller and times invented; codes, closure label and counts real. 1 311 Requests open data, 2025 phone (Appendix E, Q8). 2 Phone tickets closed "311 Redirecting to Other Business Area", 2025 (Q2, Q3): median 1.6 days from creation; 22.3% open more than 7 calendar days; 14,272 days summed. 3 OCA 2023 p. 3; 311.edmonton.ca ticket pages. 4 Repeat contacts after a wrong code are an assumption (Appendix A).
+
+MON 9:05
+Caller 4 phones 311: the garbage can by the park is overflowing again.
+Call answered
+
+MON 9:06
+Typing “garbage can” brings up 4 codes owned by 4 different areas, and nothing in the wording says which area is right. The agent picks the Facility Maintenance code.1
+Code picked
+
+WED
+Facility Maintenance closes the ticket as not theirs. Across all phone bounces in 2025, that send-back came a median 1.6 days after the ticket was created..2
+Closed: "311 Redirecting to Other Business Area"
+
+WED+
+Caller 4’s ticket now shows “Closed.” What happens next, how the ticket reaches the right area, is nowhere in the public data. And we found nothing that tells the agent their pick was wrong.3
+Re-route: not public
+
+THU
+Caller 4 calls again: "It is still overflowing."4 Same can, same code, a second contact.
+A second contact
+CALLER 4'S STORY
+ILLUSTRATIVE
+1
+can by one park
+2
+contacts for one problem
+4
+main codes that empty a can
+WHAT THE OPEN DATA SHOWS · PHONE TICKETS, 2025
+1,128
+bounced: closed "311 Redirecting" by the receiving area
+22.3%
+waited more than 7 calendar days; the median was 1.6 days
+14,272
+days, summed, that tickets sat in the wrong queue
+61/116
+tickets on the picked code closed as not theirs (53%)
+
+EVERY SERVICE DAY, 2025
+on average
+~2,150
+codes picked on the phone
+~4
+bounced by the receiving area
+46
+days added to wrong queues
+2
+NOTES: SLIDE 3. The story, start to finish. Caller 4 and the times are invented; the codes, the closure label and the counts are real.
+The picked code, "311 - Empty Existing Garbage Can", belongs to Facility Maintenance. In 2025, 116 phone tickets used it: 50 were closed "311 Redirecting to Other Business Area", 11 "Non-City Service or Location", 55 stayed (Appendix E, Q8). From Jan 1 to Oct 17, 2026 it bounced on 37 of 78 phone tickets.
+Timing of the 1,128 phone bounces of 2025: median 1.64 days from creation to bounce; 22.3% took more than 7 calendar days; summed, 14,272 days in the wrong queue; the 9% that waited over a month carry 75% of those days (Q3).
+What the resident sees: 311.edmonton.ca shows a closed status and the closure note; we found no forwarding ticket number. How a bounced ticket reaches the right area is not public. 311 reviews statistics with the areas "on a periodic basis" (OCA 2023 p. 3); no public process returns a bounce to the agent who picked the code.
+The second call is illustrative; repeat contacts after a wrong code are a labelled assumption in the stake (Appendix A).
+===== SLIDE 4 =====
+LIVE · 311 INTAKE
+Mon · Caller 4 · the agent picks "311 - Empty Existing Garbage Can" (Facility Maintenance)
++4 codes picked while you read
+01:35
+
+
+
+APPENDIX
+THE DECISION, NAMED · THE FIVE-PART TEST
+The decision, which service code a new phone or web ticket gets, passes all five tests: on a call, a 311 agent picks 1 of 1,917 codes
+EDMONTON 311
+1 311 Requests open data, 2025 (Appendix E, Q1, S1): phone 665,225 tickets; web 29,911 (web form 15,134, online map 11,334, email 3,443); app 205,298. 2 OCA 2023 pp. 5, 19; CSD03148 Att. 2 p. 2. 3 99.4% of phone tickets carry the resolve-or-refer type their code dictates (Q4). 4 Slide 10; Appendix A. 5 CSD03148 Att. 2 p. 1 (app AI, Jul 14, 2026); CSD03148 p. 1 (July 2, 2025 motion). Five-part test: SEM 620 project brief.
+THE CORE ANALYTIC DECISION
+The decision is which service code fits the request. On the phone, a 311 agent picks it on every ticket: 665,225 times in 2025, about 180 picks an hour across the floor. On the web, a form, a map or 311 staff set it on 29,911 more. On either channel, a wrong code sends the work to the wrong area.1
+1
+WHO, HOW OFTEN
+A 311 agent (140+ staff), 665,225 times a year, one pick per ticket. Web: 29,911 tickets.1,2
+✓ PASSES
+2
+INPUTS
+What the agent has to work with: the caller’s words and address, the system’s code list (how its search ranks results is not public), roughly 900 scripts, and their own experience.2
+✓ PASSES
+3
+OPTIONS
+1,917 phone codes. Each sets the receiving area, and on 99.4% of tickets resolve or refer.3
+✓ PASSES
+4
+WHEN IT GOES WRONG
+One bounce costs about $31 before field visits and holds the work up a median 1.6 days. All wrong codes together, phone and web: about $100K a year..4
+✓ PASSES
+5
+COULD A MODEL DO IT?
+Realistially: the City's app AI already suggests a service from a resident's words or photo.5
+✓ PASSES
+WHAT IS IN SCOPE, AND WHAT IS NOT1,5
+IN SCOPE · PHONE
+665,225 tickets. 
+A 311 agent picks the code during or at the end of the call (timing not public). 
+This is the decision the characters examine (slides 11-13).
+IN SCOPE · WEB
+29,911 tickets. 
+The web form (1 of 2 Taxation codes) and map (mostly "Auto Reported") set codes by rule; 311 staff code emails (inferred). 
+Kept in the stake by team choice.
+OUT OF SCOPE
+App tickets (205,298): the resident picks 1 of 77 options, with AI suggestions since July 2026. 
+Duplicate linking: on Council's agenda since July 2025. 
+Any solution: our December work.
+3
+NOTES: SLIDE 4. The core analytic decision, named precisely, the brief's five-part test applied to it, and the scope.
+Who and how often: a 311 agent (140+ full- and part-time customer service representatives, OCA 2023 p. 5) picks one service code per ticket. In 2025 agents coded 665,225 phone tickets. Web tickets (29,911: web form 15,134, online map 11,334, email 3,443) are grouped with the phone in the stake, as in the team's model (team decision, Oct 19). On the web the code is set differently: the web form carries one of two fixed Taxation codes, online-map tickets mostly carry "Auto Reported" codes, and emails are coded by 311 staff (inferred). About a third of web tickets (10,475 of 29,911) carry codes never used on the phone. Scope check: Appendix E (S1).
+Inputs: the caller's words and address, the CRM's code list (how agents search it is not public), about 900 scripts provided by the business areas (CSD03148 Att. 2 p. 2), and the agent's experience. Options: 1,917 area + category + description codes on the phone in 2025; each code carries resolve-or-refer (99.4% of phone tickets) and names one receiving area. When it goes wrong: see slide 10 and Appendix A for the cost of a bounce and the yearly stake. Could a model do it: plausibly; the City's own app AI already suggests a service from a resident's words or photo (Jul 14, 2026). Whether one should is December's question.
+Out of scope: app tickets (the resident picks the service from 77 options with an AI suggestion), duplicate linking (Council's July 2, 2025 motion asked for progress on duplicate tickets, and the City links about 1 in 3 duplicates automatically at intake), and anything the City should do about it (diagnosis only).
+===== SLIDE 5 =====
+LIVE · 311 INTAKE
+Mon · Caller 4 · "Kids walk past it every day."
++7 codes picked while you read
+02:20
+
+
+
+APPENDIX
+WHY THIS DECISION · ELEVEN CANDIDATES, NINE CRITERIA
+Phone coding is the only one of 11 at full grain and frequency: third on our weights, first of 311's own decisions, 7th blind
+TEAM 2 · EDMONTON 311
+1 Individual weightage of every criterion; score = sum of (score x weight) / 5; . 2 Gate, a disclosed team test: "Does 311 make this decision?" 311 is the client named in our proposal. 3 CSD03148 p. 1 (July 2, 2025 motion: "addressing duplicate tickets") and p. 2; 311 open data 2025: 11,510 of 34,239 duplicate closures linked within 5 minutes of creation (Appendix E, Q11). 4 Slide 10. 5 2025 phone tickets.
+CRITERION (WEIGHT)1
+PHONE CODE CHOICE
+A1 · OUR PICK
+BYLAW TRIAGE
+B1 · OUTSIDE 311
+POTHOLE CREW PLAN
+B3 · OUTSIDE 311
+INCOMPLETE APP REPORTS
+C2
+COMPLAINT INTAKE SCREENING
+C5
+Gate: who decides?2
+311 ✓
+Community Standards ✕
+Parks and Roads crews ✕
+311 ✓
+311 ✓
+Grain: one role, one choice (15)
+5
+4
+3
+5
+4
+Frequency (10)
+5
+4
+5
+3
+5
+Value at stake (15)
+1
+1
+3
+1
+1
+Payback (5)
+1
+4
+4
+1
+3
+Data available (10)
+3
+5
+3
+3
+4
+Feasibility (10)
+4
+5
+4
+4
+3
+Not already done (20)
+3
+3
+3
+4
+3
+Depth of the human story (10)
+4
+5
+5
+3
+3
+Risk (5 = low) (5)
+4
+3
+3
+4
+3
+Weighted score / 1001
+67
+3rd of 11
+72
+1st
+71
+2nd
+65
+4th, tied
+63
+6th
+Shading: 5 is best, 1 is worst. Not scored: duplicate linking. A Council motion already targets duplicates, and the City links 1 in 3 at intake;3 scored blind, it came last of 12.
+[IMAGE]
+LOGICAL LAUREN
+A1 scores 1 on value (~$100K a year on phone + web4) and payback. It is the only one of 11 to score 5 on both grain and frequency: 665,225 picks.5
+[IMAGE]
+RULING RICK
+Bylaw triage and the pothole plan are decided outside 311. For a whole-City client, they would lead.
+DETAILED SCORING
+All 11 candidates scored with some additional details in Appendix D.
+4
+NOTES: SLIDE 5. Why this decision, after the team's slide. Eleven candidate decisions were scored on nine weighted criteria in the team's alternatives work (team judgment, scores unchanged): grain 15, frequency 10, value at stake 15, payback 5, data available 10, feasibility 10, not already done 20, depth of the human story 10, risk 5. Score = sum of (score x weight) / 5; every row recomputes (phone coding: (5x15 + 5x10 + 1x15 + 1x5 + 3x10 + 4x10 + 3x20 + 4x10 + 4x5) / 5 = 67).
+Gate, applied first: does 311 make this decision? 311 is the client named in our proposal. Bylaw triage (72) and the pothole crew plan (71) score higher but are decided by Community Standards and by Parks and Roads crews. Among the decisions 311 makes, phone coding leads incomplete app reports (65) by 2 points. All 11 candidates, the anchors and the robustness checks are in Appendix D; the evidence for every score is in Appendix D2; the blind re-score is in Appendix D3.
+Not scored: duplicate linking. It is a 311 decision, but Council asked for progress on "addressing duplicate tickets" (July 2, 2025 motion, CSD03148 p. 1) and the City already links part of it automatically ("Technology enhancements now link duplicate requests to the original ticket", p. 2): in 2025, 11,510 of 34,239 duplicate closures were linked within 5 minutes of creation (Q11). The brief warns against a decision the organization is visibly already working on. A blind re-score by a fresh AI session (Appendix D3) ranked phone coding 7th of twelve (61): the four leaders are decided outside 311, and two of 311's own decisions (intake screening, incomplete app reports) scored 63. We treat our pick as a judgment and say so.
+Value at stake: the stake on slide 10 (mean about $100K a year for 2025; $139K-$154K at the 2026 pace) is still under the $0.25M anchor for a score of 1.
+===== SLIDE 6 =====
+LIVE · 311 INTAKE
+Mon · Caller 4 · call ends · ticket routed to Facility Maintenance
++9 codes picked while you read
+03:08
+
+
+
+APPENDIX
+WHAT THE CITY AUTOMATED · AND WHAT IT LEFT
+The City added AI to the app, where residents pick. On the phone (74% of tickets), agents pick with no suggestion we found
+EDMONTON 311
+1 311 Requests open data, tickets by channel, 2025 (Appendix E, Q1, S1). 2 CSD03148 Att. 2 p. 1; 311.edmonton.ca post (Jul 14, 2026); the web portal was updated the same day, with a manual category list (Appendix E, S1). 3 CSD03148 Att. 2 p. 2. 4 E. Bowling, Edmonton Journal, Oct 2, 2026: the reporter's paraphrase, not a quote. 5 CSD03148 p. 4. Configuration, embedding and performance: Glaser, The Reassembly of Agency, s. 1.6.
+WHO PICKS THE CODE · 900,434 TICKETS, 20251
+665,225
+Phone · an agent picks
+205,298
+App · resident picks; AI suggests since July 2026
+Web form: 2 fixed Taxation codes · online map: mostly "Auto Reported" codes · email: coded by staff (inferred) · phone: 74% of tickets; web is grouped with it in the stake (slide 10)
+
+AUTOMATED · THE APP
+Since July 14, 2026: AI suggests a service from the photo or description, "with the intent to reduce incorrect assignments".2
+Performance: not published, and too early to judge, as recording practice is changing (slide 7).
+77
+request options on the app menu
+
+UNDERWAY · PHONE AGENTS
+Script search AI: its stated benefit is "reducing the average length of interactions".3
+"AI backends to help direct callers" is a reporter's paraphrase.4 No source says either picks or checks a code.
+~900
+scripts going into an AI search for agents
+
+LEFT TO PEOPLE · THE PHONE
+The City keeps the phone as "the primary access point".5 One agent, the caller's words and a queue.
+The receiving area records a wrong code first, a median 1.6 days later. We found no process that tells the agent.
+1,917
+codes in use on the phone, no suggestion we found
+[IMAGE]
+LOGICAL LAUREN
+The AI went where residents pick, not where most tickets are coded: 74% are coded by agents.
+[IMAGE]
+NEURO NAV
+A photo shows the can. On the phone I have only the words, and "garbage can" felt like enough.
+INFERRED
+[IMAGE]
+RULING RICK
+Whoever loads the 900 scripts into the AI search gains influence over our pick.
+HYPOTHESIS
+5
+NOTES: SLIDE 6. Existing automation, framed with the Reassembly reading's three moments (configuration, embedding, performance; s. 1.6).
+Who picks the code (2025, 311 Requests open data): phone 665,225 (an agent picks), app 205,298 (the resident picks 1 of 77 request options; AI suggestion since Jul 14, 2026), web form 15,134 (two fixed Taxation codes, no status), online map 11,334 (mostly "Auto Reported" streetlight and signal codes), email 3,443 (coded by staff from 553 codes). Phone tickets are 74% of all tickets. The stake groups phone and web tickets (29,911), as in the team's model; the scope check (Appendix E, S1) found web-form and map codes are set by the form, so their recorded misroutes are small in number (195) or, for the web form, imputed.
+Automated, the app: CSD03148 Att. 2 p. 1, "AI capability to suggest the most accurate service based on the photo or description, with the intent to reduce incorrect assignments"; app request options went from 71 to 77. The web portal was updated on the same day, but its first step is a manual "Select a Category" list; no source links the AI suggestion to the portal, the phone or email.
+Underway, phone agents: AI to search about 900 scripts, framed around "reducing the average length of interactions" (Att. 2 p. 2). "AI backends to help direct callers" is the Edmonton Journal reporter's paraphrase (Oct 2, 2026), not the director's words. No funded service package for 311 coding was found. The CRM reaches "end of life" in 2030.
+Left to people: the phone stays "the primary access point" (CSD03148 p. 4, GBA+). Why the code was left to agents is not stated by the City; our inference is that the suggestion belongs to the resident app, while agents key tickets into the CRM.
+===== SLIDE 7 =====
+LIVE · 311 INTAKE
+Wed · Facility Maintenance closes the ticket · "311 Redirecting"
++11 codes picked while you read
+03:55
+
+
+
+APPENDIX
+WHAT THE BOUNCE COUNT SHOWS · 2023 TO 2026
+The 2026 rise in bounces is no clear sign of worse coding: 39% is new recording, 52% is areas back at their 2023 rate
+EDMONTON 311
+1 311 Requests open data (refreshed Oct 18, 2026): Referral tickets closed "311 Redirecting to Other Business Area" / Referral tickets, by channel and month, Jan 2023 to Sep 2026 (Appendix E, Q9). 2 CSD03148 Att. 1 p. 2. 3 311.edmonton.ca (Jul 14, 2026); CSD03148 Att. 2 p. 1. 4 Phone referral bounces, Jan-Sep 2025 (661) vs Jan-Sep 2026 (1,673), by receiving area (Q10). 5 "311 - Empty Existing Garbage Can", Jan 1 to Oct 17, 2026 (Q12). 6 Glaser, The Reassembly of Agency, s. 1.4; Analytic Trees p. 13 (look inside the average).
+RECORDED BOUNCES PER 100 REFERRALS, BY MONTH, 2023-20261
+0%
+1%
+2%
+3%
+4%
+Fall 2025: the City "aligned ticket closure processes"2
+App AI, Jul 20263
+App 3.4% (Sep)
+Phone 1.6% (Sep)
+Jan 2023
+Jan 2024
+Jan 2025
+Jan 2026
+Sep
+Phone, Jan-Sep: 0.57% (2023) · 0.48% (2024) · 0.44% (2025) · 1.03% (2026). The app moves with the phone: both rose in fall 2025.
+A BOUNCE COUNTS ONLY IF RECORDED
+A misroute is counted only when the receiving area closes it "311 Redirecting". "A low count of a particular kind of problem therefore needs interpretation."6
+LOOK INSIDE THE AVERAGE
+Per referral the app's rate is 2.6x the phone's (Jan-Sep 2026). Most phone tickets are resolved on the call and almost never bounce (66 in 2025), so per ticket the gap looks larger.6
+WHAT THE COUNT CANNOT SEE
+Quiet misroutes inside an area, and wrong answers among 473,564 calls resolved on the phone, leave no public trace. The stake models them (slide 10).
+WHERE THE 2026 RISE CAME FROM4
+Phone bounces, Jan-Sep: 661 in 2025 to 1,673 in 2026 (+1,012).
+39%
+52%
+9%
+91%
+39%: eight rarely-recording areas went from 8 to 398 bounces; we infer most is new recording (220 are in two areas created in March 2026).
+52%: the five largest areas that always recorded, pooled, are back at their 2023 rate (1.86%, 1.96%); Roadway fell, four smaller areas rose.
+9%: all other areas.
+FIVE LARGEST ALWAYS-RECORDING AREAS, JAN-SEP
+1.86% 2023
+1.74% 2024
+1.12% 2025
+1.96% 2026
+ONE CODE FAILS WHOEVER PICKS IT5
+"311 - Empty Existing Garbage Can" (Facility Maintenance), 2026:
+37 of 78
+phone tickets bounced: an agent picked the code
+469 of 645
+app tickets bounced: the resident picked it from the app menu
+The same code fails on both channels: the problem is in the code set, not only in who picks it.
+6
+NOTES: SLIDE 7. What the bounce count does and does not show. The chart is phone and app bounces per 100 referrals by month, January 2023 to September 2026 (October 2026 is partial and left out). Both channels rise and fall together and both jumped in fall 2025, when the City "aligned ticket closure processes with work completion for several outstanding services" (CSD03148 Att. 1 p. 2).
+Decomposing the rise (phone referral bounces, Jan-Sep): 661 in 2025, 1,673 in 2026, +1,012. Eight areas that recorded almost no bounces before 2026 (Development Permits, Municipal Enforcement, Development Compliance, Development Services, Peace Officers, Park Rangers, Parking Enforcement, Fire Services) went from 8 to 398: 390, or 39% of the rise. Two of them, Development Permits and Development Compliance, were created in March 2026 and carry 220 of the 398. The five largest areas that recorded every year (Roadway Maintenance, Parks, Forestry, Traffic, Building and Mechanical) went from 533 to 1,059: 526, or 52%; their pooled rate is 1.86% (2023), 1.74%, 1.12%, 1.96% (2026), so together they are back at 2023. Area by area (2023 to 2026): Roadway Maintenance 2.34% to 1.74%; Parks 6.80% to 8.04%; Forestry 0.71% to 1.50%; Traffic 0.67% to 1.30%; Building and Mechanical 0.13% to 1.14%. Four of the five rose above their own 2023 rate, so part of the 52% may be real change or a change in how those areas record; we cannot tell which from public data. The other 9% is spread across the remaining areas. The rise is therefore partly new recording and partly a return from a low 2025; it is not clear evidence of more coding errors, and it is not proof of fewer either.
+The can code: "311 - Empty Existing Garbage Can" bounced on 37 of 78 phone tickets and 469 of 645 app tickets in 2026 to Oct 17 (in 2025: 50 of 116 phone, 511 of 883 app). On the app the resident picks the service from 77 options, with an AI suggestion since July 14, 2026; on the phone an agent picks it. The same code fails on both channels.
+===== SLIDE 8 =====
+LIVE · 311 INTAKE
+Wed · ticket bounced · why did it happen?
++14 codes picked while you read
+04:42
+
+
+
+APPENDIX
+PROBLEM TREE · ONE CALL, START TO FINISH
+Wrong codes start before and during the call; after it, no published measure counts them and nothing we found tells the agent
+EDMONTON 311
+1 311 Requests open data, 2025 phone (Appendix E). 2 OCA, City's Response to 311 Requests (Nov 2023), pp. 3, 16, 19, 20; FCS02139 p. 2. 3 CSD03148 (Sep 2, 2026) p. 2 and Att. 2. 4 Searched: CSD03148, FCS02139, OCA 2023 and follow-ups, 2025 Corporate Annual Business Plan Report, open-data catalogue (Appendix H). Problem tree divided by stage of one call (Glaser, Analytic Trees, pp. 5-10).
+
+THE QUESTION
+Why do wrong codes keep happening, and why does no one learn from them?
+Three stages, nine causes: 5 verified facts, 1 correlation, 1 inference, 2 absences. One cause (ownership by asset) shows in two stages.
+Assumed, not shown: that a bounce is a coding error. Some owners can be found only on site.
+BEFORE THE CALL
+The code set
+1,917 phone codes; 44 cover half the tickets.1
+VERIFIED
+Areas provide and sign off the scripts; whether the code calls up the script is not public.2
+VERIFIED
+Ownership follows the asset, not the problem: 4 can codes, 4 owners.1
+VERIFIED
+DURING THE CALL
+The pick
+Ownership by asset again: the caller's words rarely name the owner.
+INFERRED
+Rare codes have 14x the bounce rate (3.80% vs 0.27% a referral) but 5% of bounces.1
+CORRELATION
+311 is measured on speed (answer in 120 s); the script AI's stated benefit is shorter calls.3
+VERIFIED
+AFTER THE CALL
+No feedback
+No count: no published misroute or code-accuracy measure.4
+ABSENCE
+No word back: no public process returns a bounce to the agent who picked the code.2
+ABSENCE
+No link: open data cannot join a bounced ticket to its' re-route.1
+VERIFIED
+7
+NOTES: SLIDE 8. Problem tree after the team's: one root question, three branches by stage of one call, evidence marked on every cause, and the main assumption stated on the slide.
+Before: the code set (1,917 codes; 44 cover half the calls; 660 used fewer than 10 times); business areas provide and sign off scripts (FCS02139 p. 2; OCA 2023 p. 20; 11 of 42 scripts mismatched on response time, p. 16); ownership by asset (four can codes, three descriptions, four owners).
+During: the caller's words rarely name the owner (inference); rare codes bounce far more (codes used 1-9 times: 3.80% of referrals; 1,000+ times: 0.27%; a correlation, not proof of cause; rare codes carry about 5% of bounces); speed incentives (72% answered within the 120-second standard; script AI framed around "reducing the average length of interactions").
+After: no count, no word back to the agent, no link. 311 reviews statistical reports with business areas "on a periodic basis" (OCA p. 3); whether bounces are on that agenda is not public. The OCA's five recommendations (all closed) dealt with closure, KPIs, role lists and status notes, not with whether a ticket reached the right area.
+Assumption stated on the slide: a bounce is treated as a coding error. Not all are: the City treats a request "outside City service scope" as properly closed (CSD03148 Att. 1 p. 1), and some ownership can only be found on site.
+===== SLIDE 9 =====
+LIVE · 311 INTAKE
+Wed+ · ticket re-routed · no word back to the agent that we found
++16 codes picked while you read
+05:30
+
+
+
+APPENDIX
+THE DECISION TODAY · SIX ACTIVITIES, FIVE CONDITIONS
+One pick records the request, proposes the action and commits the route; we found no second check before routing and no feedback after
+EDMONTON 311
+1 Glaser, The Reassembly of Agency (SEM 620, 2026): six activities s. 1.3 (they "may overlap or recur"); conditions for meaningful review s. 1.7; authority and accountability s. 1.1. 2 311 Requests open data, 2025 phone (Appendix E, Q4): code counts; 99.4% of tickets carry the resolve-or-refer type their code dictates. 3 CSD03148 p. 2. 4 OCA 2023 p. 3. 5 Glaser, The Psychological Perspective, s. 3.3, p. 8. 6 Jan 1 to Oct 17, 2026 (Q12).
+01
+NOTICE
+The resident calls; the agent hears the words
+02
+RECORD
+The agent types notes and the address
+03
+PROPOSE
+The agent picks 1 of 1,917 codes
+04
+AUTHORIZE
+The same pick; no second check we found before routing
+05
+CARRY OUT
+Script read; ticket lands in the area's system
+06
+LEARN
+Nothing we found: no count, no word back, no link
+ONE PICK RECORDS THE REQUEST, PROPOSES AND COMMITS THE ROUTE2
+The six activities "may overlap or recur"1
+✕ missing   ~ partial
+FIVE CONDITIONS FOR MEANINGFUL REVIEW1
+Applied to the only check we found before routing: the agent's own. More care "might help with the next request", but "would not, by itself, address a screen that hides relevant evidence" (s. 1.1).
+✕
+EVIDENCE
+The caller's words and an address; nothing on the call says who owns the asset.
+~
+EXPERTISE
+Likely strong on the 44 codes that cover half the tickets; 660 are used under 10 times a year.2
+✕
+TIME
+Seconds, live, with a queue waiting; the centre is measured on answering within 120 s.3
+~
+AUTHORITY
+Held by the agent until the ticket routes; after that, "business areas assume full ownership".3
+~
+FEEDBACK
+311 reviews statistics "on a periodic basis",4 yet the can code still bounces in 2026 (37 of 78 phone).6 Nothing we found tells the agent of a bounce.
+THREE SEATS, TWO GAPS: AUTHORIZE AND LEARN
+[IMAGE]
+LOGICAL LAUREN
+AUTHORIZE: each bounce costs area desk time, 311 re-handling and a median 1.6 days of waiting. The cost falls in several budgets and on no published scorecard.
+[IMAGE]
+NEURO NAV
+LEARN: practiced on 44 common codes, rarely on 660 others, and nothing we found connects a pick with how it turned out. "Repeated experience alone is not enough."5
+[IMAGE]
+RULING RICK
+BOTH: 311 holds the authority over the code; the receiving area holds the accountability for its result. We found no owner of the hand-off.1,3
+8
+NOTES: SLIDE 9. The decision as it is made today, through the Reassembly of Agency (Glaser, SEM 620). The six activities are "prompts for investigation rather than a required sequence" and "may overlap or recur" (s. 1.3). Here three of them collapse into one keystroke: when the agent picks the code, the call is recorded, a course of action is proposed and the route is committed, because the code carries resolve-or-refer on 99.4% of phone tickets and names the receiving area. We found no second check before the ticket lands; the area's "Reviews, Assigns" step (CSD03148 slide 3) comes after it has landed.
+Five conditions for meaningful review (s. 1.7: "evidence, expertise, time, authority, and feedback"), applied to the agent's own check. Feedback is partial (~), not absent: 311 reviews statistical reports with business areas "on a periodic basis" (OCA p. 3), which is feedback at the level of the arrangement; whether bounces are on that agenda is not public, and no public process returns a bounce to the agent who coded it.
+Authority versus accountability (s. 1.1): 311 holds the authority over the code; the receiving area "assume[s] full ownership" of the result (CSD03148 p. 2).
+===== SLIDE 10 =====
+LIVE · 311 INTAKE
+Thu · Caller 4 calls again: same can, same code · what the miss cost
++25 codes picked while you read
+06:16
+
+
+
+APPENDIX
+THE STAKE · A PROFIT TREE, PHONE AND WEB TICKETS, 2025
+Wrong codes on phone and web tickets cost the City about $100K a year; only $47K comes from tickets the open data counts
+EDMONTON 311
+1 Stake model: 13 triangular inputs (min / most likely / max, in brackets), 50,000 Monte Carlo draws, seed 20261018; every value is a mean of the draws, so each box is the sum of the boxes to its right (Glaser, Analytic Trees, Fig 2.1). Inputs and sources: Appendix A; every calculation: Appendix A2; what is in and out of the stake: Appendix A3. 2 311 Requests open data, 2025: bounces 1,128 phone + 161 map + 34 email; wrong jurisdiction 1,251 + 52 + 21; "more info" 60 + 0 + 41; referrals 191,519 phone + 28,274 web (Appendix E). City cost only.
+Yearly City cost of wrong codes
+phone + web tickets, 2025
+$100K
+expected value (mean)
+median $97.3K
+P10-P90 $74.1K-$131.0K
+Counted misroutes
+in 2025 open data: phone, map, email
+$46.6K
+COUNTED
+P10-P90 $39.7K-$54.2K
++
+Bounces between areas
+1,323 x cost per bounce (mean $30.52)
+desk time + 311 re-handling + re-contacts (10/25/40%)
+$40.4K
+P10-P90 $35.2K-$45.9K
+Wrong jurisdiction, avoidable at intake
+1,324 x avoidable (25/50/75%) x desk time
+sent outside the City or not a City service
+$5.6K
+P10-P90 $3.3K-$8.3K
+"More info" closures caused by the code
+101 x code share (0/20/50%) x (desk + contact)
+resident must call 311 again
+$0.6K
+P10-P90 $0.3K-$1.0K
+Unrecorded misroutes
+modelled from recorded rates
+$11.5K
+MODELLED
+P10-P90 $7.0K-$16.7K
++
+Quiet misroutes, fixed inside the area
+219,793 referrals x rate (0.25/0.47/1.07%) x desk time
+mean 976 tickets a year
+$8.3K
+P10-P90 $4.4K-$12.9K
+Web-form misroutes, imputed
+15,134 tickets x map + email rates x (0/0.5/1)
+the web form records no closure status
+$3.2K
+P10-P90 $1.4K-$5.0K
+Knock-on costs
+caused by a misroute or a wrong answer
+$42.4K
+MODELLED
+P10-P90 $19.1K-$70.6K
++
+Wasted field visits
+misroutes x visit share (0/3/10%) x $22/$84/$280; mean $5.59 a misroute
+a crew sent before the right owner is found
+$13.4K
+P10-P90 $3.8K-$26.3K
+Repeat calls after a code-led wrong answer
+473,564 x wrong (2/5/11%) x code (0/20/60%) x call back (10/20/35%)
+x contact cost; mean 1,643 calls; cap 5,990
+$29.0K
+P10-P90 $9.3K-$54.3K
++
+MONTE CARLO · 50,000 DRAWS
+WHAT THE RESULT SAYS
+Every input at its most likely: $69.4K, below even the P10, because most ranges stretch further up than down.
+Above $150K: 3% of draws; below $50K: under 1%.
+Moves the total most: wrong answers caused by the code, a team judgment.
+Without repeat calls (if the code never drives the answer): $71K.
+Phone only: $87K. At agent time only (marginal contact cost): $61K.
+Who pays: 311 about 60%; the receiving areas the rest. One bounce, two prices: $30.52 before field visits, $36.11 with the expected $5.59 visit (slide 11).
+[IMAGE]
+9
+NOTES: SLIDE 13. The stake as a profit tree (Glaser, Analytic Trees Fig 2.1 p. 4: "children add or multiply to the parent"; Session 2 slide 14: a profit tree "has to reconcile"), in the team's layout. Scope: phone and web tickets, 2025 (web = web form, online map, email: 29,911 tickets), as the team grouped them; web-form and map codes are set by the form (Appendix E, S1).
+Method (the team's model): each assumption is a triangular "fuzzy number" (minimum, most likely, maximum); the model draws all inputs at once, 50,000 times (seed 20261018); values on the tree are means of the draws, so each box is the sum of its children. Counted volumes are fixed from open data. The P10-P90 under each box is that box's own spread across the 50,000 draws; spreads do not add.
+Every bounce is counted as caused by the code: each code names one receiving area, so the code sent the ticket there; tickets whose owner could be found only on site cannot be separated in public data (slide 8). Every input, its range and its source are in Appendix A; every formula with its numbers is in Appendix A2; the choices about what goes into the stake (scope, unit costs, layers) and why we chose this one are in Appendix A3.
+===== SLIDE 11 =====
+LIVE · 311 INTAKE
+Wed+ · after the bounce, the team chat: "What did that pick cost?"
++18 codes picked while you read
+07:03
+
+
+
+APPENDIX
+LOGICAL LAUREN HAS THE FLOOR · DECISION TREES SOLVED RIGHT TO LEFT
+Wrong codes cost about $0.14 a ticket. Asking the owner first pays only on often-bounced codes; nothing we found tells the agent which
+EDMONTON 311
+1 Glaser, Analytic Trees: square = choice, circle = chance, payoffs at the ends, solved right to left (pp. 16-19); threshold p. 20; loss beside the average p. 21. 2 Probabilities and payoffs are the stake model's means (slide 10, Appendix A2), so the tree rolls back to the same yearly total. 3 Assumed: asking takes 20 s, valued like the stake at the City's average cost of a contact over a 5.2-minute handle ($1.02; agent time only, $0.30), and halves wrong owners; agents already ask "relevant questions, clarifying needs" (OCA 2023 p. 19). 4 p = share of referrals bounced. 311 Requests open data, 2025: 1,062 of 191,519 phone referrals (66 more bounces sit on resolved-type tickets: 1,128 in all); the can code: 50 of 116 (11 more closed as non-City).
+[IMAGE]
+LOGICAL LAUREN
+Every ticket carries a small risk. On average, wrong codes cost $0.14 a ticket; across the year, $100K.
+[IMAGE]
+NEURO NAV
+So should agents stop and ask whose can it is, every time?
+[IMAGE]
+LOGICAL LAUREN
+Only where wrong owners are common. The can code bounced on 43% of its tickets; the average referral, 0.55%.
+THE EXPECTED VALUE OF ONE TICKET TODAY · CITY DOLLARS · PHONE AND WEB1,2
+One ticket,
+today
+-$0.1449
+Resolved  p 0.683
+-$0.061
+Referred  p 0.317
+-$0.325
+Answer not changed by the code  p 0.984
+0
+Code-led wrong answer  p 0.016
+-$3.82
+Calls back  p 0.22
+-17.64
+$29.0K a year
+Doesn't  p 0.78
+0 †
+cost falls on the resident
+Right owner  p 0.9859
+0
+Wrong owner  p 0.0141
+-$23.03
+Bounced  p 0.458
+-36.11
+$51.4K incl. visits
+Fixed quietly  p 0.314
+-14.06
+$13.7K incl. visits
+Wrong jurisdiction  p 0.220
+-8.47
+$5.8K
+"More info"  p 0.008
+-26.12
+$0.6K
+Rolled back: -$0.1449 x 693,357 priced tickets = -$100.5K a year, the same total as the profit tree (slide 10). An average, not a forecast; probabilities and payoffs: model means. † $0 to the City, not to the resident. Priced tickets: 473,564 resolved + 219,793 referrals; the other 1,779 (142 phone, 1,637 web) are neither. -$36.11 = $30.52 bounce + $5.59 expected visit.
+THE CHOICE AN AGENT ALREADY HAS3
+Pick now
+Ask first
+-$1.02
+wrong owner  p
+right  1 - p
+-36.11
+0
+wrong owner  p/2
+right  1 - p/2
+-36.11
+0
+Asking pays when p > 5.6%: the threshold (p. 20).
+If asking cut wrong owners by only a quarter: 11.3%.
+Average referral4
+p 0.55%
+FAVOURS PICKING
+-$0.20 vs -$1.12
+The can code (Caller 4)
+p 43%
+FAVOURS ASKING
+-$15.56 vs -$8.80
+The better choice depends on p, and nothing we found tells the agent p.
+LOSS BESIDE THE AVERAGE1
+Picking now on the can code risks a $36.11 bounce (incl. visits) 43% of the time, plus an $8.47 non-City closure 9% of the time; on an average referral the bounce comes 0.55% of the time. The average hides codes where a wrong pick is likely.
+WHAT THE DOLLARS LEAVE OUT
+Residents' time, and 16,987 days that 2025 phone and web tickets sat in the wrong queue; wrong answers that no one calls back about (5,934 a year, model mean) cost residents, not the City. "Ask first" describes the choice as it stands, not a recommendation.
+10
+NOTES: SLIDE 10. Logical Lauren (rational lens, voiced by the team). Vern's conventions (Analytic Trees pp. 16-19): a square is a choice, a circle is an uncertain event whose probabilities add to 1, every path ends at a payoff, and the tree is solved right to left (rollback).
+Left: the expected value of one ticket as today (chance nodes only), for the tickets the stake prices: phone calls resolved on the call and referrals from phone and web. The probabilities and payoffs are the stake model's means (each payoff is a branch's mean cost divided by its mean count, visits included), so the rollback times the number of tickets reproduces the yearly total on slide 10 exactly. Resolved calls: a wrong answer led by the code, and a share of those call back (a 311 contact each). Referrals: a wrong owner, which ends in one of four ways: bounced back by the area, fixed quietly inside the area, closed as wrong jurisdiction, or closed for more information. About 1,800 tickets with no type or web full service carry no cost in the model.
+Right: a real decision the agent already has (agents are expected to ask "relevant questions, clarifying needs", OCA 2023 p. 19): pick now, or spend about 20 seconds asking who owns the asset. Pick now: EV = -p x L. Ask first: EV = -$1.02 - (p/2) x L, where L is the mean cost of a bounce including visits. Asking pays when p > 2 x 1.02 / L, the threshold (p. 20). Valued at agent time only ($0.30), the threshold falls to about a third. Typical phone referral: p = 0.55% (1,062 of 191,519, 2025), so picking now is better. "311 - Empty Existing Garbage Can": 50 of 116 phone tickets bounced (p = 43%; 11 more were closed as non-City, not counted in p), so asking first is better. On both rows p is the share of tickets bounced, so the two are like for like. Halving wrong owners is an assumption; at a quarter, the threshold doubles.
+Loss beside the average (p. 21: "Put the potential loss beside the average return"). This values the decision as it exists today; it is not a recommendation.
+===== SLIDE 12 =====
+LIVE · 311 INTAKE
+Wed+ · after the bounce, the team chat: "Why didn't we catch it?"
++21 codes picked while you read
+07:50
+
+
+
+APPENDIX
+NEURO NAV HAS THE FLOOR · ONE CALL, AS THE AGENT MEETS IT
+A wrong code can still feel right: we found no word back to the agent, and 1,366 of 1,917 codes come up fewer than 100 times a year
+EDMONTON 311
+1 Glaser, The Psychological Perspective: five questions, 3.8 p. 22 (Session 3 slide 39); System 1 and System 2, 3.2 p. 5; feedback, 3.3 p. 8; reference point, 3.6 p. 13; situation, tendency, neglected, 3.7 p. 21. 2 311 Requests open data, 2025 phone tickets: bounce rate per referral by how often a code is used (a correlation; Appendix E, Q4-Q5). 3 CSD03148 (Sep 2, 2026) p. 2 and presentation slide 3. Caller 4 is illustrative; the characters are composites (Appendix B). H1-H7: hypotheses to test with the City (Appendix G).
+[IMAGE]
+NEURO NAV
+When I hear "garbage can", a can code comes to mind before I ask whose can it is.
+HYPOTHESIS H1
+[IMAGE]
+LOGICAL LAUREN
+That pick cost the City money two days later. Did anyone tell you it bounced?
+[IMAGE]
+RULING RICK
+Nothing we found tells the agent about a bounce. The area closes it and moves on.
+FIVE QUESTIONS TO BRING TO AN ENCOUNTER (GLASER, 3.8), ASKED OF ONE CALL1
+1
+What does the situation seem to mean to the agent?
+"The garbage can by the park on our corner is overflowing again." Four codes empty a can; the words do not say whose can it is.
+Meaning  ·  3.1
+ILLUSTRATIVE
+VERIFIED
+2
+Which impression arrives first, and what supports it?
+System 1: "garbage can" calls up a can code before the owner is asked.
+Practice is uneven: bounce rate by use2
+3.80%
+1-9
+1.96%
+10-99
+0.64%
+100-999
+0.27%
+1,000+
+An impression arrives  ·  3.2
+HYPOTHESIS H1
+VERIFIED
+3
+What gets deliberate attention, and what makes it harder?
+System 2: a search of 1,917 codes while listening, with a queue waiting. It can check the first impression or defend it.
+System 2 can also defend  ·  3.2
+VERIFIED
+HYPOTHESIS H2
+4
+What information could change the interpretation?
+Who owns the asset, and how the pick turned out. The bounce lands a median 1.6 days later; nothing public returns it to the agent.
+Feedback links action and result  ·  3.3
+VERIFIED
+HYPOTHESIS H4
+5
+What does the agent experience as a gain or a loss?
+The centre is measured on answer speed (120 s, a queue measure); script AI is framed around shorter calls. A wrong code costs the agent nothing visible.
+Reference point  ·  3.6
+VERIFIED
+HYPOTHESIS H7
+✕
+NO WORD BACK FOUND
+SAY WHAT HAPPENED BEFORE NAMING THE TENDENCY (3.7)1
+THE SITUATION
+THE TENDENCY
+WHAT IS NEGLECTED
+AGENT
+Can code: 61 of 116 phone tickets closed as not Facility Maintenance's (50 bounced, 11 non-City).
+VERIFIED
+System 1 offers a can code before the owner is asked; System 2 then searches to confirm it.
+HYPOTHESIS H1, H2
+Who owns the can, and how the pick turned out a median 1.6 days later.
+VERIFIED
+311 LEADERS
+"Resolved on Initial Contact" (98.7%) means no resident follow-up; the City calls it "one indicator".3
+VERIFIED
+A quiet change in the question: "called back?" can stand in for "coded right?"
+HYPOTHESIS H5
+Said the other way round: 1.3% of tickets were followed up or escalated.3
+VERIFIED
+RECEIVING AREAS
+A ticket that belongs elsewhere is closed "311 Redirecting to Other Business Area".
+VERIFIED
+The label frames the event as routing, not as a wrong code.
+HYPOTHESIS H6A
+Which agent chose the code, and whether the same codes recur.
+HYPOTHESIS H6B
+WHO WEIGHS EVIDENCE ABOUT CODES TODAY
+Agents: practiced on common codes, rarely on most; rare codes bounce more but carry 5% of bounces (H3: skill is setting-specific).
+311 leaders: 98.7% as the reference for "resolved".
+Area reviewers: a bounce reads as routing.
+Biases named in the brief, held as hypotheses: confirmation favours "an existing belief" (3.4); overconfidence is "greater certainty than the evidence supports" (3.5). Tests: Appendix B2 and G.
+11
+NOTES: SLIDE 11. Neuro Nav (psychological lens, voiced by the team). Built on Vern's method: "Describe the setting and behaviour before attaching a psychological concept" (Psych. Perspective 3.8, p. 22). The five cards are his "Questions to bring to an encounter" (3.8, p. 22; Session 3 slide 39), asked of one moment in the decision as it runs today. The table applies his three-part test: the situation, the tendency, and the information being neglected (3.7, p. 21).
+System 1 and System 2 (3.2): the caller's words produce a fast impression (System 1: "garbage can" calls up a can code). The code search is deliberate (System 2), but "System 2 can examine an impression, and it can also defend one" (3.2, p. 5). With a queue waiting, the search can confirm the first impression rather than test it (H1, H2).
+Feedback (3.3): "Repeated experience alone is not enough. The person needs feedback that can connect an action with what happened" (p. 8). The result of a pick arrives a median 1.6 days later as another area's "311 Redirecting" closure; no public process returns it to the agent (an absence finding). Practice is uneven: 44 codes cover half the phone tickets; 1,366 of 1,917 codes are used fewer than 100 times a year across 140+ agents. Codes used 1-9 times a year bounce 3.80% of their referrals; codes used 1,000+ times, 0.27% (a correlation; rare codes may also be ambiguous).
+Reference point (3.6): the desk is measured on speed (the 120-second answer standard; script AI for "reducing the average length of interactions"). Whether agents share that reference point is H7. We do not claim loss aversion.
+The can code had 116 phone tickets in 2025 (the 100-999 band, where codes bounce 0.64% on average), so its 53% is not a rarity effect. Confirmation (3.4) and overconfidence (3.5) stay hypotheses; each needs evidence we do not have yet.
+===== SLIDE 13 =====
+LIVE · 311 INTAKE
+Wed+ · ticket in the right queue · who hears about the miss?
++23 codes picked while you read
+08:37
+
+
+
+APPENDIX
+RULING RICK HAS THE FLOOR · THE PLAYERS
+311 picks the code; the business areas sign off the scripts and own the result; no published scorecard counts a wrong pick
+EDMONTON 311
+1 CSD03148 (Sep 2, 2026): p. 1 (July 2, 2025 motion), pp. 2, 4; presentation slides 2, 3, 6. 2 OCA 2023 pp. 2, 6, 20; follow-up Apr 10, 2025. 3 Glaser, Session 4 debrief: "Analyze the political game: who are the players, what are their goals, what actions can they take..."; mirror imaging; sedimentation of assumptions. Reassembly s. 1.8. 4 Stake model, who pays: 311 carries contact costs; the areas carry desk time and visits (Appendix A). "At stake" cells are hypotheses to test (Appendix G).
+[IMAGE]
+RULING RICK
+The areas sign off the 900 scripts and own the ticket once it is routed. 311 only picks the code.
+[IMAGE]
+LOGICAL LAUREN
+Our headline is 98.7% resolved at first contact. No bounce count is in it.
+[IMAGE]
+NEURO NAV
+Each seat can assume the other checked. No one's score counts the miss.
+HYPOTHESIS
+PLAYER · MEASURED ON
+MOVES OPEN TODAY3
+AT STAKE (TO ASK, NOT ASSUME)
+WHAT IT SENDS UP
+MEASURE REWARDS (HYPOTHESIS)
+311 agents
+centre: answer in 120 s (a queue measure)
+Pick now or ask who owns the asset first.
+VERIFIED
+Measured on speed; asking costs time on a live call.
+HYPOTHESIS
+Answer times. Whether call reviews check the code is not public.
+VERIFIED
+INFERRED
+Short calls; the first code that fits saves time.
+311 management
+98.7% resolved at first contact
+Re-route a bounce (procedure not public); no published measure changes.
+ABSENCE
+Owns the routing step and the headline sent up.
+VERIFIED
+HYPOTHESIS
+"Resolved on Initial Contact" (98.7%); "efficiently routed".
+VERIFIED
+Reporting the measures Council asked for (98.7%).
+Business areas
+closed within timelines (81%)
+Close "311 Redirecting", fix quietly, or forward.
+HYPOTHESIS
+Desk time and visits. Whether a bounce counts as on time is not public.
+HYPOTHESIS
+"311 Audit Compliance": 94% by July 2026.
+VERIFIED
+Closing the ticket promptly, whichever way.
+City Auditor
+own audit objectives
+Focus: not full-service tickets, "deemed to be low risk" (2023).
+VERIFIED
+Independent; routing was not part of the 2023 objective.
+INFERRED
+Five recommendations, all closed.
+VERIFIED
+Following Council's questions in the next scope.
+Residents
+no measure; phone is the "primary access point"
+Call again or wait; see "Closed".
+VERIFIED
+Time; no seat in deciding what is counted.
+INFERRED
+A follow-up, or a survey answer (17% followed up, 2024).
+VERIFIED
+Calling again or giving up.
+CSU 52
+the clerical union (agents' union: inferred)
+Raise workload or job concerns when 311 tools change.
+INFERRED
+Whether AI on agents' screens means help or replacement.
+HYPOTHESIS
+Bargaining positions; not public.
+INFERRED
+Asking how any new tool changes agents' work.
+WHAT REACHES COUNCIL1
+Asked (July 2025 motion): closures, duplicates, compliance.
+Sent up (Sep 2026): 98.7% resolved · 81% on time · 94% compliance.
+Not in the report: a count of bounces, though each one is published in open data.
+Mirror imaging (assuming others see what we see): the at-stake column is ours to test.
+Who gains influence: whoever loads the 900 scripts into the AI search (hypothesis, slide 6).
+HOW A BELIEF MAY HARDEN3
+HYPOTHESIS
+2023
+The Auditor's closure audit leaves full-service tickets outside its focus, "deemed to be low risk".2
+2026
+Requests are "efficiently routed to the appropriate department"; no routing measure is cited.1
+NOW
+At the hand-off each seat may assume the other checked: 311 that the area owns it, the area that 311 sent it right.
+AUTHORITY AND ACCOUNTABILITY SIT IN DIFFERENT SEATS1,2,4
+The areas sign off script content "including additions and deletions" and "assume full ownership" after routing; 311 picks the code. The cost splits about 60% to 311 and 40% to the areas (P10-P90 for 311: 47%-73%), and none of it is on a published scorecard. Where the players disagree is who owns the miss; no one settles it today, and the 2030 CRM replacement is where someone will.
+A bargained code set?
+HYPOTHESIS
+One can, four codes; 1,917 phone codes across 57 areas. How a code is added or retired is not public.
+12
+NOTES: SLIDE 12. Ruling Rick (political lens, voiced by the team) plays Vern's political game (Session 4 debrief): "Analyze the political game: who are the players, what are their goals, what actions can they take, which actions would maximize their benefits, and what are they likely to do?" "Where you stand depends on where you sit."
+The table: each row is a player, what it is measured on, the moves open to it today, what it has at stake, and what it sends up. "At stake" cells are our hypotheses, to ask, not assume (Appendix G): mirror imaging is "assuming the other side sees the world the way we do".
+Power and accountability: Program Coordinators in the business areas "sign-off on script content including additions and deletions" (OCA 2023 p. 20); each code names one area; once routed, "business areas assume full ownership for the resolution" (CSD03148 p. 2). 311 picks the code and owns the routing step. Who pays, in the stake model (Appendix A): 311 carries contact costs (re-handling, re-contacts, repeat calls); the areas carry desk time and wasted visits.
+What reaches Council: the July 2, 2025 motion asked for progress on closure complaints, duplicate tickets and compliance; the September 2026 report answered with 98.7% "Resolved on Initial Contact" ("one indicator"), 81% on time and 94% audit compliance. Neither asks for a bounce count, though every bounce is in open data.
+Sedimentation of assumptions: the Auditor left full-service tickets outside the closure audit's focus as "deemed to be low risk" (OCA 2023 p. 6), a scoping judgment, not a finding about coding; in 2026 the City described requests as "efficiently routed to the appropriate department" (p. 2) with no routing measure. That each seat now assumes the other checked is our hypothesis.
+The code set: four business areas each own a code that empties a garbage can; the 1,917 phone codes of 2025 belong to 57 service areas. Whether the code set is a "resultant of bargaining among the players" is a hypothesis; who adds or retires a code is not public. Diagnosis only.
+===== SLIDE 14 =====
+LIVE · 311 INTAKE
+Thu · the can is emptied · what else is still waiting?
++27 codes picked while you read
+09:01
+
+
+
+APPENDIX
+THE FULL PICTURE · 2026 PACE, RESIDENTS, HAZARDS
+At the 2026 pace the City cost would be $139K-$154K a year: recorded bounces more than doubled, even if errors did not
+EDMONTON 311
+1 Stake model (slide 10, Appendix A2) on 2026 volumes: each 2025 count x (Jan-Sep 2026 / Jan-Sep 2025), e.g. all phone bounces 1,128 to 2,672 a year (x2.37 on all phone bounces; slide 7's x2.53 is referral bounces only) (Appendix E, Q13). The three cases differ in how many of 2026's extra recorded bounces were already happening, unrecorded, in 2025. 2 311 Requests open data, 2025: days from creation to "311 Redirecting", 1,323 phone and web bounces. 3 Residents' time on extra contacts at 3 / 7 / 15 minutes and $11.20 / $18.68 / $37.35 an hour (Statistics Canada, Alberta wages 2025). 4 Hazard-type: roads, sidewalks, signals and lights, potholes, signs, trees, playgrounds, bridges, snow. Alberta Municipal Government Act, s. 532(6). 5 Valued at the extra agent time of one more contact ($2.15 / $4.62 / $12.18) instead of the average cost.
+CITY COST A YEAR: 2025, AND THE 2026 PACE1
+2025, full year
+the stake on slide 10
+$100K  (counted $47K)
+2026 pace: the rise was all new recording
+every extra bounce was a 2025 quiet misroute
+$139K  (counted $94K)
+2026 pace: partly new recording
+only the 8 new-recording areas' bounces were hidden
+$146K  (counted $94K)
+2026 pace: the rise is real
+no 2025 misroutes were hidden
+$154K  (counted $94K)
+Dark = counted in open data; light = modelled.
+WHY IT RISES EVEN IF NO EXTRA ERRORS WERE MADE
+A quiet misroute costs the area desk time only. Once it bounces, it also costs 311 a re-handling contact and often a second call from the resident. So more recording raises the cost; the counted layer alone goes from $47K to $94K.
+WHAT RESIDENTS CARRY (NOT IN THE CITY COST)
+16,987
+days that 1,323 tickets spent in the wrong queue in 2025: median 1.6 days, 22% over a week, 9% over a month2
+$8K
+of residents' time in 2025 on about 2,017 extra contacts, valued at Alberta wages3
+Caller 4 lost two days to a bounce and called twice. City-wide, no budget line or published measure counts such days.
+HAZARDS IN THE WRONG QUEUE4
+231
+hazard-type phone tickets bounced in 2025
+2,915
+days they spent in the wrong queue
+Alberta's Municipal Government Act (s. 532(6)) makes a city liable for road disrepair "only if the municipality knew or should have known". Whether a misrouted ticket is notice is a legal question, left open. A risk, not priced.
+WHAT WOULD CHANGE THESE NUMBERS
+Counting only the extra agent time of a contact, not its average cost: $61K for 2025.5 The City's own data on handle time, re-assignments and follow-ups would replace the largest assumptions (Appendix A, G).
+13
+NOTES: SLIDE 14. The full picture of what a wrong code costs, beyond the 2025 City figure on slide 10.
+2026 pace: each 2025 count is scaled by its own Jan-Sep 2026 / Jan-Sep 2025 ratio (phone bounces x 2.37 to 2,672 a year; web bounces 197; referrals 234,428; resolved phone calls 419,806, down 11%). Part of the 2026 rise in recorded bounces is areas that began recording (39% of the rise), so some 2026 bounces were 2025 quiet misroutes. Three cases bound this: if the whole rise was misroutes already happening (quiet in 2025, now recorded), if only the eight new-recording areas' bounces were already happening, or if the whole rise is real. In every case the cost is higher than 2025, because a recorded bounce costs more than a quiet fix (311 re-handling and re-contacts).
+Residents: 16,987 days in the wrong queue in 2025 across 1,323 phone and web bounces (median 1.61 days; 22.1% over 7 days; 9.1% over 30 days; Parks and Traffic carry 63% of the days). Residents' own time on the extra contacts (re-contacts after a bounce, repeat calls after a wrong answer, "more info" call-backs) is a separate layer valued at 35-100% of Alberta wages (Statistics Canada 2025; US DOT and Metrolinx conventions); it is never added to the City cost.
+Hazards: 231 hazard-type phone bounces spent 2,915 days in the wrong queue in 2025 (roads 57, sidewalks 27, signals and lights 26, potholes 24, signs 20, pruning 19, playgrounds 17, snow 13, bridges 9, traffic safety 8, trees 6, trails 5). Alberta's Municipal Government Act, s. 532, ties a municipality's liability for road hazards to whether it knew or should have known of the hazard. Whether a misrouted ticket counts as notice is a legal question; we do not price it.
+Sensitivity: valued at the marginal agent time of one more contact (R3: 4 / 5.2 / 9 minutes at CSU 52 rates), the 2025 stake is lower; the average cost per contact is used in the headline because a misroute uses 311 capacity that could serve another resident.
+===== SLIDE 15 =====
+CALL ENDED
+Call ended · the shift debrief: what we found
++30 codes picked while you read
+09:15
+
+
+
+APPENDIX
+SHIFT DEBRIEF · THREE SEATS, ONE PROBLEM
+One choice, made about 2,150 times a day on the phone: no published measure, no word back and no owner of the miss that we found
+EDMONTON 311
+1 Stake model, phone and web tickets (web form, online map, email), 2025, mean of 50,000 draws (slides 10 and 14, Appendix A). 2 311 Requests open data, 2023 to Oct 2026 (Appendix E). 3 OCA (Nov 2023) p. 3; CSD03148 (Sep 2, 2026). Questions, seats and status of our requests: Appendix G. A course diagnosis from public data, not reviewed by the City of Edmonton.
+[IMAGE]
+LOGICAL LAUREN
+What it costs
+About $100K a year in 2025 (only $47K counted), and $139K-$154K at the 2026 pace. In 2025, phone and web tickets spent 16,987 days in the wrong queue.1
+[IMAGE]
+NEURO NAV
+Why it repeats
+We found no word back, so the agent has no clear way to learn which codes fail. The same can code fails in 2026 on phone and app tickets alike.2
+[IMAGE]
+RULING RICK
+Why it is uncounted
+The pick and the result sit in different seats, and no published scorecard counts the miss. Council's 2025 motion did not ask about routing.
+WHAT THIS DIAGNOSIS SHOWS
+665,225 phone picks a year from 1,917 codes; no code suggestion for agents found.2
+1,128 phone bounces in 2025; a median 1.6 days in the wrong queue.2
+The 2026 jump in bounces is not clear evidence of worse coding: 39% is areas that began recording, 52% a return to 2023 rates.2
+311 reviews statistics with areas periodically; we found no process that returns a bounce to the agent.3
+WHAT WE DON'T KNOW
+Whether the code calls up the script, or is typed after the answer.
+How often a resolved call got the wrong code or answer.
+How a bounced ticket is re-routed, and who acts on it.
+Who adds or retires a code; what the phone "AI backends" do.
+WHAT WE WILL ASK THE CITY
+311 team lead: walk us through a referral after the call ends.
+Area dispatcher: when a 311 ticket lands, what do you do first?
+311 agent: your last call that didn't fit an obvious code?
+Status: our three questions are with the City's Open Data team to forward to 311 (replies Oct 8 and 22); no substantive answers yet (Appendix G2).
+14
+NOTES: SLIDE 16. The shift debrief: the three characters agree on the diagnosis, each from their own seat. Logical Lauren (rational): what a wrong pick costs. Neuro Nav (psychological): why it repeats. Ruling Rick (political): why it stays hidden.
+The diagnosis in one line: the agent's code choice is frequent, consequential and unmeasured. For 311, the cost is real but invisible, and its headline (98.7% resolved at first contact) cannot see routing. For residents, a wrong code means days in the wrong queue, a "Closed" status without the fix, and often a second call.
+What we do not know is exactly what the City's own data can answer. Appendix G lists who we will ask, in wording that does not show our view first. Status: the team is contacting 311; no conversation has taken place yet, so every unknown stays an assumption or a hypothesis in this deck. No solution is proposed: in December we return with what the City should do.
+===== SLIDE 16 =====
+LIVE · 311 INTAKE
+Thu · why is the miss not counted?
++28 codes picked while you read
+09:25
+
+
+
+APPENDIX
+WHY THE CITY HAS NOT MEASURED IT YET · FOUR REASONS
+No published measure counts wrong codes: the data shows only recorded bounces, ownership is split, scorecards count speed
+EDMONTON 311
+1 Glaser, The Reassembly of Agency, s. 1.4; 311 Requests open data, 26 published fields (metadata, Oct 2026); Appendix E, Q10. 2 CSD03148 (Sep 2, 2026) p. 2; OCA 2023 p. 20. 3 Espoused vs enacted values and "Efficiency is a worthwhile value": Reassembly, s. 1.6; CSD03148 pp. 2, 4. 4 CSD03148 Att. 1-2; OCA follow-ups 2024-2025; Reassembly, s. 1.7.
+
+1 · DATA
+A misroute shows only if the area records it
+"311 Redirecting" is a closure label, and "a category suitable for assigning work is not necessarily suitable for diagnosing a service problem" (s. 1.4). No field links a bounce to its' re-route.1
+[IMAGE]
+"The data was built to assign work, not to count misses."
+
+2 · OWNERSHIP
+The pick and the result sit in different seats
+311 picks the code; once routed, "business areas assume full ownership for the resolution." The City calls the service "a collective responsibility", but we found no public document that says who acts on a bounce.2
+[IMAGE]
+"Shared by everyone, owned by no one."
+
+3 · WHAT IS COUNTED
+Access is promised; speed and follow-up are measured
+"Efficiency is a worthwhile value" (s. 1.6), and it is what gets counted: answer speed, resolved on initial contact (98.7%), on time (81%). The phone stays the "primary access point"; routing has no published measure.3
+[IMAGE]
+"We are scored on what we can count."
+
+4 · UPDATES, NOT LEARNING
+Recent changes target other problems
+A new app, telephony, script AI, five closed audit fixes. The assumption kept (our reading): a routed ticket reached the right area unless the area bounces it. "A succession of updates is therefore not enough evidence that the organization is learning."4
+[IMAGE]
+"Every fix was real. None was about the agent's pick."
+No published measure; no word back or owner we found.
+This is not concealment: each office reports what its measures cover, and the City publishes every recorded bounce in open data, which made this diagnosis possible. The City's ticket system (CRM) reaches end of life in 2030.
+EVERY SERVICE DAY
+~2,150
+phone codes are picked. About 4 are bounced by the receiving area.
+LOGICAL LAUREN
+LOGICAL LAUREN
+RULING RICK
+NEURO NAV
+15
+NOTES: SLIDE 15. The obvious challenge: if this decision is so improvable, why is the City not already working on it? Four real constraints, not "nobody noticed".
+1 Data: the only visible signal is a closure status set by the receiving area, and it depends on the area using it (eight areas that rarely recorded before logged 398 phone bounces in 2026). The open data has no field for the agent's first code and no link from a bounce to its re-route (all 26 columns checked). Reassembly s. 1.4: a category suitable for assigning work is not necessarily suitable for diagnosing a service problem.
+2 Ownership: 311 picks the code; business areas provide and sign off the scripts (FCS02139 p. 2; OCA p. 20); after routing the area "assume[s] full ownership" (CSD03148 p. 2); the City calls the service "a collective responsibility" (p. 2). We found no public document that says which role acts on a bounce.
+3 Espoused vs enacted (s. 1.6): the City espouses access ("maintains the telephone channel as the primary access point", CSD03148 p. 4) and efficient routing; what it measures is answer speed (72% within 120 s), resolved on initial contact (98.7%), timeliness (81%) and audit compliance (94%). None measures whether a ticket reached the right area.
+4 Updating vs learning (s. 1.7): the app upgrade, new telephony, script AI and five closed audit recommendations each target a real problem. None targets routing accuracy, and the one accuracy fix (the app AI) is not on the phone. The assumption kept is our reading (inference).
+The character lines are composites that restate each reason; they are not quotes.
+===== SLIDE 17 =====
+CALL ENDED · 311 INTAKE
+Thu · before the shift debrief · how did we check our own work?
+
+
+
+APPENDIX
+AI PROCESS REFLECTION
+AI's first answers were fast and fluent, like System 1. A self-check can defend them, so independent checks decided what we believed
+AI
+EDMONTON 311
+
+TOOLS AND AGENTS
+Claude Opus 5.5 High, Max or Ultracode:  To manage and coordinate dedicated agents and sub-agents, 
+Claude Fable 5 (High/Max): To critique, refine and develop visually engaging presentation slides.
+Gemini Pro: For brainstorming, exploring alternative perspectives, retrieving information from our research sources, and reducing token usage.
+Claude Haiku or Sonnet: Used for grammar, editing, and wording refinements, particularly when managing token limits.
+Course Alignment: Uploaded course materials to assess how closely our 311 analysis and presentation aligned with the course concepts and assignment requirements.
+Research and Fact-Checking: Used multiple AI models to support additional research, develop initial drafts, and independently cross-check findings against our original research and sources  
+Evaluation and Critique Review: Evaluate and score alternatives, challenge our assumptions, and critique our assessments from different perspectives.
+
+CRUX MOVES
+Realizing cost-effectiveness: Using cheaper subagents with Opus 5.5 for specific low-effort tasks and then using Ultracode effort for combining sources. Ultracode was pivotal when we used it to define the end goal for our research, design, critique, peer review agents. Requesting our main agent to dig deeper and fix problems we found with its outputs homed in on a good outcome.
+Using .md and .pptx file types instead of pdfs to reduce token usage.
+Team-in-the-loop Power: Our team was a better together as the human in the loop because AI really wanted us to do duplicates, but we manually found the recent announcement that the CoE was already: implementing deduping AI in October 2026, so we made a group decision to steer AI towards the ticket coding.
+Thoughtful & intentional prompts: Longer, more detailed prompts were better at directing the story than short prompts and re-using the same deck repeatedly.
+
+WHAT WE DID WHEN IT WAS WRONG
+Adjusting model & effort: During the initial brainstorming sessions, we found that we were not utilizing it properly and therefore the outputs were not good. Switching to Opus 5.5 Ultracode and giving the model the final goal helped build a work stream for us to move forward.
+Team organization and delegation: Combining and merging individual work was causing issues for the team. We should have broke the work into smaller portions to utilize AI more efficiently.
+Critic Agents: We each dedicated an agent to critiquing our own presentation deck.
+Dedicated Analyzer: We built a master deck analyzer that showed which was the best one based on the rubric.
+Dedicated Check Tool: We built an HTML tool to help the team determine which parts of a given deck version should be kept.
+
+HOW WE VALIDATED WHAT AI PRODUCED
+Research and critique sub agents. We used Opus 5.5 Ultracode to use the LLM Council which used independent sub agents to provide contrarian views, strict critiques, and an outsider point of view.
+Independent human research and some calculations. We did independent research to provide true facts into the analysis which changed and added to the next version of the analysis.
+We assumed a posture that AI is always lying to us and rigorously checked this assumption.
+Four cost models, four answers. Our four cost models produced different results, and AI generated inconsistent profit trees, assumptions, and totals. We corrected this by defining each assumption using minimum, most likely, and maximum values, then running a Monte Carlo simulation to estimate the average cost.
+Throughout the process, our team retained responsibility for all key decisions
+--:--
+NOTES: AI PROCESS REFLECTION (draft prepared with AI from the team's AI log at the team's request; the syllabus requires that "All analysis, structure, and final writing must be your own", so the team rewrites it).
+Frame: Glaser, The Psychological Perspective 3.2. System 1 produces fast, fluent impressions; System 2 is slow and deliberate, and "can examine an impression, and it can also defend one" (p. 5). AI's first answers behaved like System 1: fast, confident and usually plausible. Our standing instructions forced System 2 work, and we used independent agents and a blind session because a session checking its own work tends to defend it.
+Tools: Claude (Anthropic) in Claude Code. Sub-agents: research agents (open data, City documents, area wages, handling-time benchmarks, contact cost and residents' time), a scoring-evidence agent, a fresh blind session for the re-score, a strict fact-checker, a professional writer, a simulated professor grader, a simulated peer team, a design reviewer, a simulated 311 manager (public sources only), and a slide-design agent the team used (team to confirm: Patrick Winston's MIT presentation principles?). Earlier drafts: Google Gemini, Claude Pro and Claude Cowork (team to confirm who used what).
+Standing instructions (the user's words): "do not be lazy", "check all you[r] facts" and "double check everything", "do not assume the first thing you see is the truth", "you cannot lie and you have to be a true researcher and check all sources". Public data only; no confidential City data or personal information entered into AI tools; no test 311 requests.
+System 1 answers that were wrong: a 24/7 phone line ("one code every 47 seconds"; the line is open 7 a.m. to 7 p.m., about one code every 20 seconds); HDI's 30-minute example includes a desk-side visit; Winnipeg's 1.62% is a total agent-error return rate; SQM's 29% is 100% minus first-call resolution; the 2026 rise read as "mostly more recording" (it is 39% new recording and 52% a return to 2023 rates); a reporter's paraphrase treated as a quote; a re-score after we had chosen leaned our way (85 vs 80), so we ran it blind (duplicates 75 vs phone 73 in an earlier draft). Build errors too: a variable that shared a name with a build setting silently flattened a chart's data until a check caught it.
+Crux moves: the 99.4% one-choice test; the area-by-area split of the 2026 rise; the team's fuzzy-number Monte Carlo; a decision tree that reconciles to the stake; the blind check reported even though it went against us.
+===== SLIDE 18 =====
+ON HOLD
+Appendix A · Assumptions and ranges
+--:--
+
+
+
+APPENDIX
+APPENDIX A · ASSUMPTIONS AND RANGES
+The 14 assumptions behind the stake, ranked by how far each alone moves the total, with range, source and the data to confirm it
+A
+APPX
+EDMONTON 311
+Each input is a triangular "fuzzy number" (min, most likely, max); all are drawn at once, 50,000 times (seed 20261018); counted volumes are fixed from 2025 open data. "If only this moves" = the City total when that input runs from min to max and every other input stays at its most likely value (all at most likely: $69.4K). Anchors were checked against the original source by independent research agents (Research folder: S2, R1-R4). Calculation log: Appendix A2. City cost only; residents' time is a separate layer.
+ASSUMPTION | MIN | MOST LIKELY | MAX | IF ONLY THIS MOVES | ANCHOR (SOURCE OR TEAM JUDGMENT) | DATA THAT WOULD CONFIRM IT
+Wrong answers caused by the code | 0% | 20% | 60% | $54K-$100K | Team judgment. Resolved phone tickets close a median 1 second after creation, so the code may be typed after the answer (0% at the low end). | Whether the code calls up the script
+Department desk time per misroute | 5 min | 10 min | 20 min | $59K-$90K | MetricNet 2023 service-desk benchmark: 3.8 / 13.8 / 24.9 minutes to fully handle one web ticket; triaging a wrong ticket is less work (R2). No city publishes staff minutes per misroute. Max cut from 30 to 20 min: the 30-minute benchmark includes a desk-side visit, priced in the visit line. | Area staff time on ten bounced tickets
+Wrong answers on resolved phone calls | 2% | 5% | 11% | $60K-$87K | IRS-reported phone accuracy 95.4-96.1%, which TIGTA found overstated (TIGTA 2019); HMRC accuracy of advice 89% (NAO 2010). Max raised from 10% to 11% (HMRC). | Call-quality review results
+Wrong answers that cause a call back | 10% | 20% | 35% | $62K-$81K | Team judgment. City survey: 17% of 2024 respondents had to follow up (all requests). Capped at half of 11,980 follow-ups. | Repeat calls linked to the first ticket
+Misroutes that waste a field visit | 0% | 3% | 10% | $64K-$82K | Team judgment: half of bounces close within 1.6 days, before a crew is likely sent. | Dispatch records for bounced tickets
+Cost of one wasted field visit | $22 | $84 | $280 | $65K-$82K | Team bylaw-visit model (Toronto time studies, CSU 52 wages). Edmonton charges $280 for an extra inspection (2025 fee schedule, p. 15); a 3-person crew for 2 hours is about $299 at CUPE 30 rates (R2). Max raised from $200 to $280. | Crew cost per dispatch
+311 cost of one extra contact, average | $15.52 | $15.89 | $21.50 | $68K-$85K | Edmonton 2025 approved 311 budget $14,304,037 / 921,541 inquiries ($15.52) / 900,434 tickets ($15.89) / 665,225 phone tickets ($21.50): an average cost, which values the 311 capacity a contact uses (R3). Marginal agent time only would be $2.15 / $4.62 / $12.18 (sensitivity, A2). Changed from $3.33 / $11 / $16.28 (mixed bases; Toronto news figure). | 311 cost per contact by channel; calls offered and handle time
+Quiet misroutes, share of referrals | 0.25% | 0.47% | 1.07% | $66K-$79K | Edmonton: areas with fewer than 5 bounces a year in 2023-24 logged 0.47% of their 2026 phone referrals as bounces. Max: Winnipeg 1.62% agent-error returns, less our recorded 0.55%. Applied only to the 163,839 referrals (74.5%) in areas that record bounces on under 1% of referrals. Was 0.25 / 0.6 / 1.6% on all referrals: the 1.62% counts all agent errors, and areas that record bounces are already counted. | Area re-assignment records, if kept
+Loaded hourly wage of the receiving area's staff | $36.93 | $41.99 | $52.09 | $67K-$74K | Who handles a misroute: Parks and Roads dispatch clerks (City job 55235: "Receive and assess 311 service requests"), Clerk II intake staff (job 55633), and inspectors or supervisors in the field (Auditor 2021). 2025 CSU 52 and CUPE 30 rates, weighted by where bounces land, x 1.15 / 1.25 / 1.35 benefits (R1). Was $38.04 / $41.35 / $44.66 (Clerk II only, 2026 rates). | Who triages 311 tickets in each area, and for how long
+Residents who contact 311 again after a bounce | 10% | 25% | 40% | $66K-$73K | Edmonton: 17% of all 2024 survey respondents had to follow up; a bounced ticket waits longer, so the most likely value is higher. SQM's 30% is 100% minus first-call resolution, not a re-contact rate. No source supports 50%; an open-data test of follow-on tickets was too noisy to use (R2, R4). Max cut from 50% to 40%. | Follow-up tickets after a bounce
+Web-form misroute rate vs map + email | 0x | 0.5x | 1x | $66K-$72K | 15,134 web-form tickets record no closure status, so misroutes are imputed at the map + email rates (1.32% bounce, 0.49% wrong jurisdiction). Was 0.25 / 1 / 1.5x: the web form sets 1 of 2 fixed Taxation codes, so its rate is likely lower. | Web-form closure outcomes
+Wrong-jurisdiction tickets avoidable at intake | 25% | 50% | 75% | $67K-$72K | Team judgment: an out-of-City address is often clear on the call; "outside City service scope" is a proper closure (CSD03148 Att. 1). | A sample of 20 wrong-jurisdiction tickets
+"More info" closures caused by the code | 0% | 20% | 50% | $69K-$70K | Team judgment: the closure asks for missing details, mostly not a code fault (101 tickets). | A sample of "more info" closures
+311 re-handling contacts per bounce | 1 | 1 | 1 | fixed | Team judgment: 311 re-routes each bounce once, at the cost of one contact (about a quarter of the stake). How 311 re-routes is not public; a Dallas audit found requests transferred up to 4 times. | The re-route procedure and its time
+NOTES: APPENDIX A. Every assumption behind the stake, after the team's assumptions slide, with each anchor re-checked against its original source by independent research agents (Research folder: S2 model anchors, Oct 18; R1 area wages, R2 handling benchmarks, R3 contact cost and residents' time, R4 open-data checks, Oct 20).
+Rows are ordered by how far each input alone moves the City total (min to max, all others at most likely). Bold text in the anchor column marks inputs that changed from the team's first model, and why.
+Inputs with no public anchor are labelled team judgment; the last column names the City data that would replace each one. Appendix G lists the questions we will ask to get that data.
+===== SLIDE 19 =====
+ON HOLD
+Appendix A2 · Calculation log
+--:--
+
+
+
+APPENDIX
+APPENDIX A2 · CALCULATION LOG
+How each number on the stake is built: a counted volume, times stated unit costs, drawn 50,000 times and added up the tree
+A2
+APPX
+EDMONTON 311
+All counts: 311 Requests open data (q7ua-agfg), 2025, refreshed Oct 18, 2026 (Appendix E). Every range and its source: Appendix A. E = Edmonton open data; A = stated assumption. Means and P10-P90 are from 50,000 draws (seed 20261018); re-running the build script reproduces every figure. Lines do not add at P10 or P90, only at the mean. Every bounce counts as code-caused (each code names one area); owners found only on site cannot be separated in public data.
+LINE | COUNTED VOLUME (2025) | x UNIT COST, PER DRAW (min/most likely/max) | MEAN | P10-P90 | TYPE
+1 Bounces between areas | 1,323 = 1,128 phone + 161 map + 34 email | desk + 311 contact + re-contacts (10/25/40%) x contact; desk = 5/10/20 min x $36.93/$41.99/$52.09 an hour | $40.4K | $35.2K-$45.9K | E x A
+2 Wrong jurisdiction, avoidable | 1,324 = 1,251 + 52 + 21 | avoidable share (25/50/75%) x desk | $5.6K | $3.3K-$8.3K | E x A
+3 "More info" closures | 101 = 60 + 0 + 41 | code share (0/20/50%) x (desk + contact) | $0.6K | $0.3K-$1.0K | E x A
+4 Quiet misroutes | 219,793 referrals = 191,519 + 28,274 | quiet rate (0.25/0.47/1.07%) x desk, applied to 163,839 of the 219,793 (74.5%; App. A); mean 976 tickets | $8.3K | $4.4K-$12.9K | E x A
+5 Web-form misroutes | 15,134 web-form tickets (no status) | map + email rates (1.32% bounce, 0.49% wrong jurisdiction) x (0/0.5/1x), priced as lines 1-2 | $3.2K | $1.4K-$5.0K | A
+6 Wasted field visits | misroutes in lines 1, 4, 5 | visit share (0/3/10%) x visit cost ($22/$84/$280) | $13.4K | $3.8K-$26.3K | A
+7 Repeat calls | 473,564 resolved phone tickets | wrong (2/5/11%) x code (0/20/60%) x call back (10/20/35%), capped at 5,990, x contact ($15.52/$15.89/$21.50) | $29.0K | $9.3K-$54.3K | A
+Total, City cost a year | 695,136 phone + web tickets | counted (lines 1-3) $46.6K + unrecorded (4-5) $11.5K + knock-on (6-7) $42.4K | $100.5K | $74.1K-$131.0K | 
+FROM FIRST INPUTS TO THIS DECK
+The model's first inputs, same scope
+$92K ($62K-$125K)
++ three misread anchors corrected
+$78K ($55K-$103K)
++ Edmonton sources and two double counts removed
+$100K ($74K-$131K)
+Misread: desk-time max (a visit was included), quiet rate (all agent errors), wrong-answer max. Edmonton sources: contact at the City's 2025 average cost, area staff wages, a $280 re-inspection fee, re-contact max 40%. Double counts removed: quiet misroutes only where areas record few bounces; web form at half the map + email rate.
+A LOW-COST YEAR VS A HIGH-COST YEAR
+A P10 year ($74.1K) and a P90 year ($131.1K) differ by $57.0K:
+Repeat calls
+$36.3K 64%
+Wasted visits
+$10.8K 19%
+Bounces
+$4.3K 8%
+Quiet misroutes
+$3.1K 5%
+Wrong jurisdiction
+$1.6K 3%
+Web form
+$0.7K 1%
+"More info"
+$0.1K 0%
+METHOD AND CHECKS
+Each input is a triangular "fuzzy number" (min, most likely, max). A draw takes u from U(0,1) and inverts the triangular distribution; all 13 inputs are drawn together, 50,000 times (seed 20261018).
+The tree shows each line's mean, so the boxes add; P10 and P90 are the 10th and 90th percentiles of each line and of the total.
+The repeat-call cap (half of 11,980 follow-ups and escalations, CSD03148) binds in 0.3% of draws.
+Who pays: 311 the contact costs (60%); the receiving areas desk time and visits.
+NOTES: APPENDIX A2. Calculation log. Every number on the stake slide (10) and the decision-tree slide (11) is computed by the build scripts from the open-data counts and the ranges in Appendix A; nothing is typed in by hand.
+Line formulas, per draw: desk time = desk minutes / 60 x loaded wage. A bounce = desk time + one 311 contact (re-handling) + re-contact share x contact cost. Counted = bounces x bounce cost + wrong jurisdiction x avoidable share x desk + "more info" x code share x (desk + contact). Quiet = referrals x quiet rate x desk. Web form = 15,134 x (1.32% x multiplier) priced as bounces + 15,134 x (0.49% x multiplier) x avoidable share x desk. Visits = (bounces + quiet + web-form bounces) x visit share x visit cost. Repeat calls = min(resolved x wrong x code share x call-back share, 5,990) x contact cost.
+From the model's first inputs to this deck: same model and scope. Step 1 corrects three anchors that were misread (desk-time maximum, quiet-misroute rate, wrong-answer maximum). Step 2 replaces four inputs with Edmonton's own sources (contact cost at the City's 2025 average, the wages of the staff who handle misroutes, the City's $280 extra-inspection fee, and a re-contact maximum of 40%) (Appendix A). Where the range comes from: draws whose total sits at the 9th-11th percentile (a P10 year) and at the 89th-91st (a P90 year) are averaged line by line, after the team's converged tree; the difference shows which lines make a year expensive.
+===== SLIDE 20 =====
+ON HOLD
+Appendix A3 · What goes into the stake
+--:--
+
+
+
+APPENDIX
+APPENDIX A3 · WHAT GOES INTO THE STAKE
+We chose the phone + web stake ($100K) because 311 itself makes that coding decision
+A3
+APPX
+EDMONTON 311
+Proposal: Team 2, Sep 2026: (79,000 duplicates + 52,000 follow-ups, 2018-2022) x $16.29 / 5 years. Other branches: the same Monte Carlo model and inputs (Appendix A) on 2025 open-data volumes for each scope: all channels = phone + app + web (4,995 bounces; 388,876 referrals); phone only = 1,128 bounces, 191,519 referrals, no web form. First model inputs: Appendix A2. Means of 50,000 draws, seed 20261018.
+What goes into the stake?
+cost of one wrong code x how often it happens
+1  WHICH TICKETS?
+All causes, average year 2018-22
+our September proposal
+$427K
+Counts every duplicate and follow-up, most of which no code caused.
+✕
+All channels, 2025
+phone + app + web
+$284K
+Adds app tickets, where the resident picks the service (AI suggests since Jul 2026).
+✕
+Phone + web, 2025
+OUR CHOICE
+$100K
+311's own intake: an agent picks on the phone; the form, map or 311 staff on the web.
+✓
+Phone only, 2025
+agent-coded calls
+$87K
+Drops the 29,911 web tickets that 311 also takes in.
+✕
+2  WHICH UNIT COSTS?
+First model inputs
+$92K
+Three anchors were misread, and contact cost, wages and visits rested on other cities' figures.
+✕
+Inputs checked against their sources
+$100K
+Same model and scope; misread anchors corrected, Edmonton sources used, two double counts removed (Appendix A, A2).
+✓
+3  WHICH LAYERS?
+Counted only
+$47K
+bounces, wrong jurisdiction, "more info" in open data
++ unrecorded
+$58K
+quiet misroutes; web-form misroutes, imputed
++ knock-on = the stake
+$100K
+wasted field visits; repeat calls after a wrong answer
+WHY WE CHOSE THIS BRANCH
+The larger branches value other decisions: duplicates that other residents create, or the resident's own pick in the app. Phone and web codes are a decision 311 itself makes, so we keep the smaller number. It scores 1 of 5 on value in our matrix (slide 5), and we say so.
+NOTES: APPENDIX A3. What goes into the stake, drawn as a decision tree after the team's "stake inclusion tree". Each branch is a choice we could have made; the orange path is the one this deck uses.
+1 Which tickets. Our September proposal counted every duplicate and follow-up of 2018-2022 at $16.29 a contact, about $427K a year; most of that is other residents reporting the same problem, which no code caused. All channels (phone + app + web, 2025) gives the larger model value because it adds the app, where the resident picks the service from 77 options and an AI suggestion has helped since July 14, 2026: not a 311 agent's decision. Phone only drops the 29,911 web tickets that the team grouped with the phone in the team's model (team decision, Oct 19). Phone + web is 311's own intake.
+2 Which unit costs. The model's first inputs on phone + web give about $92K. Correcting three misread anchors lowers it; replacing four inputs with Edmonton's own sources (the City's 2025 average cost per contact, the wages of the staff who handle misroutes, the City's extra-inspection fee, a 40% re-contact maximum) raises it to the stake on slide 10. Appendix A2 shows both steps.
+3 Which layers. Counted misroutes only, then the modelled unrecorded misroutes, then the knock-on costs. Each layer is labelled on slide 10.
+Why this branch: the brief asks for one core analytic decision. The larger branches would value other decisions. We accept the lower value: it scores 1 of 5 on value in the matrix (slide 5), and the case for the decision rests on frequency, grain and the absence of feedback, not on size.
+===== SLIDE 21 =====
+ON HOLD
+Appendix B · The cast
+--:--
+
+
+
+APPENDIX
+APPENDIX B · THE CAST
+Three composite 311 agents ask different questions of the same decision, and one team member voices each
+B
+APPX
+EDMONTON 311
+Characters are composites, not City staff; their lines are not testimony. Each line restates a finding sourced on its slide, or is marked inferred or hypothesis (Appendix G). Real people are quoted only from public records. References: Glaser (2026), Analytic Trees; The Psychological Perspective; The Reassembly of Agency; Session 4 debrief and final answers; Kahneman and Klein (2009), American Psychologist 64(6), 515-526.
+[IMAGE]
+Logical Lauren
+311 agent · keeps the tally
+"What does it cost, and who pays?"
+Prices every pick as a bet.
+Cost of a bad instance x frequency; expected value and the threshold; loss beside the average; look inside the average; the profit tree and Monte Carlo.
+Slides 10, 11, 17; Appendix A
+Glaser, Analytic Trees (decision tree, profit tree, sensitivity)
+VOICED BY
+Lauren Lonsberry
+[IMAGE]
+Neuro Nav
+311 agent · nine years on the phones
+"Why does it still feel right?"
+Why a wrong pick still feels right.
+Questions to bring to an encounter; System 1 and 2; feedback and practice; confirmation; overconfidence ("greater certainty than the evidence supports"); reference point.
+Slides 7, 12, 17; Appendix B2
+Glaser, The Psychological Perspective 3.2-3.8; Kahneman and Klein (2009)
+VOICED BY
+Nav Sekhon
+[IMAGE]
+Ruling Rick
+311 agent · CSU 52 steward
+"Who decides, and why is it not counted?"
+Who decides, who pays, who gets blamed.
+Players and moves; where you sit; authority vs accountability; espoused vs enacted; sedimentation of assumptions; what reaches Council.
+Slides 6, 13, 15, 17; Appendix G
+Session 4 (the political game); Reassembly s. 1.1, 1.6, 1.8
+VOICED BY
+Rick Auger
+The names signal the lens: Logical for rational choice, Neuro for psychological, Ruling for political. Lines are drafted from the team's analysis, and each lens owner reviews their character's lines; the slides never name the lens, the conversation carries it. Rick's tag: CSU 52 is the civic union whose wage schedule covers 311 clerical and service roles.
+NOTES: APPENDIX B. The cast, after Curtis Middleton's Appendix B. Lens owners (one name per lens): rational, Lauren Lonsberry (Logical Lauren); psychological, Nav Sekhon (Neuro Nav); political, Rick Auger (Ruling Rick). The characters are 311 agents so that each lens is argued from inside the decision as it is made today.
+===== SLIDE 22 =====
+ON HOLD
+Appendix B2 · Reference points and biases
+--:--
+
+
+
+APPENDIX
+APPENDIX B2 · REFERENCE POINTS AND BIASES
+Each group that would have to accept a better coding decision starts from its own reference point; each bias is a hypothesis to test
+B2
+APPX
+EDMONTON 311
+Quotes are our composite summaries of each seat's reference point, not real statements; each is a hypothesis for primary research (Appendix G). Concepts: Glaser, The Psychological Perspective: impressions and System 2, 3.2; feedback, 3.3; confirmation ("seeking or interpreting information in ways that favour an existing belief"), 3.4; overconfidence ("greater certainty than the evidence supports"), 3.5; reference point and loss aversion, 3.6. Sources: CSD03148 pp. 2-4 and Att. 2; OCA 2023 pp. 16, 20; 311 open data.
+311 LEADERS
+CONFIRMATION
+"The app AI already reduces incorrect assignments."
+Reference point: 98.7% resolved at first contact, "one indicator". The app AI is real, but it serves residents; the phone pick has no published measure. A rising bounce count can confirm either story (slide 7).
+Test · H5: Ask what "resolved" tells them, and what it does not (App. G).
+EXPERIENCED AGENTS
+OVERCONFIDENCE, UNTESTED
+"I know my codes after nine years on the phones."
+They may be right: common codes bounce 0.27%. But on 1,366 codes used under 100 times a year, no bounce we found reaches the agent, so certainty can grow faster than understanding.
+Test · H3: Ask how an agent would know a ticket went to the right place.
+BUSINESS AREAS
+STATUS QUO
+"Our scripts tell 311 what we need."
+Areas sign off the scripts; in 2023, 11 of 42 scripts gave a response time that did not match 311's dashboard. A bounce is filed as routing, not as a wrong code, so no published report shows the pattern by code.
+Test · H6a-b: Ask what happens when a 311 ticket is not theirs.
+AGENTS AND CSU 52
+LOSS AVERSION (HYPOTHESIS)
+"The script AI now coming to our screens is step one of replacing us."
+The City's script-search AI is framed around shorter calls; agents may judge any code tool against this fear, whatever its intent. A reference point is not, by itself, loss aversion.
+Test · H7: Ask what tells an agent a call went well.
+NOTES: APPENDIX B2. Reference points and biases, after the team's slide 12, taken deeper with Neuro Nav's lens. The brief asks which cognitive biases (overconfidence, confirmation bias, loss aversion) might prevent the people who accept or reject a better coding decision from seeing its value. Each seat's line is our composite of its reference point, not a real statement.
+311 leaders: the City's headline is 98.7% "Resolved on Initial Contact", which it calls "one indicator" (CSD03148). Confirmation (3.4) would show as reading the new app AI as the fix for misroutes in general; it targets the resident's pick. Experienced agents: overconfidence (3.5) needs "greater certainty than the evidence supports"; with no word back on rare codes, certainty cannot be checked against outcomes (3.3 "Repeated experience alone is not enough"). Business areas: status quo; they sign off script content "including additions and deletions" (OCA p. 20); 11 of 42 scripts mismatched on response time (p. 16). Agents and CSU 52: a reference point (3.6) is "the position against which an outcome is experienced as a gain or a loss"; it "does not, by itself, demonstrate loss aversion". Every line is a hypothesis with a test question in Appendix G.
+===== SLIDE 23 =====
+ON HOLD
+Appendix C · The call, in full
+--:--
+
+
+
+APPENDIX
+APPENDIX C · THE CALL, IN FULL
+Caller 4's call and ticket, from the first ring to Day 3: who loses what when the code is wrong
+C
+APPX
+EDMONTON 311
+Dialogue invented; codes, closure label and day-level timings real: 311 Requests open data, 2025 phone (Appendix E, Q2, Q3, Q8). 1 99.4% of phone tickets carry the type their code dictates; each code names one area (Q4). 2 OCA 2023 p. 24: 311 "does not have access ... or may have limited access" to some area systems. 3 311.edmonton.ca ticket pages (Oct 2026). 4 OCA 2023 p. 3. 5 Stake model (Appendix A). 6 CSD03148 presentation slide 3.
+
+Call log · Caller 4 · Monday
+ILLUSTRATIVE
+0:00
+CALLER
+"The garbage can by the park on our corner is overflowing again."
+0:08
+AGENT
+"Thanks for calling 311. Where is the can?" (The address goes in; the owner is not asked.)
+0:25
+AGENT SEARCHES
+Types "garbage can": four codes, three descriptions, four owners. The words do not say whose can it is.
+0:42
+AGENT PICKS
+311 - Empty Existing Garbage Can. The code carries "Referral" and one receiving area: Facility Maintenance.1
+1:30
+ROUTED
+The ticket moves into the area's system, where 311 may have limited access.2
+Day 1.6
+FIRST TO NOTICE
+Facility Maintenance sees a park can and closes it (all phone bounces: median 1.6 days): "311 Redirecting to Other Business Area."
+Day 2+
+THE RESIDENT
+Sees "Closed" and the note; we found no forwarding ticket number.3 Its route to Parks: not public.
+Day 3
+CALLER, AGAIN
+"It is still overflowing. I called on Monday." A second contact for the same can.
+Later
+THE AGENT
+Hears nothing we could find. 311 reviews statistics "on a periodic basis";4 no process we found returns the bounce.
+WHO LOSES: THE RESIDENT
+Days in the wrong queue: median 1.6, and 22.3% wait more than 7 calendar days. A "Closed" status before the can is emptied. Often a second call.5
+WHO LOSES: 311
+Re-handling and repeat calls: about 60% of the cost.5 A headline (98.7% resolved) that cannot see routing.6
+WHO LOSES: THE RECEIVING AREAS
+Desk time on tickets that are not theirs, quiet fixes and wasted visits: about 40% of the cost.5
+NOTES: APPENDIX C. The call and the ticket in full, as a real conversation would run. The dialogue is invented; the four can codes, the picked code's receiving area, the closure label and the day-level timings are real (2025 phone tickets). The picked code had 116 phone tickets in 2025: 50 closed "311 Redirecting to Other Business Area", 11 "Non-City Service or Location", 55 stayed. Median days from creation to bounce: 1.64; 22.3% took more than 7 calendar days; the second call is illustrative (repeat contacts are a labelled assumption in the stake).
+Who acts at each step is named from the status label and the City's process descriptions; the City publishes no redirect procedure (inference).
+===== SLIDE 24 =====
+ON HOLD
+Appendix D · Scoring matrix
+--:--
+
+
+
+APPENDIX
+APPENDIX D · SCORING MATRIX
+Phone coding ranks third of 11 on the team's scores, and first of the five decisions 311 makes
+D
+APPX
+EDMONTON 311
+Scores, weights and anchors: the team's alternatives scoring (team judgment; anchors unchanged); score = sum of (score x weight) / 5, recomputed: every row matches. Criterion S was named "three-lens richness" in the original scoring. Gate: a disclosed team test, "Does 311 make this decision?". Duplicate linking: CSD03148 p. 1 (July 2, 2025 motion) and p. 2; 311 open data 2025 (Q11). Blind check: a fresh AI session, Oct 20, 2026, given only the brief and a neutral fact pack with twelve candidates under random letters.
+CANDIDATE DECISION
+G
+15
+F
+10
+V
+15
+P
+5
+D
+10
+Fe
+10
+H
+20
+S
+10
+R
+5
+SCORE
+CITY STATUS
+WHO DECIDES? (GATE)
+B1
+Bylaw complaint triage
+4
+4
+1
+4
+5
+5
+3
+5
+3
+72
+Partial: CAD
+Community Standards ✕
+B3
+Pothole crew work-order plan
+3
+5
+3
+4
+3
+4
+3
+5
+3
+71
+Partial: Repair
+Parks and Roads crews ✕
+A1
+Phone code choice  ·  OUR PICK
+5
+5
+1
+1
+3
+4
+3
+4
+4
+67
+Partial: app AI
+311 ✓
+B5
+Forestry hazard triage
+3
+3
+3
+4
+2
+2
+4
+4
+5
+65
+Identified
+Forestry ✕
+C2
+Incomplete app reports
+5
+3
+1
+1
+3
+4
+4
+3
+4
+65
+Not addressed
+311 ✓
+C5
+Complaint intake screening
+4
+5
+1
+3
+4
+3
+3
+3
+3
+63
+Partial: scripts
+311 ✓
+B4
+Parking complaint dispatch
+3
+4
+2
+4
+5
+3
+2
+4
+3
+62
+Announced
+Community Standards ✕
+B2
+Snow-ticket disposition
+2
+4
+1
+3
+4
+3
+3
+5
+4
+60
+Exploring
+Parks and Roads ✕
+C1
+At-risk open tickets
+1
+5
+1
+3
+4
+4
+3
+4
+3
+58
+Partial: dashboards
+Business areas ✕
+C6
+Premature-closure flags
+4
+5
+1
+1
+3
+3
+2
+3
+4
+56
+Manual review
+311 and areas ✓
+C4
+Surge-mode activation
+3
+1
+1
+2
+2
+3
+3
+4
+4
+50
+Exploring
+311 ✓
+G grain: one role, one choice · F frequency · V value · P payback · D data · Fe feasibility · H not already done · S depth of the human story · R risk (5 = low). Anchors: value 5 = $0.8M+, 1 = under $0.25M; frequency 5 = 100K+ a year; not already done 5 = named problem, no City solution, 2 = announced.
+Not scored: duplicate linking
+A 311 decision, but already on the City's agenda: Council asked for progress on "addressing duplicate tickets" (Jul 2, 2025), and the City links 1 in 3 automatically at intake (11,510 of 34,239, 2025).
+Robustness (team scoring)
+Not re-run by us. For the whole City, bylaw triage and potholes trade first place across weightings. In 2,000 re-scorings moving every judgment by 1: potholes first 38%, bylaw 35%, phone coding 11%.
+Blind check, and our call
+A fresh AI session, not told our choice, re-scored all twelve candidates: phone coding 61, 7th; the four leaders are decided outside 311, and two 311 decisions scored 63. Our pick rests on frequency and a single decider: a judgment, not a score.
+NOTES: APPENDIX D. All 11 candidates from the team's alternatives work, scores unchanged and recomputed, with the 311 gate disclosed. The value score for phone coding (1 = under $0.25M a year) holds with this deck's stake (about $100K a year for 2025; $139K-$154K at the 2026 pace).
+Duplicate linking was not scored because the City is visibly working on it (Council motion; automatic linking of about a third of duplicates at intake in 2025), which the brief warns against presenting as novel. The blind check (Oct 20, 2026; Appendix D3) is reported because it went against us: a fresh AI session ranked phone coding 7th of twelve (61); the leaders are decided outside 311, and among 311's own decisions intake screening and incomplete app reports scored 63. We call our pick a judgment.
+===== SLIDE 25 =====
+ON HOLD
+Appendix E · Open-data queries
+--:--
+
+
+
+APPENDIX
+APPENDIX E · OPEN-DATA QUERIES
+Every open-data count comes from a public query anyone can re-run
+E
+APPX
+EDMONTON 311
+Dataset: City of Edmonton Open Data, 311 Requests (q7ua-agfg): https://data.edmonton.ca/resource/q7ua-agfg.json?$query=... Queried Oct 15-20, 2026 (refreshed by the City Oct 18 and Oct 20; 2025 counts unchanged); live data drifts slightly. Phone = interaction_channel 'Phone Call'. Bounce = status_detail '311 Redirecting to Other Business Area'. Wrong jurisdiction = status_detail 'Redirected to External Organization', 'Redirected to Other Government Agency' or 'Non-City Service or Location'. Scripts and raw results are available on request. Budget: Approved Operating Budget (da9s-v9j8), 2026, "COR/CBI - 311 and Customer Access".
+WHAT IT COUNTS (SLIDES) | QUERY (SoQL)
+Q1  Tickets by channel and type, 2025 (1, 4, 6, 13) | SELECT interaction_channel, referral_type, count(*) WHERE year = 2025 GROUP BY interaction_channel, referral_type
+Q2  Status map by channel: bounces, wrong jurisdiction, "more info" (3, 13) | SELECT interaction_channel, status_detail, referral_type, count(*) WHERE year = 2025 GROUP BY interaction_channel, status_detail, referral_type
+Q3  Days in the wrong queue: bounced phone and web rows with dates (2, 3, 10, 14) | SELECT date_created, date_closed, interaction_channel, service_area, service_category WHERE year = 2025 AND interaction_channel IN ('Phone Call', 'ESRI MAP', 'Email', 'Web Form') AND status_detail = '311 Redirecting to Other Business Area'
+Q4  Codes and types: 1,917 codes, 99.4% single-type (1, 4, 8, 9, 11) | SELECT service_area, service_category, service_description, referral_type, count(*) WHERE year = 2025 AND interaction_channel = 'Phone Call' GROUP BY service_area, service_category, service_description, referral_type
+Q5  Bounces by code; rare-code rates (8, 11) | Q4 with the bounce filter, joined to Q4 on area + category + description
+Q8  The garbage-can codes and their outcomes, 2025 (1, 3, App. C) | SELECT service_area, service_description, status_detail, count(*) WHERE year = 2025 AND interaction_channel = 'Phone Call' AND service_description IN ('GARBAGE:Can Needs Emptying', 'Overflowing Garbage Can', '311 - Empty Existing Garbage Can') GROUP BY service_area, service_description, status_detail
+Q9  Monthly bounces per referral, phone vs app, 2023-2026 (7) | SELECT year, month_number, interaction_channel, count(*) WHERE referral_type = 'Referral' AND interaction_channel IN ('Phone Call', 'Mobile App') GROUP BY year, month_number, interaction_channel (repeated with the bounce filter)
+Q10  Phone bounces by receiving area, Jan-Sep 2023-2026 (7, 15) | SELECT year, service_area, count(*) WHERE month_number <= 9 AND referral_type = 'Referral' AND interaction_channel = 'Phone Call' GROUP BY year, service_area (repeated with the bounce filter)
+Q11  Duplicates linked within 5 minutes, 2025 (5, App. D) | SELECT interaction_channel, status_detail, date_created, date_closed WHERE year = 2025 AND upper(status_detail) LIKE '%DUPLICATE%' (34,239 rows; minutes = date_closed - date_created)
+Q12  The can code by channel, 2025 and 2026 (7, 9, 11) | SELECT year, interaction_channel, status_detail, count(*) WHERE year IN (2025, 2026) AND service_description = '311 - Empty Existing Garbage Can' GROUP BY year, interaction_channel, status_detail
+Q13  2026 pace: each count, Jan-Sep 2025 vs Jan-Sep 2026 (14) | Q1 and Q2 with month_number <= 9 for 2025 and 2026; pace = full-year 2025 count x (Jan-Sep 2026 / Jan-Sep 2025), line by line
+Q14  Hazard-type bounces and their days (14) | Q3 for service_category in roads, sidewalks, signals and lights, potholes, signs, pruning, playgrounds, snow and ice, bridges, traffic safety, trees, trails: 231 tickets, 2,915 days
+R4  Checks that changed nothing (App. A) | EPCOR closures (92 phone: hand-offs after assessment, left out); "Location Not Found" and contact closures (not code errors); follow-on tickets after 937 bounces vs 42,220 matched controls: no measurable excess
+S1  Scope: who picks the code on each channel (4, 6, 13, App. A2) | SELECT interaction_channel, service_area, service_description, count(*) WHERE year = 2025 GROUP BY interaction_channel, service_area, service_description. Web form: 2 Taxation codes; online map: "Auto Reported" codes; email: 553 codes
+NOTES: Appendix E. Field notes: year and month_number are numbers; per referral = Referral-type bounces / Referral tickets. Code counts: 1,917 area + category + description codes on the phone in 2025. S1 is the scope check run by an independent research agent and re-run on Oct 19, 2026: 2025 tickets by channel were phone 665,225, app 205,298, web form 15,134, online map (ESRI MAP) 11,334, email 3,443.
+===== SLIDE 26 =====
+ON HOLD
+Appendix F · Reconciling the team's figures
+--:--
+
+
+
+APPENDIX
+APPENDIX F · RECONCILING THE TEAM'S FIGURES
+We re-ran every inherited figure before use: of the 13 listed here, 3 held, 8 changed and 2 were dropped
+F
+APPX
+EDMONTON 311
+Re-checked Oct 15-20, 2026 against 311 open data, City documents and original benchmark sources. HELD = same number from a public query or document; CHANGED = right source, but the scope or meaning changed; DROPPED = no query or document gives it, or it was misread. Sources of the inherited figures: the team's proposal, earlier internal drafts and working notes.
+FIGURE (WHERE IT CAME FROM) | STATUS | WHAT IT REALLY IS, AND WHAT THIS DECK USES
+4,995 bounces, all channels, 2025 (draft deck) | HELD | All channels. Phone + web: 1,323 bounces (1,128 phone, 161 map, 34 email).
+$16.29 per contact (proposal) | CHANGED | 2026 budget / 2025 tickets = $16.28, a cross-year mix. This deck uses the 2025 budget: $15.52 / $15.89 / $21.50 a contact (App. A).
+11,980 follow-ups and escalations, 1.3% (CSD03148) | HELD | Report p. 3 and presentation slide 3; caps the repeat-call line at half.
+"One code every 47 seconds" (early draft) | CHANGED | Assumes a 24/7 line. The line is open 7 a.m.-7 p.m.: about 180 an hour, one every 20 s.
+"~1,900" / "1,912" codes; "60 codes = 56%" (drafts) | CHANGED | 1,917 phone codes (area + category + description); 44 codes cover half of phone tickets.
+$33K and $91.8K visible-cost figures (early drafts) | CHANGED | Same method and scope as the first model; three misread anchors corrected and four inputs replaced with Edmonton sources (App. A, A2).
+Phone + web scope (the stake model) | HELD | Kept as the team's grouping. Web-form codes are 2 fixed Taxation codes and map codes mostly automatic (S1); phone only: about $87K (App. A3).
+Early benchmark anchors: HMRC 92%; SQM 29% call-back; HDI 30 min | CHANGED | HMRC accuracy of advice 89%; SQM 29% = 100% minus first-call resolution; HDI 30 min includes a visit.
+"Duplicates excluded: the City built it" (early draft) | CHANGED | Partly: Council motion (Jul 2025) and 1 in 3 duplicates linked automatically at intake.
+"AI backends to route callers" (news) | CHANGED | The reporter's paraphrase ("help direct callers"), not a quote of the director.
+"$309K a year we can prove"; "1,250 codes a day per person" (notes) | CHANGED | All-channel figures given to the phone and to one agent; replaced by the counted layer and 2,148 a day for the floor.
+10,354 call-backs because intake missed information | DROPPED | No open-data field has that meaning.
+Hashemi (2022): "83% accuracy on category" | DROPPED | A neural network's test accuracy on nine classes in San Diego, not a human error rate.
+NOTES: Appendix F. Every inherited figure was re-run before use. This page lists the ones that matter for the slides; the full log is in the Research folder (AI Reflection fact sheet; S2 model anchors; S1 scope check).
+===== SLIDE 27 =====
+ON HOLD
+Appendix G · Primary research
+--:--
+
+
+
+APPENDIX
+APPENDIX G · PRIMARY RESEARCH
+What the open data cannot show, and how we will ask the City without revealing our view
+G
+APPX
+EDMONTON 311
+Status (Oct 23, 2026): three questions sent to the City's Open Data team for forwarding to 311 / Customer Access; replies received Oct 8 and Oct 22, with no substantive answers yet (Appendix G2), so every unknown stays a stated assumption or hypothesis. Protocol: Session 4 debrief ("ask the question before you show your hand"); question wording follows Glaser, The Psychological Perspective, pp. 10-11 (a question can supply the conclusion). Roles, not names; public channels only; nothing confidential entered into AI tools.
+SEAT | ASK (OPEN, UNSIGNALLED) | DO NOT ASK (LEADING) | TESTS
+311 team lead | Walk me through what happens to a referral after the agent ends the call. Where does 311's part end? | "Isn't it a problem that nobody owns the hand-off?" | Slides 3, 12
+311 team lead | When an agent looks for a code, what is on the screen, and when in the call is the code entered? | "Agents type the code after the answer, right?" | Code share (App. A)
+311 team lead | What does "Resolved on Initial Contact" tell you, and what would you like it to tell you? | "The 98.7% overstates how well intake works, right?" | H5
+311 agent | Talk me through your last call that did not fit an obvious code. What did you do? | "Do you just take the first code the search shows?" | H1-H3
+311 agent | After a call ends, how would you know the ticket went to the right place? | "You never find out when a code was wrong, do you?" | H4
+311 agent | What tells you a call went well? And a shift? | "Do you rush the code to keep calls short?" | H7
+Area dispatcher | When a 311 ticket lands in your queue that is not yours, what do you do? | "How many wrong tickets does 311 send you?" | H6a-b; quiet misroutes
+Area dispatcher | Did anything change last fall in how you close tickets that belong elsewhere? | "Did you start sending more back last fall?" | Slide 7
+Quality coach | What does a good call look like here, and how do you know? | "Do call reviews ignore the code?" | H2, H5
+Every seat, last | Who in the City would know how often a ticket goes to the wrong place? | - | Comparable answers
+Hypotheses to test (slides 11-13, App. B2): H1 "garbage can" calls up a can code before the owner is asked. H2 System 2 defends the first impression under time pressure; reading the 2026 rise as worse agents fits an existing belief. H3 with no word back, certainty grows faster than understanding (overconfidence). H4 nothing we found returns a bounce to the agent. H5 "called back?" stands in for "coded right?". H6a the area reads a bounce as routing; H6b no one sees the pattern by agent or code. H7 the agent's reference point is speed. Political: control of the code set stays with the areas; each seat assumes the other checked.
+NOTES: Appendix G. Full question sets (six per seat, each with its leading counterpart) and the neutral invitation (no deck attached; words like wrong, error, misroute, AI and cost left out) are in the Research folder. Go through 311 management for frontline voices; no individual is named or quoted by name. The team will add each conversation (role, date, what was said, any signalled question) here and update slides 3, 11, 12 and 13.
+===== SLIDE 28 =====
+ON HOLD
+Appendix G2 · Outreach to the City
+--:--
+
+
+
+APPENDIX
+APPENDIX G2 · OUTREACH LOG
+Our questions went to the City in writing: the request and both replies, as sent
+G2
+APPX
+EDMONTON 311
+Protocol and question wording: Appendix G. Roles, not names; public channels only; nothing confidential entered into AI tools. Full thread kept in the Research folder.
+REQUEST, PART 1
+[IMAGE]
+To the Open Data team, for forwarding to 311 / Customer Access: the project in two lines and questions 1 and 2.
+REQUEST, PART 2
+[IMAGE]
+Question 3, the deadline, and the citation offer: answers cited as "City of Edmonton 311, email, [date]".
+REPLY · OCT 22, 2026
+[IMAGE]
+The Open Data team could not yet reach anyone to answer, and noted agents "have scripts to follow for most every topic".
+LOG · Oct 8, 2026: first reply from the Open Data team (per our follow-up: the published open data is what is available). Mid-October 2026: the request above sent. Oct 22, 2026: reply received; no one reached yet who could answer, and agents “have scripts to follow for most every topic”. At submission: no substantive answers, so every unknown stays a stated assumption or hypothesis. Channel: email, roles not names.
+===== SLIDE 29 =====
+ON HOLD
+Appendix H · Sources
+--:--
+
+
+
+APPENDIX
+APPENDIX H · SOURCES
+Sources
+H
+APPX
+EDMONTON 311
+All accessed Oct 11-20, 2026. eScribe documents (CSD03148, FCS02139) were read from the team's downloaded copies because eScribe blocks automated access. Every source used for a number was opened and checked by the team or an independent research agent; downloaded copies, page numbers and exact quotes are in the Research folder (reports S1, S2, R1-R4).
+City of Edmonton and its Auditor
+City of Edmonton (2026). 311 Service Experience, CSD03148, Executive Committee, Sep 2, 2026 (report, Att. 1, Att. 2, presentation).
+Office of the City Auditor (2023). City's Response to 311 Requests (23511), Nov 14, 2023; follow-ups to 2026. Snow and Ice Control Audit (2021).
+City of Edmonton (2023). Administration Response to City's Response to 311 Requests Audit, FCS02139.
+City of Edmonton Open Data: 311 Requests (q7ua-agfg); Approved Operating Budget (da9s-v9j8), 2025-2026.
+City of Edmonton (2025). Planning and Development Fee Schedules, effective Jan 1, 2025, pp. 10, 15.
+City of Edmonton: 311 app and web portal update, Jul 14, 2026; 311 page (edmonton.ca); public ticket pages (Oct 2026).
+City of Edmonton job postings 55235 (Dispatch Clerk, Parks and Roads, May 2026) and 55633 (Safe Mobility Clerk, Jul 2026).
+Wages, benefits and law
+CSU 52 and City of Edmonton, Schedule of Wages, 2025-2027. CUPE Local 30 and City of Edmonton, Collective Agreement 2023-2027.
+Edmonton Police Commission (2024, Apr 19). Letter to Council: salary request (24.6% benefit load).
+Statistics Canada, Table 14-10-0064-01, Employee wages by industry, Alberta, 2025.
+Alberta, Municipal Government Act, RSA 2000, c M-26, s. 532.
+News
+Bowling, E. (2026, Oct 2). Latest round of Edmonton 311 improvements complete as winter looms on the horizon. Edmonton Journal.
+Callan, I. (2024, Jan 19). Premium-rate phone line: Toronto reveals 311 calls are costing city millions. Global News.
+Course readings
+Glaser, V. L. (2026). The Reassembly of Agency; The Psychological Perspective; Analytic Trees; Sessions 2-4 slides, the Session 4 debrief and final answers. SEM 620, University of Alberta.
+Allison, G., and Zelikow, P. (1999). Essence of Decision (2nd ed.), as used in the Session 4 debrief.
+Glaser, V. L., Sloan, J., Valadão, R., and Micelotta, E. R. (2026). The axiology of AI agents: How human-AI interaction transforms values from espoused to enacted. Accepted manuscript, Academy of Management Review (cited in The Reassembly of Agency, n. 9).
+Research
+Kahneman, D., and Klein, G. (2009). Conditions for intuitive expertise: A failure to disagree. American Psychologist, 64(6), 515-526.
+Benchmarks (Appendix A)
+MetricNet (2023). Benchmarking Roundup: Summary of 2023 IT Service and Support Benchmarks, slides 6, 11.
+Rumburg, J. (2011, 2012). "Metric of the Month": First Level Resolution Rate; Contact Handle Time. HDI.
+SQM Group (2012). First Call Resolution (book excerpt), pp. 3, 8; SQM blog on first call resolution (2022).
+City of Toronto (2025, 2026). Customer Experience Division Program Summaries (handle time, 311 budget).
+City of Winnipeg (2025). CSC 311 2026 budget presentation and 2026 Adopted Budget, "Contact Centre - 311".
+TIGTA (2019). Ref. 2019-40-041, pp. 3, 10.
+National Audit Office (2010). HM Revenue & Customs: Handling telephone enquiries, HC 211, pp. 6, 21.
+Metrolinx (2021). Business Case Manual, Volume 2: Guidance (value of time).
+Course communication
+Glaser, V. L. (2026, Oct 3). AI Literacy Exercise: marks and feedback (class announcement).
+NOTES: Appendix H. Sources. Benchmark and wage sources were opened and checked by independent research agents (S2, Oct 18; R1-R3, Oct 20, 2026); open-data counts were re-run by the team and by an independent data agent (R4, Oct 20). The downloaded copies are in the Research folder.

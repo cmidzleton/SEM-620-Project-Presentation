@@ -1,0 +1,84 @@
+City of Edmonton 311, Team 2 Project Proposal
+                                                  2. THE FIVE PART TEST
+1. THE ORGANIZATION
+                                                  Test Question        Finding
+                                                                       A 311 agent, one of over 140 representatives. The City Auditor reports that
+                                                                       311 agents created 6.5 million tickets from 2018 to 2022, roughly 1.3 million
+Why this Organization                             1. Who makes it,     per year. YTD in 2026, 311 has closed 662,473 tickets and currently has
+Edmonton’s 311 is the City’s non-                 and how often?       12,017 tickets open (City of Edmonton 311, 2026a). On average, the City of
+                                                                       Edmonton responds to 900,000 inquiries per year via 311 (City of
+emergency contact center, staffed by over
+140 representatives. The city publishes a                              Edmonton, 2026b).
+live 311 request dataset, which contained                              The agent works with the information provided by the citizens, mainly a
+673,101 requests at the time of retrieval, as     2. What inputs are   description of the problem and its location, and checks it against scripts
+well as a 2023 City Auditor report (City of       used now?            supplied by each business area. Agents may also ask clarifying questions
+Edmonton, Office of the City Auditor, 2023).                           before assigning the appropriate program code and ticket type.
+Edmonton is also local to the team, which
+makes primary research more practical.
+                                                                       The agent can resolve the request directly, refer it to the business area
+                                                  3. What are the
+                                                                       responsible, or create and close the ticket when the request is transferred.
+The Core Analytic Decision                        options?
+                                                                       Full-service tickets accounted for 73% of tickets from 2018 to 2022.
+Service request classification and routing.
+The 311 system receives an incoming
+                                                                       The Auditor did not calculate the cost per ticket. However, from 2018 to
+request, determines the appropriate
+                                                                       2022, approximately 79,000 duplicate tickets and 52,000 follow-up tickets
+category and program code based on the
+                                                                       were created, giving a sense of scale. The Auditor also reported that
+citizen’s description, and decides whether to
+                                                                       unresolved concerns may be escalated to Councilors or the Mayor, drawing
+resolve the request directly or refer it to the
+                                                                       branch managers away from their regular duties.
+responsible business area.                        4. What does a bad   As per the City of Edmonton 2026 Budget, the budget for 311 and
+                                                  instance cost?       Customer Access is $14.66M as of May 2026 (City of Edmonton, 2026).
+Five-Part Test
+                                                                       Across 900,000 response inquiries, that works out to $16.29 per call. For
+This decision meets the five-part test. The                            comparison, 311 costs the City of Toronto from $11 to $16 per call (Bingley,
+311 system makes this classification and                               2024). Since there are 79,000 duplicate tickets at $16.29 per call, 311
+routing decision repeatedly throughout the                             duplications could be costing the CoE $1,286,910, and follow-up tickets
+day. Based on 6.5 million tickets created                              could be costing $847,080; over $2.1 M.
+from 2018 to 2022, agents made roughly
+1.3 million of these decisions per year.                               Yes. A peer-reviewed study found that 311 requests could be classified
+                                                  5. Could an          from citizen descriptions with over 83% accuracy (Hashemi, 2022).
+                                                  algorithm make it    Edmonton also introduced an AI feature in July 2026 that suggests a
+                                                  instead?             service category from a photo or description (City of Edmonton 311,
+                                                                       2026b). The extent of its role in routing still needs to be confirmed.
+3. DIVISION OF WORK
+Name                     Name                            Name
+                                                         Project Lead & Facilitator: Coordinate the project schedule, assign responsibilities, facilitate
+Lauren Lonsberry         llonsber@ualberta.ca
+                                                         team meetings, and track progress against project deadlines.
+                                                         Presentation Lead & Coordinator: Lead the development of the presentation and coordinate its
+                                                         structure based on the team’s research and analysis. Oversee presentation formatting and
+Curtis Middleton         curtis5@ualberta.ca             consistency.
+                                                         Meeting Organizer & Record Keeper: Schedule team meetings, circulate meeting details and
+                                                         agendas, and maintain a record of key decisions and action items.
+                                                         Research Lead: Coordinate the team’s research and identify credible academic, government,
+Nav Sekhon               nssekhon@ualberta.ca
+                                                         and other relevant sources to support the analysis.
+                                                         Writing Expert & Peer Reviewer: Coordinate the written components of the project and review
+Rick Auger               rlauger@ualberta.ca
+                                                         the team’s work for clarity, consistency, and alignment with the assignment requirements.
+
+
+References
+
+Sources supporting the chosen organization and the core analytic decision. The Edmonton sources are durable public records; key facts are captured in the Appendix.
+
+Bingley, M. (2024, January 19). Calling 311 to make a complaint costs Toronto up to $16 per call [Video]. Global News.
+   https://globalnews.ca/video/10239074/calling-311-to-make-a-complaint-costs-toronto-up-to-16-per-call.
+City of Edmonton, Office of the City Auditor. (2023, November 14). City’s Response to 311 Requests [Audit report]. Retrieved September 9, 2026,
+    from https://pub-edmonton.escribemeetings.com/filestream.ashx?DocumentId=205790.
+City of Edmonton. (2026a). 2026 operating budget: FCS SIP - 311 and customer access [Data dashboard].
+    https://budget.edmonton.ca/#!/year/2026/operating/0/program/FCS~SIP+-+311+and+Customer+Access/0/fund_type?vis=barChart.
+    City of Edmonton. (2026b). 311 Open Data. Retrieved September 13, 2026, from https://www.edmonton.ca/programs-services.
+City of Edmonton 311. (2026a). Requests [Live public dataset]. Retrieved September 9, 2026, from https://311.edmonton.ca/tickets. Showed
+    673,101 total requests at the time of retrieval.
+City of Edmonton 311. (2026b, July 14). 311 App upgrade [Product notice describing an AI feature that suggests a service based on photos or
+    description]. Retrieved September 9, 2026, from https://edmonton2-production.spotmobile.net/.
+Hashemi, M. (2022). Automatic Type Detection of 311 Service Requests Based on Customer-Provided Descriptions. Applied Artificial Intelligence,
+   36(1), 2073717. https://doi.org/10.1080/08839514.2022.2073717.
+AI was used in the making of this proposal.
+

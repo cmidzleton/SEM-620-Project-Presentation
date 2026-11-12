@@ -1,0 +1,473 @@
+<title>SEM 620 Course Concepts</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Public+Sans:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: single reading column (~70ch) with a session index up top; each session is a section with source chips, concept list, and a "use it in the 311 proposal" box. */
+:root{
+  --bg:#f6f7f8; --surface:#ffffff; --fg:#1b2127; --muted:#56616b; --line:#d9dee3;
+  --accent:#0f5e6e; --accent-soft:#e3f0f2; --warn:#8a5a00; --warn-soft:#fbf1dc;
+  --display:"Newsreader", Georgia, "Times New Roman", serif;
+  --body:"Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono:"IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#12171b; --surface:#1a2126; --fg:#e4e8eb; --muted:#9aa6b0; --line:#2c363d;
+  --accent:#6cc3d2; --accent-soft:#16323a; --warn:#e8b75a; --warn-soft:#3a2e15; color-scheme:dark } }
+:root[data-theme="dark"]{
+  --bg:#12171b; --surface:#1a2126; --fg:#e4e8eb; --muted:#9aa6b0; --line:#2c363d;
+  --accent:#6cc3d2; --accent-soft:#16323a; --warn:#e8b75a; --warn-soft:#3a2e15; color-scheme:dark }
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.6}
+.wrap{max-width:46rem;margin:0 auto;padding-block:40px 80px;padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px))}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;line-height:1.2;margin:0}
+h1{font-size:2.4rem;font-weight:600}
+h2{font-size:1.65rem;font-weight:600}
+h3{font-size:1.15rem;font-weight:600;margin-top:1.4rem}
+p{margin:.6rem 0}
+a{color:var(--accent)}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.eyebrow{font-family:var(--mono);font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.lede{color:var(--muted);font-size:1.05rem}
+header{display:grid;gap:.6rem;margin-bottom:2rem}
+nav.index{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:1rem 1.2rem;margin-bottom:2.5rem}
+nav.index ol{margin:.4rem 0 0;padding-left:1.4rem;columns:2;column-gap:2rem}
+nav.index li{break-inside:avoid;margin:.15rem 0}
+@media (max-width:560px){nav.index ol{columns:1}}
+section{border-top:1px solid var(--line);padding-top:1.8rem;margin-top:2.4rem}
+.sources{display:flex;flex-wrap:wrap;gap:.4rem;margin:.7rem 0}
+.chip{font-family:var(--mono);font-size:.74rem;border:1px solid var(--line);border-radius:3px;padding:.15rem .45rem;color:var(--muted);background:var(--surface)}
+.chip.gap{border-color:var(--warn);color:var(--warn);background:var(--warn-soft)}
+ul{padding-left:1.25rem;margin:.5rem 0}
+li{margin:.3rem 0}
+dl{margin:.6rem 0}
+dt{font-weight:700}
+dd{margin:0 0 .6rem 0}
+.apply{background:var(--accent-soft);border-left:3px solid var(--accent);padding:.8rem 1rem;margin:1.2rem 0;border-radius:0 4px 4px 0}
+.apply .eyebrow{color:var(--accent)}
+.note{background:var(--warn-soft);border-left:3px solid var(--warn);padding:.7rem 1rem;margin:1rem 0;border-radius:0 4px 4px 0;font-size:.95rem}
+.tbl{overflow-x:auto;margin:.8rem 0}
+table{border-collapse:collapse;width:100%;font-size:.92rem;font-variant-numeric:tabular-nums}
+th,td{border-bottom:1px solid var(--line);padding:.45rem .5rem;text-align:left;vertical-align:top}
+th{font-family:var(--mono);font-size:.74rem;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);font-weight:500}
+blockquote{margin:.8rem 0;padding-left:1rem;border-left:2px solid var(--line);font-family:var(--display);font-size:1.1rem}
+.refs li{font-size:.92rem}
+@media (prefers-reduced-motion: reduce){*{scroll-behavior:auto}}
+</style>
+
+<div class="wrap">
+<header>
+  <span class="eyebrow">SEM 620 · Fall 2026 · Dr. Vern L. Glaser · Reference for Team 2</span>
+  <h1>SEM 620 Course Concepts</h1>
+  <p class="lede">Every class deck, reading and course document in the SEM 620 Drive folder, condensed to the concepts, frameworks and citations the final presentation can use. Each session ends with a note on where the idea fits the Edmonton 311 service-code proposal.</p>
+  <p class="eyebrow">Compiled Nov 7, 2026 from Curtis's course Drive folder</p>
+</header>
+
+<nav class="index" aria-label="Sessions">
+  <span class="eyebrow">Contents</span>
+  <ol>
+    <li><a href="#rubric">What the final is marked on</a></li>
+    <li><a href="#s1">S1 · Reassembly of Agency</a></li>
+    <li><a href="#s2">S2 · Rational Choice and Analytic Trees</a></li>
+    <li><a href="#s3">S3 · Psychological Perspective</a></li>
+    <li><a href="#s4">S4 · Political Perspective</a></li>
+    <li><a href="#s5">S5 · Garneau Coffee Shop</a></li>
+    <li><a href="#s6">S6 · Constructing and Leveraging Data</a></li>
+    <li><a href="#s7">S7 · Algorithmic Routines</a></li>
+    <li><a href="#s8">S8 to S10 · Coming sessions</a></li>
+    <li><a href="#ai">AI process reflection</a></li>
+    <li><a href="#deck">Consulting deck standard</a></li>
+    <li><a href="#map">Concept-to-slide map</a></li>
+    <li><a href="#refs">References (APA)</a></li>
+    <li><a href="#gaps">What is missing</a></li>
+  </ol>
+</nav>
+
+<section id="rubric">
+  <span class="eyebrow">Group project brief · course outline</span>
+  <h2>What the final presentation is marked on</h2>
+  <div class="sources"><span class="chip">SEM 620 — Group Project.pdf</span><span class="chip">SEM 620 Syllabus (Fall 2026).pdf</span></div>
+  <div class="tbl"><table>
+    <thead><tr><th>Criterion</th><th>Weight</th><th>What it asks for</th></tr></thead>
+    <tbody>
+      <tr><td>Use of course concepts</td><td>25%</td><td>Appropriate and insightful, not a tour of the syllabus</td></tr>
+      <tr><td>Algorithmic routine and data construction</td><td>30%</td><td>Inputs, outputs, who acts, what happens when wrong; automate vs human and why; what data exists, what must be built, whose behaviour must change</td></tr>
+      <tr><td>Research depth and feasibility</td><td>20%</td><td>Primary research is "the single clearest predictor of a top mark"</td></tr>
+      <tr><td>Clarity and persuasiveness</td><td>15%</td><td>15 minutes plus Q&amp;A (Q&amp;A is marked)</td></tr>
+      <tr><td>AI process reflection</td><td>10%</td><td>One slide titled "AI Process Reflection"</td></tr>
+    </tbody>
+  </table></div>
+  <h3>Required content</h3>
+  <ul>
+    <li><b>The core analytic decision,</b> restated and refined if the diagnosis moved.</li>
+    <li><b>The proposed algorithmic routine.</b> What it takes in, puts out, who acts on it, what happens when it is wrong. Explicit position on what to automate and what to leave to a person.</li>
+    <li><b>How data would be constructed and leveraged.</b> What exists, what does not, what would have to be built, who would have to change behaviour for it to exist.</li>
+    <li><b>Integration and phased plan.</b> First 90 days, what must be true before phase two, how the organization would know it is working.</li>
+  </ul>
+  <h3>What reliably costs marks (from the brief)</h3>
+  <ul>
+    <li>Slides with topic labels instead of takeaways. "Political Perspective" is a label; "Associate Dealers control the last mile and were never consulted" is a takeaway.</li>
+    <li>Framework slides with no argument attached; agenda slides.</li>
+    <li>Numbers with no source or stated assumption.</li>
+    <li>Proposing something the organization is visibly already doing as if it were novel.</li>
+    <li>Structure as a syllabus tour. The strongest decks open on one concrete situation (one customer, one shift, one order) and let the analysis follow.</li>
+  </ul>
+  <h3>The five-part decision test</h3>
+  <p>Who makes it and how often; what inputs they use; what the options are; what a bad instance costs times frequency; could an algorithm plausibly make it. Watch the grain-size trap: go one level narrower than feels comfortable. The brief's benchmark is McGarry, the ready-mix dispatcher replaced by an optimizer in Session 7.</p>
+</section>
+
+<section id="s1">
+  <span class="eyebrow">Session 1 · Sept 14</span>
+  <h2>The Reassembly of Agency</h2>
+  <div class="sources"><span class="chip">Session 1 deck (.pptx)</span><span class="chip">Syllabus</span><span class="chip gap">FFI article: scanned PDF, text not readable</span></div>
+  <blockquote>"Every algorithm in your organization is a decision someone used to make." "It is never a human deciding, and it is never a computer. It is a human-computer making the decision."</blockquote>
+  <h3>Key concepts</h3>
+  <dl>
+    <dt>AI as prediction machines</dt>
+    <dd>Machine learning and language models predict the likely next thing from context (the one-word story exercise). More context gives better output, but whether words are "right" is always in question.</dd>
+    <dt>Three kinds of system, three questions</dt>
+    <dd>Apply explicit rules (output: a queue assignment; ask who selected the conditions and exceptions). Learn predictive patterns (output: a category or risk estimate; ask what the examples were and how they were labelled). Generate content (output: a summary or reply; ask whether it is faithful to the source).</dd>
+    <dt>Agents</dt>
+    <dd>A configured system with tools and permissions. Ask: what can it access, what can it change, when must it stop, who can correct it.</dd>
+    <dt>Three elements of agency</dt>
+    <dd><b>Influence on action</b> (capacity to make a difference), <b>decision authority</b> (who or what may recommend, approve, execute or revise), <b>accountability</b> (who must explain the result and arrange the correction).</dd>
+    <dt>Three insights from "Organizations as Algorithms" (Glaser, Sloan &amp; Gehman, 2024)</dt>
+    <dd>1. Agency resides in algorithmic assemblages, not in humans: design processes and tasks well; responsibility moves between groups and systems; people remain actors. 2. Reading and processing data is the foundation: how data is structured and categorized is a choice reflecting social priorities and biases. 3. Programming and prompts are new sources of expertise, but professional knowledge remains the foundation.</dd>
+    <dt>Three ways to use AI (Glaser, Sloan &amp; Knight, 2025)</dt>
+    <dd>Assistant (routine drafting), analyst (pattern finding across large text), coach (thought partner: argue the other side, play the skeptical executive).</dd>
+    <dt>Mollick's four rules (2024, ch. 3)</dt>
+    <dd>Always invite AI to the table; be the human in the loop; treat AI like a person but tell it what kind; assume this is the worst AI you will ever use.</dd>
+    <dt>Control, innovation, responsibility</dt>
+    <dd>Know where the tool sits in the decision and the decision stays yours; weighing tool output against judgment is the skill; you answer for how the systems are used.</dd>
+    <dt>Framing debate</dt>
+    <dd>Davenport &amp; Harris (2007) and Davenport (2018): analytics strips bias and automates structured work. Zuboff (1988): "What kind of society will it be when people have lost their knowledge and depend on computers for everything?" The course takes a third way: the human-computer assemblage.</dd>
+  </dl>
+  <h3>Northfield Credit Union (in-class quiz case)</h3>
+  <p>About 200 small-business loan applications a month. A vendor-built score out of 100 recommends advance or decline; the risk committee set the threshold. Officers see score, recommendation and a three-line summary; the full file is behind a link. Officers overrule about 1 time in 20 and are measured on applications cleared per day. The branch manager answers complaints but cannot change the model or threshold. The lesson: the outcome is shaped by the interface, the metric, the vendor and the committee, not just the officer.</p>
+  <div class="apply"><span class="eyebrow">Use it in the 311 proposal</span>
+    <p>Northfield is almost a template for the 311 agent: a screen, a suggestion, a throughput metric, and a complaint path that cannot fix the cause. Use the three elements of agency to show the split the diagnosis already found (311 holds authority over the code pick, service areas hold accountability for the result) and to state who holds each element in the proposed routine. A code-suggestion model is a "learn predictive patterns" system, so the Q&amp;A question will be how the training examples were labelled (for example, whether a "311 Redirecting to Other Business Area" status counts as a wrong pick). Answer the four agent questions explicitly if the routine ever routes without a person.</p>
+  </div>
+</section>
+
+<section id="s2">
+  <span class="eyebrow">Session 2 · Sept 21 · Rational perspective</span>
+  <h2>Rational Choice and Analytic Trees</h2>
+  <div class="sources"><span class="chip">Session 2 deck (PDF)</span><span class="chip">Glaser, "Analytic Trees" v2 (reading)</span><span class="chip">Curtis's Session 2 notes</span></div>
+  <p>Rational choice as a logic of consequence: say what you want (objectives can include money, safety, service, commitments), name alternatives including ones nobody proposed, work out consequences, compare on evidence you can show someone. Limit: real organizations rarely have one objective or complete information, so a tree is a simplification whose value depends on keeping what the decision turns on (Simon, 1978; Allison &amp; Zelikow, 1999; Hammond, Keeney &amp; Raiffa, 1999).</p>
+  <div class="tbl"><table>
+    <thead><tr><th>Tree</th><th>Question it answers</th><th>Rule linking branches</th></tr></thead>
+    <tbody>
+      <tr><td>Problem tree</td><td>Why did this happen?</td><td>Questions and explanations; MECE</td></tr>
+      <tr><td>Profit tree</td><td>Which changes account for the result?</td><td>Arithmetic; must reconcile</td></tr>
+      <tr><td>Decision tree</td><td>Which action is best under uncertainty?</td><td>Choices (squares), chance events (circles), payoffs; roll back right to left</td></tr>
+    </tbody>
+  </table></div>
+  <h3>Problem trees</h3>
+  <ul>
+    <li>Write the root as a sentence with a result, period and puzzle ("Why did profit fall despite higher visits?"), not a topic.</li>
+    <li>MECE (Minto, 1996): no overlap, nothing left out. Causes interact, so record where one cause hits several outcomes and do not add estimates until double counting is checked.</li>
+    <li>Test with three real events: each should land in exactly one branch.</li>
+    <li>Stop when a leaf can be handed to someone who knows what evidence to get. Some leaves need interviews, not numbers.</li>
+    <li>Treat an existing explanation as a hypothesis: what must be true if it is right, what would contradict it (Conn, Sarrazin &amp; London, 2019).</li>
+  </ul>
+  <h3>Profit trees</h3>
+  <ul>
+    <li>Profit = units × contribution per unit − fixed costs; contribution = revenue per unit − variable cost per unit.</li>
+    <li><b>Mix effect:</b> an average can fall while every group's value is unchanged (Sawback lift revenue $70.45 to $62.48 entirely from more $38 partner-pass visits). Always look inside averages.</li>
+    <li>Reconcile the whole change in a stated sequence (volume at old contribution, then per-unit changes at new volume) to avoid double counting.</li>
+    <li>Check contribution before recommending growth: if contribution per unit is negative, no volume breaks even.</li>
+    <li>Diagnosis is not action: the tree locates the change, it does not say what to do.</li>
+  </ul>
+  <h3>Decision trees</h3>
+  <ul>
+    <li>Expected value is a probability-weighted average, not a forecast (Magee, 1964; Raiffa, 1968).</li>
+    <li>Waiting has option value and a cost (a lost year of benefits). "Wait until we know more" is incomplete without both.</li>
+    <li><b>Sensitivity analysis:</b> find the threshold where the answer flips (Sawback: about 56% vs the 60% estimate). Show how close the estimate is to it.</li>
+    <li>Put the downside beside the average return; a firm's tolerance for loss matters.</li>
+    <li>More information has value only if it could change the choice.</li>
+    <li>Include doing nothing, staged or smaller options (Keeney, 1992).</li>
+    <li>Premortem: imagine it failed and write why; a reason not on the tree is an omitted risk (Klein, 2007).</li>
+  </ul>
+  <h3>Six questions for reviewing any analysis</h3>
+  <ol>
+    <li>Is this the decision we actually face?</li>
+    <li>What is missing, overlapping or dependent?</li>
+    <li>Which numbers are observed, which estimated, and on what evidence?</li>
+    <li>Does it account for the full result, including what averages hide?</li>
+    <li>What change in assumptions flips the recommendation?</li>
+    <li>What could we lose, and what matters that the numbers leave out?</li>
+  </ol>
+  <div class="apply"><span class="eyebrow">Use it in the 311 proposal</span>
+    <p>The October deck already used a decision threshold (ask-first above a 5.6% bounce probability) and Monte Carlo ranges; present that as the decision-tree logic of the routine, with the sensitivity of the threshold shown. Watch the mix effect in the bounce rate: a city-wide average can move because the call mix changed, not because routing got better, so report bounce rate within code or service area. Run a premortem slide on the routine (why might it fail in year one?) to show the risks the tree omits.</p>
+  </div>
+</section>
+
+<section id="s3">
+  <span class="eyebrow">Session 3 · Sept 28 · Psychological perspective</span>
+  <h2>The Psychological Perspective</h2>
+  <div class="sources"><span class="chip">Session 3 deck (PDF)</span><span class="chip">Glaser, "The Psychological Perspective" (reading)</span></div>
+  <h3>Core apparatus</h3>
+  <dl>
+    <dt>System 1 and System 2 (Kahneman, 2011; Evans &amp; Stanovich, 2013)</dt>
+    <dd>System 1: automatic, effortless pattern recognition; makes life manageable, misleads when it fills in details not established. System 2: deliberate, effortful checking; can examine an impression but can also defend one, and its attention is limited and competes with other demands. Not two people or brain regions, and neither is equated with right or wrong.</dd>
+    <dt>Attention depends on the situation</dt>
+    <dd>"Be more thoughtful" does little. Give attention one manageable, concrete question and remove competing demands (the supervisor takes the queue and asks "Does the booking match what we handed her?").</dd>
+    <dt>When intuition deserves trust (Kahneman &amp; Klein, 2009)</dt>
+    <dd>Useful intuition needs learnable patterns and feedback that links an action to what happened. Repetition alone is not enough.</dd>
+  </dl>
+  <h3>The biases taught</h3>
+  <div class="tbl"><table>
+    <thead><tr><th>Bias</th><th>What it is</th><th>The question to ask</th></tr></thead>
+    <tbody>
+      <tr><td>Availability</td><td>Ease of recall stands in for frequency (Tversky &amp; Kahneman, 1974)</td><td>What would ordinary, unmemorable cases add?</td></tr>
+      <tr><td>Confirmation</td><td>Seeking or reading evidence to favour a belief (Nickerson, 1998)</td><td>What would this mean if my first impression were the opposite?</td></tr>
+      <tr><td>Anchoring</td><td>An initial value pulls later estimates</td><td>How would I estimate without that starting number?</td></tr>
+      <tr><td>Overconfidence</td><td>Overestimation, overplacement, overprecision (Moore &amp; Healy, 2008)</td><td>What have I learned about others' understanding, not my comfort?</td></tr>
+      <tr><td>Framing</td><td>Equivalent descriptions produce different choices (Tversky &amp; Kahneman, 1981)</td><td>Say it the other way round.</td></tr>
+      <tr><td>Loss aversion</td><td>Losses weigh more than equal gains around a reference point (Kahneman &amp; Tversky, 1979)</td><td>What is the reference point, and what is experienced as lost?</td></tr>
+      <tr><td>Sunk cost ("Concorde fallacy")</td><td>Irrecoverable investment drives a present choice (Arkes &amp; Blumer, 1985)</td><td>What can still change, and what is already gone?</td></tr>
+      <tr><td>Jumping to conclusions</td><td>A coherent story feels complete (Kahneman, 2011, ch. 7, 9)</td><td>What would I need to know before treating this as evidence?</td></tr>
+      <tr><td>Cognitive ease / illusory truth</td><td>Repetition and familiarity feel like truth (Fazio et al., 2015)</td><td>Where did the claim originate?</td></tr>
+      <tr><td>Overfitting trap</td><td>A close account of selected past events mistaken for understanding (MacGarvie &amp; McElheran, 2018; James et al., 2013)</td><td>Does the pattern predict cases we have not yet seen?</td></tr>
+    </tbody>
+  </table></div>
+  <h3>Method rules</h3>
+  <ul>
+    <li><b>Say what happened before you name the bias.</b> Name the situation, the tendency, and what is neglected. "The supervisor is biased" tells us little.</li>
+    <li>A heuristic is a shortcut; a bias is a systematic distortion under particular conditions.</li>
+    <li>Psychology does not entitle you to dismiss concerns: people may understand a proposal well and reasonably oppose it. Calling a reaction "resistance" answers nothing.</li>
+    <li>Ethics test: use what you know about people to help them recognize a reaction, never to hide what they are being asked to accept.</li>
+    <li>Prompts carry framing too: in class, the same facts on two pages moved people, and a sentence in the prompt (a fact left out, gain vs loss wording, who is asking) can move an AI's answer. Asking AI to "explain why Alex lacks initiative" supplies the conclusion.</li>
+  </ul>
+  <h3>Five questions to bring to an encounter</h3>
+  <ol>
+    <li>What does the situation seem to mean to this person?</li>
+    <li>Which impressions arise readily, and what supports them?</li>
+    <li>What receives deliberate attention, and what makes that easier or harder?</li>
+    <li>What information might lead to a different interpretation?</li>
+    <li>What does the person experience as a gain or a loss?</li>
+  </ol>
+  <div class="apply"><span class="eyebrow">Use it in the 311 proposal</span>
+    <p>Kahneman and Klein is the strongest psychological argument for the routine: agents never learn which picks bounced, so there is no feedback loop and no basis for trustworthy intuition about ambiguous codes. A design that returns bounce outcomes to agents creates the condition for expertise. A ranked code suggestion is also an anchor; say how the screen presents it (for example, showing the top choices with their bounce rates rather than pre-selecting one) and why. Frame the change for CSU 52 agents around what they gain (fewer callbacks, a fair measure) and name what they experience as a loss, rather than labelling their concern as resistance.</p>
+  </div>
+</section>
+
+<section id="s4">
+  <span class="eyebrow">Session 4 · Oct 5 · Political perspective</span>
+  <h2>The Political Perspective</h2>
+  <div class="sources"><span class="chip">Session 4 deck (PDF)</span><span class="chip">Curtis's political perspective notes</span><span class="chip">Optional: Allison, "The Cuban Missile Crisis"</span></div>
+  <p>Decisions inside organizations are made by people with conflicting interests, unequal power, and different things to lose. Run as a Cuban Missile Crisis simulation where the student is the President and AI plays each adviser from the 1962 record.</p>
+  <h3>Analyze the political game</h3>
+  <ol>
+    <li>Who are the players?</li>
+    <li>What are their goals?</li>
+    <li>What actions can they take?</li>
+    <li>What actions will maximize their benefits?</li>
+    <li>What are they likely to do?</li>
+  </ol>
+  <h3>Lessons</h3>
+  <dl>
+    <dt>"Where you stand depends on where you sit" (Allison, 2016)</dt>
+    <dd>Every adviser saw the same photographs and recommended something different. The workplace mapping in the deck: CIA = analytics team (its September estimate called missiles unlikely), Defense = finance, Joint Chiefs = operations that owns the plan and wants it used, ambassador = competitor expert, AI advisers = confident and sometimes wrong.</dd>
+    <dt>Mirror imaging</dt>
+    <dd>Assuming others see the world as we do.</dd>
+    <dt>Sedimentation of assumptions</dt>
+    <dd>Failing to question implicit beliefs about others. Nuclear warheads had been in Cuba since Oct 4 and nobody in the room knew.</dd>
+    <dt>Strategic foresight</dt>
+    <dd>Disciplined, continuous visualization of alternative outcomes that considers the organization, competitors and environment. Ask Now→Future (what do near-term decisions do to the long run?) and Future→Now (what do long-range issues imply for near-term decisions?).</dd>
+    <dt>Data limits</dt>
+    <dd>The photographs show what is there, not why or what comes next. The decision turns on what no photograph shows. Questions on the problem tree that nobody can answer carry the most risk.</dd>
+    <dt>Advisers who know your answer</dt>
+    <dd>Did an adviser's answer change once you said which course you leaned toward? At work, does whoever gives you analysis know the answer you want?</dd>
+  </dl>
+  <h3>Project instruction from the deck</h3>
+  <p>List the people involved today (who makes it, approves it, carries it out, handles complaints). For each: what they want, what they can do, what they stand to lose. Where do they disagree, and who settles it?</p>
+  <div class="apply"><span class="eyebrow">Use it in the 311 proposal</span>
+    <p>Build the integration plan around the players table: 311 and Customer Access (owns the pick), receiving service areas (absorb bounces, own resolution), agents and CSU 52, IT and the CRM owner, Council and the auditor. Strategic foresight fits the CRM end of life in 2030: Future→Now says build the labelled data and routing measure now so the replacement CRM inherits them. Mirror imaging is a useful warning about assuming service areas want bounces measured.</p>
+  </div>
+</section>
+
+<section id="s5">
+  <span class="eyebrow">Session 5 · Oct 19 · Simulation</span>
+  <h2>The Garneau Coffee Shop</h2>
+  <div class="sources"><span class="chip">Syllabus description only</span><span class="chip gap">No deck or materials in the Drive folder</span></div>
+  <p>Teams run a struggling Edmonton coffee shop over four quarters from four panels of operating data. The simulation rewards breaking data apart (by hour, day type, season, what customers bought) and punishes reasoning from averages. The debrief covers which dashboard number misled the room, which prominent metric predicted nothing, what the data structurally could not show, and which confident findings were noise.</p>
+  <div class="apply"><span class="eyebrow">Use it in the 311 proposal</span>
+    <p>Disaggregate before you conclude: bounce rates by code, hour, channel and agent tenure. Name what the 311 open data structurally cannot show (for example, a wrong pick that the receiving area quietly handles instead of bouncing).</p>
+  </div>
+</section>
+
+<section id="s6">
+  <span class="eyebrow">Session 6 · Oct 26</span>
+  <h2>Constructing and Leveraging Data</h2>
+  <div class="sources"><span class="chip">Ivey case W35309 (Sloan &amp; Glaser, 2024)</span><span class="chip">Team in-class exercise (Firm 1)</span><span class="chip">Syllabus</span><span class="chip gap">No instructor deck in the folder</span></div>
+  <p>"Data does not arrive; it is built, and the choices made in building it determine what can later be concluded." Students inventory a firm's data assets (structured and unstructured, real-time and batch), judge which confer advantage, find gaps and quality problems, and say what the firm should start collecting.</p>
+  <h3>The recurring failure mode</h3>
+  <p>A metric that looks like it measures performance, is constructed slightly wrong, and therefore steadily rewards the wrong behaviour. This returns in Session 9 as proxy drift.</p>
+  <h3>Scandinavian Building Services case facts</h3>
+  <ul>
+    <li>Edmonton janitorial firm founded 1956, bought by Terry and Wilda Hay in 1982; national through West Edmonton Mall and Sears Canada contracts. Succession crisis in Oct 2017.</li>
+    <li>Industry: about $8.6B in Canada, about 33,000 operators, margins near 12.3%, turnover around 75%, low switching costs locally.</li>
+    <li>10-1-24 guarantee: request returned in 10 minutes, solution in 1 hour, fixed in 24 hours; average response 4 minutes. ScandiTRAC gives clients inspection history and work-order status.</li>
+    <li>Owner-operator model (over 345 owner-operators) instead of subcontracting.</li>
+  </ul>
+  <h3>What the team's inventory found (the method to reuse)</h3>
+  <ul>
+    <li>Columns: data, do they have it, structured or unstructured, real-time or batch, which decision it helps, problem or gap.</li>
+    <li>Self-inspection with no independent check lets scores drift upward.</li>
+    <li>The 10-1-24 response figure measures the reply, not the fix; the crew marks a request done and the client is never asked.</li>
+    <li>Biggest gap: SBS sees what it pays owner-operators, not hours the work takes. Cost per building sits in separate systems reconciled by hand.</li>
+    <li>Past bids won or lost: no system, so pricing cannot learn.</li>
+  </ul>
+  <div class="apply"><span class="eyebrow">Use it in the 311 proposal</span>
+    <p>This is the session that the 30% criterion leans on. Present a data inventory in the same columns: what 311 has (ticket fields, codes, status history, redirects), what is missing (the agent's search terms, which codes were shown, the receiving area's verdict on fit), and what must be built (a bounce label, a code-to-owner map, a feedback field). The SBS "reply not fix" flaw maps directly onto a 311 metric that counts tickets created or handle time rather than tickets that reached the right owner first time.</p>
+  </div>
+</section>
+
+<section id="s7">
+  <span class="eyebrow">Session 7 · Nov 2 · Conceptual centre of the course</span>
+  <h2>Algorithmic Routines and AI Integration</h2>
+  <div class="sources"><span class="chip">Syllabus</span><span class="chip">Ironstone Ready-Mix case pack (team summaries)</span><span class="chip gap">No instructor deck in the folder</span></div>
+  <blockquote>"An algorithm is never just a computation. It is a decision embedded in a routine, and that routine carries data, roles, expertise, and an implicit ranking of values."</blockquote>
+  <h3>Decomposing a routine</h3>
+  <dl>
+    <dt>Ostensive aspect</dt>
+    <dd>The routine as people understand it in the abstract: the official steps.</dd>
+    <dt>Performative aspect</dt>
+    <dd>The routine as actually carried out by specific people at specific times, including workarounds.</dd>
+    <dt>Artifacts</dt>
+    <dd>The physical and digital objects that encode, enable or constrain the routine: forms, screens, schedules, software.</dd>
+  </dl>
+  <div class="note">The syllabus names these three aspects but the folder has no slide defining them. The short definitions above follow the standard sources (Feldman &amp; Pentland, 2003; Pentland &amp; Feldman, 2005). Check them against your own Session 7 notes before quoting.</div>
+  <p>Exercise: replace the human dispatcher (McGarry) with an optimization algorithm and ask what changes and who notices. The second half was a decision-support dashboard simulation (overnight model-written briefing, flagged exceptions, suggested actions) worked by sales, operations and customer service roles. Debrief questions: what did the system make easy, what did it make invisible, where in the routine did judgment move, and what did you take on the model's authority versus check?</p>
+  <h3>Ironstone Ready-Mix case (team pack)</h3>
+  <ul>
+    <li>East plant: 3.3 loads per truck per day vs North 4.8; delivery cost $48.39/m³ vs company $39.31. Round trip 142.7 min vs 94.9.</li>
+    <li>2023: an overnight scheduling system replaced hand-built boards and dispatch centralized at North. Wes Harlan, East's dispatcher for 36 years, retired the same year.</li>
+    <li>Interviews found Wes used to call big site supers the afternoon before to confirm readiness and move the order if needed. "When Wes left, nobody picked those calls up." Three customers now average about 47 min waiting on site vs about 17 for everyone else.</li>
+    <li>Every East driver starts at 5:30 because start times are set before the board is built, so the fleet queues in one wave.</li>
+    <li>No one below the president owns the chain from order to delivery; the cost of waiting is written on every ticket and never charged.</li>
+  </ul>
+  <div class="apply"><span class="eyebrow">Use it in the 311 proposal</span>
+    <p>Draw the 311 intake routine three ways: the ostensive version (agent finds the right code), the performative version (agent searches a phrase, sees several codes for the same thing, picks one under time pressure, the ticket bounces days later), and the artifacts (the code search screen, the 1,917-code list, the CRM status field). Then show exactly where the proposed algorithm enters and which judgment moves. Ironstone is the cautionary tale: automation removed tacit work that nobody had written down. Ask what tacit routing knowledge senior agents hold that a model trained on ticket history would not see.</p>
+  </div>
+</section>
+
+<section id="s8">
+  <span class="eyebrow">Sessions 8 to 10 · Nov 16 to Nov 30 · from the syllabus</span>
+  <h2>Coming sessions</h2>
+  <div class="sources"><span class="chip">Syllabus</span><span class="chip gap">Not yet held; no materials in the folder</span></div>
+  <h3>Session 8 · Leveraging Generative AI (Nov 16)</h3>
+  <p>Using AI to evaluate (not summarize) a recent industry report; a Disney case on generative AI in creative production after the 2023 writers' strike: personalization, labelling AI-assisted content, human-AI collaboration. Reading: Sloan &amp; Glaser, "Stop Prompting AI. Start Directing It," <i>MIT Sloan Management Review</i>, Aug 5, 2026. Marked Strategic Analytics Initiative decks return this session.</p>
+  <h3>Session 9 · Analytics, Risk and Values (Nov 23)</h3>
+  <p>A cold simulation of an automated debt-recovery decision, revealed as Australia's Robodebt: income averaging wrong for irregular earners, onus of proof reversed onto citizens, hundreds of thousands of unlawful debts, a settlement of about $1.8 billion and a Royal Commission. General account: proxies drift from what they stand for, effects appear only at scale, and values wither when nothing measures them. The deciding question is what you will measure to tell whether the programme is working, chosen before it runs. Readings posted after: Lindebaum, Glaser, Moser &amp; Ashraf, "When Algorithms Rule, Values Can Wither," <i>MIT SMR</i> (2022); extracts from the Robodebt Royal Commission report.</p>
+  <h3>Session 10 · Leadership and Governance (Nov 30)</h3>
+  <p>A pre-employment assessment product redrawn as an algorithmic routine using the Session 7 framework; advising a national retailer on adoption, balancing efficiency and fairness, with an explicit position on what the organization should refuse to automate.</p>
+  <div class="apply"><span class="eyebrow">Use it in the 311 proposal</span>
+    <p>Session 9 is the Q&amp;A trap to prepare for: if the routine is judged on bounce rate alone, it could push misroutes into categories that never bounce. Name a balanced set of measures up front (first-time-right routing, time to the right owner, agent override rate and outcome, resident callbacks) and say where the burden sits when the model is wrong. Session 10 asks the same question as the brief: say plainly what 311 should refuse to automate, and why.</p>
+  </div>
+</section>
+
+<section id="ai">
+  <span class="eyebrow">Brief · AI Literacy Exercise document</span>
+  <h2>AI process reflection</h2>
+  <div class="sources"><span class="chip">SEM 620 — Group Project.pdf</span><span class="chip">AI Literacy Exercise and Closing AI Reflection.pdf</span></div>
+  <p>One slide titled "AI Process Reflection." It must cover:</p>
+  <ul>
+    <li>Which tools were used, and for what.</li>
+    <li>One or two <b>crux moves</b> where AI meaningfully shifted the analysis (for example, role-playing a skeptical executive, a source-grounded read of a key document).</li>
+    <li>How outputs were validated, and what the team did when AI was wrong. "A reflection that reports only successes has not been written honestly." This part most often goes missing and carries the marks.</li>
+  </ul>
+  <p>Course-wide lessons that strengthen it: distinguish kinds of task from kinds of tool; open-web tools answer from what they absorbed, source-grounded tools read what you give them; model choice (fast default vs reasoning) is a decision; a prompt's framing can move the answer (Session 3); verify and disclose, since invented citations count as misrepresentation.</p>
+</section>
+
+<section id="deck">
+  <span class="eyebrow">Example of a Professional Consulting Deck.pdf</span>
+  <h2>Consulting deck standard</h2>
+  <p>The course's example is a McKinsey deck, "USPS Future Business Model: Initial perspectives" (March 2, 2010). Patterns worth copying:</p>
+  <ul>
+    <li>Every slide title is a full-sentence takeaway ("Losses have been driven by volume declines, RHB pre-funding requirements and limitations on cost savings").</li>
+    <li>A short four-part storyline: recent context, base case with minimal action, addressing the challenge, short-term requirements.</li>
+    <li>A base case first (what happens if nothing changes), then a waterfall of actions that close the gap, split into what management controls vs what needs others (non-legislative vs legislative).</li>
+    <li>Every chart carries units, a source line and footnoted assumptions.</li>
+    <li>Upside and downside risks listed beside the forecast.</li>
+  </ul>
+  <div class="apply"><span class="eyebrow">Use it in the 311 proposal</span>
+    <p>The USPS split maps cleanly onto the phased plan: what 311 can do inside its own authority in the first 90 days, and what needs service areas, IT, the union or Council before phase two.</p>
+  </div>
+</section>
+
+<section id="map">
+  <span class="eyebrow">Working map</span>
+  <h2>Concept-to-slide map for the final</h2>
+  <div class="tbl"><table>
+    <thead><tr><th>Required element</th><th>Course concepts that carry it</th></tr></thead>
+    <tbody>
+      <tr><td>Core decision, refined</td><td>Five-part test and grain size (brief); McGarry benchmark (S7)</td></tr>
+      <tr><td>Algorithmic routine</td><td>Rules vs learned vs generative systems and their questions (S1); ostensive, performative, artifact (S7); decision threshold and sensitivity (S2); four agent questions (S1)</td></tr>
+      <tr><td>Automate vs human</td><td>Three elements of agency (S1); Kahneman &amp; Klein feedback condition (S3); anchoring of suggestions (S3); what to refuse to automate (S10)</td></tr>
+      <tr><td>When it is wrong</td><td>Premortem (S2); accountability and correction path (S1); burden of proof (S9)</td></tr>
+      <tr><td>Data construction</td><td>Data is built (S6); inventory columns (S6); how labels were made (S1); look inside averages (S2, S5); overfitting (S3)</td></tr>
+      <tr><td>Integration and politics</td><td>Political game and players table (S4); where you stand depends on where you sit (S4); framing for agents and loss (S3)</td></tr>
+      <tr><td>90 days and phase gates</td><td>Strategic foresight (S4); base case vs actions within control (USPS deck); option value of waiting (S2)</td></tr>
+      <tr><td>How we know it works</td><td>Metric constructed slightly wrong (S6); proxy drift and values that wither (S9); measures chosen before launch (S9)</td></tr>
+      <tr><td>AI reflection</td><td>Crux moves, validation and errors (brief); task vs tool (AI Literacy doc)</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section id="refs">
+  <span class="eyebrow">Citations as given in the course materials</span>
+  <h2>References (APA)</h2>
+  <ul class="refs">
+    <li>Allison, G. T., &amp; Zelikow, P. (1999). <i>Essence of decision</i> (2nd ed.). Longman.</li>
+    <li>Allison, G. (2016). The Cuban Missile Crisis. (Optional Session 4 reading on Canvas; cited on deck slides.)</li>
+    <li>Arkes, H. R., &amp; Blumer, C. (1985). The psychology of sunk cost. <i>Organizational Behavior and Human Decision Processes, 35</i>(1), 124–140.</li>
+    <li>Conn, C., Sarrazin, H., &amp; London, S. (2019, September 13). How to master the seven-step problem-solving process [Podcast]. McKinsey.</li>
+    <li>Davenport, T. H. (2018). <i>The AI advantage</i>. MIT Press. (Cited on Session 1 deck as Davenport, 2018.)</li>
+    <li>Davenport, T. H., &amp; Harris, J. G. (2007). <i>Competing on analytics</i>. Harvard Business School Press.</li>
+    <li>Evans, J. St. B. T., &amp; Stanovich, K. E. (2013). Dual-process theories of higher cognition. <i>Perspectives on Psychological Science, 8</i>(3), 223–241.</li>
+    <li>Fazio, L. K., Brashier, N. M., Payne, B. K., &amp; Marsh, E. J. (2015). Knowledge does not protect against illusory truth. <i>Journal of Experimental Psychology: General, 144</i>(5), 993–1002.</li>
+    <li>Feldman, M. S., &amp; Pentland, B. T. (2003). Reconceptualizing organizational routines as a source of flexibility and change. <i>Administrative Science Quarterly, 48</i>(1), 94–118. (Added here, not in the folder.)</li>
+    <li>Glaser, V. L. (2026a). Analytic trees (v2). In <i>Strategic decision-making with data analytics: Readings for SEM 620</i>. Alberta School of Business.</li>
+    <li>Glaser, V. L. (2026b). The psychological perspective. In <i>Strategic decision-making with data analytics: Readings for SEM 620</i>. Alberta School of Business.</li>
+    <li>Glaser, V. L., &amp; Gehman, J. (2024). Chatty actors. In Kulkarni et al., <i>Journal of Management Inquiry, 33</i>(3).</li>
+    <li>Glaser, V. L., Sloan, J., &amp; Gehman, J. (2024). Organizations as algorithms. <i>Journal of Management Studies, 61</i>(6).</li>
+    <li>Glaser, V. L., Sloan, J., &amp; Knight, [initial]. (2025, May 28). AI adoption in family enterprises: Balancing innovation with values. <i>FFI Practitioner</i>. Family Firm Institute.</li>
+    <li>Hammond, J. S., Keeney, R. L., &amp; Raiffa, H. (1999). <i>Smart choices</i>. Harvard Business School Press.</li>
+    <li>James, G., Witten, D., Hastie, T., &amp; Tibshirani, R. (2013). <i>An introduction to statistical learning</i>. Springer.</li>
+    <li>Kahneman, D. (2011). <i>Thinking, fast and slow</i>. Farrar, Straus and Giroux.</li>
+    <li>Kahneman, D., &amp; Klein, G. (2009). Conditions for intuitive expertise: A failure to disagree. <i>American Psychologist, 64</i>(6), 515–526.</li>
+    <li>Kahneman, D., &amp; Tversky, A. (1979). Prospect theory. <i>Econometrica, 47</i>(2), 263–291.</li>
+    <li>Keeney, R. L. (1992). <i>Value-focused thinking</i>. Harvard University Press.</li>
+    <li>Klein, G. (2007, September). Performing a project premortem. <i>Harvard Business Review</i>.</li>
+    <li>Lindebaum, D., Glaser, V. L., Moser, C., &amp; Ashraf, M. (2022). When algorithms rule, values can wither. <i>MIT Sloan Management Review</i>.</li>
+    <li>MacGarvie, M., &amp; McElheran, K. (2018). Pitfalls of data-driven decisions. In <i>HBR guide to data analytics basics for managers</i> (ch. 15). Harvard Business Review Press.</li>
+    <li>Magee, J. F. (1964). Decision trees for decision making. <i>Harvard Business Review, 42</i>(4), 126–138.</li>
+    <li>McKinsey &amp; Company. (2010, March 2). <i>USPS future business model: Initial perspectives</i> [Slide deck]. (Course example deck.)</li>
+    <li>Minto, B. (1996). <i>The Minto pyramid principle</i>. Minto International.</li>
+    <li>Mollick, E. (2024). <i>Co-intelligence: Living and working with AI</i>. Portfolio.</li>
+    <li>Moore, D. A., &amp; Healy, P. J. (2008). The trouble with overconfidence. <i>Psychological Review, 115</i>(2), 502–517.</li>
+    <li>Nickerson, R. S. (1998). Confirmation bias. <i>Review of General Psychology, 2</i>(2), 175–220.</li>
+    <li>Pentland, B. T., &amp; Feldman, M. S. (2005). Organizational routines as a unit of analysis. <i>Industrial and Corporate Change, 14</i>(5), 793–815. (Added here, not in the folder.)</li>
+    <li>Raiffa, H. (1968). <i>Decision analysis</i>. Addison-Wesley.</li>
+    <li>Simon, H. A. (1978, December 8). Rational decision-making in business organizations [Nobel Memorial Lecture].</li>
+    <li>Sloan, J., &amp; Glaser, V. L. (2024). <i>Scandinavian Building Services: Preserving the past and ensuring the future</i> (Case W35309). Ivey Publishing.</li>
+    <li>Sloan, J., &amp; Glaser, V. L. (2026, August 5). Stop prompting AI. Start directing it. <i>MIT Sloan Management Review</i>.</li>
+    <li>Tversky, A., &amp; Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. <i>Science, 185</i>(4157), 1124–1131.</li>
+    <li>Tversky, A., &amp; Kahneman, D. (1981). The framing of decisions and the psychology of choice. <i>Science, 211</i>(4481), 453–458.</li>
+    <li>Zuboff, S. (1988). <i>In the age of the smart machine</i>. Basic Books.</li>
+  </ul>
+</section>
+
+<section id="gaps">
+  <span class="eyebrow">Read this before relying on the page</span>
+  <h2>What is missing</h2>
+  <ul>
+    <li><b>Family enterprise article (Session 1 reading):</b> the PDF in Drive is scanned images with no readable text, and the FFI website refused automated access. Its assistant, analyst and coach framework is covered here only as the Session 1 deck presents it.</li>
+    <li><b>Sessions 5, 6 and 7 instructor decks</b> are not in the folder. Those sections rely on the syllabus, the SBS case, and the team's Ironstone notes. The ostensive, performative and artifact definitions come from standard sources, not class slides.</li>
+    <li><b>Chatty Actors and Organizations as Algorithms</b> (the two Session 1 papers) are not in the folder; only the deck's summary of them is used.</li>
+    <li>Sessions 8 to 10 have not happened; their entries come from the syllabus.</li>
+    <li>Left out on purpose: team pitch decks, interview transcripts, the Enbridge annual report used for the AI Literacy Exercise, and Curtis's own AI Literacy submission.</li>
+  </ul>
+</section>
+</div>

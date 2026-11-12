@@ -1,0 +1,342 @@
+<title>Team 2 Diagnosis Deck: Edmonton 311</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,500..800&family=Public+Sans:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: reading column; summary first, then a numbered slide log (numbers are real slide order) */
+:root{
+  --bg:#f5f7f8; --surface:#ffffff; --fg:#17242b; --muted:#53636c; --line:#d5dde1;
+  --accent:#0b5d73; --accent-soft:#e1eef2; --flag:#a85a00; --flag-soft:#fbefe0;
+  --display:"Archivo","Arial Narrow",system-ui,sans-serif;
+  --body:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f171b; --surface:#16222a; --fg:#e3eaed; --muted:#9aabb3; --line:#2a3a43;
+  --accent:#5cc0da; --accent-soft:#163541; --flag:#f0a64a; --flag-soft:#3a2a14; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f171b; --surface:#16222a; --fg:#e3eaed; --muted:#9aabb3; --line:#2a3a43;
+  --accent:#5cc0da; --accent-soft:#163541; --flag:#f0a64a; --flag-soft:#3a2a14; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.6}
+.wrap{max-width:860px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:40px 64px;display:flex;flex-direction:column;gap:40px}
+header{display:flex;flex-direction:column;gap:12px;border-bottom:2px solid var(--fg);padding-bottom:24px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:var(--display);font-stretch:80%;font-weight:800;font-size:clamp(32px,6vw,48px);line-height:1.05;margin:0;text-wrap:balance}
+h2{font-family:var(--display);font-stretch:85%;font-weight:700;font-size:24px;margin:0 0 12px;text-wrap:balance}
+h3{font-family:var(--display);font-weight:600;font-size:17px;margin:0 0 6px;text-wrap:balance}
+p{margin:0 0 12px;max-width:70ch}
+.meta{display:flex;flex-wrap:wrap;gap:8px 20px;font-size:14px;color:var(--muted)}
+.meta b{color:var(--fg);font-weight:600}
+nav{display:flex;flex-wrap:wrap;gap:8px}
+nav a{font-family:var(--mono);font-size:13px;padding:6px 12px;border:1px solid var(--line);background:var(--surface);text-decoration:none;color:var(--fg)}
+nav a:hover{border-color:var(--accent);color:var(--accent)}
+.decision{background:var(--accent-soft);border-left:4px solid var(--accent);padding:20px 22px;display:flex;flex-direction:column;gap:6px}
+.decision .q{font-family:var(--display);font-stretch:85%;font-weight:700;font-size:22px;line-height:1.25}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}
+.stat{background:var(--surface);border:1px solid var(--line);padding:14px 16px;display:flex;flex-direction:column;gap:2px}
+.stat .n{font-family:var(--display);font-weight:800;font-size:26px;font-variant-numeric:tabular-nums;color:var(--accent)}
+.stat .l{font-size:13px;color:var(--muted);line-height:1.4}
+.cast{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.char{background:var(--surface);border:1px solid var(--line);padding:14px 16px;font-size:14px}
+.char .lens{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.char p{margin:4px 0 0}
+.gap{background:var(--flag-soft);border:1px solid var(--flag);padding:18px 20px}
+.gap h2{color:var(--flag)}
+.gap ul{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:8px}
+.tbl{overflow-x:auto;border:1px solid var(--line);background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{text-align:left;vertical-align:top;padding:10px 12px;border-bottom:1px solid var(--line)}
+tr:last-child td{border-bottom:none}
+th{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:500}
+.slides{display:flex;flex-direction:column;gap:0;border-top:1px solid var(--line)}
+.slide{display:grid;grid-template-columns:56px 1fr;gap:16px;padding:20px 0;border-bottom:1px solid var(--line)}
+.slide .no{font-family:var(--display);font-weight:800;font-size:30px;line-height:1;color:var(--accent);font-variant-numeric:tabular-nums}
+.slide .body{min-width:0}
+.slide .tag{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+.slide h3{font-size:18px;line-height:1.3;margin-bottom:8px}
+.slide ul{margin:0;padding-left:18px;font-size:15px;display:flex;flex-direction:column;gap:4px}
+.slide .src{font-size:12.5px;color:var(--muted);margin-top:8px}
+.appx .no{color:var(--muted)}
+code{font-family:var(--mono);font-size:.9em;background:var(--accent-soft);padding:1px 5px;overflow-wrap:anywhere}
+a{color:var(--accent);text-underline-offset:2px;overflow-wrap:anywhere}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.foot{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:16px}
+@media (max-width:480px){.slide{grid-template-columns:40px 1fr;gap:10px}.slide .no{font-size:24px}}
+</style>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">SEM 620 · Strategic Analytics Initiative · Client: 311 and Customer Access</div>
+  <h1>Which code fits these words?</h1>
+  <div class="meta">
+    <span><b>Deck</b> Team 2 Strategic Analytics Initiative, Final Interactive</span>
+    <span><b>Date</b> Oct 26, 2026</span>
+    <span><b>Slides</b> 17 main + 12 appendix</span>
+    <span><b>Team</b> Rick Auger · Lauren Lonsberry · Nav Sekhon · Curtis Middleton</span>
+  </div>
+  <nav aria-label="Sections">
+    <a href="#summary">Summary</a><a href="#numbers">Key numbers</a><a href="#cast">Cast</a><a href="#gap">For December</a><a href="#main">Slides 1-17</a><a href="#appendix">Appendix</a><a href="#data">Open data</a>
+  </nav>
+</header>
+
+<section id="summary">
+  <h2>The diagnosis in one paragraph</h2>
+  <p>Every 311 phone agent answers the same question on every call: which of 1,917 service codes fits the caller's words. The code decides which City area gets the work and whether 311 resolves or refers. When the code is wrong, the receiving area eventually closes the ticket as "311 Redirecting to Other Business Area" (a bounce), a median 1.6 days later. Nothing the team found tells the agent, no published measure counts it, and authority (311 picks the code) sits apart from accountability (the area owns the result). The deck is a diagnosis only and explicitly defers the solution to December.</p>
+  <div class="decision">
+    <div class="eyebrow">Core analytic decision, refined</div>
+    <div class="q">Which service code does a new 311 phone or web ticket get?</div>
+    <div style="font-size:14px;color:var(--muted)">In scope: 665,225 phone + 29,911 web tickets (2025). Out of scope: app tickets (resident picks from 77 options, AI suggests since Jul 2026) and duplicate linking (already on Council's agenda).</div>
+  </div>
+</section>
+
+<section id="numbers">
+  <h2>Key numbers</h2>
+  <div class="stats">
+    <div class="stat"><span class="n">665,225</span><span class="l">phone tickets coded by agents, 2025 (74% of all tickets)</span></div>
+    <div class="stat"><span class="n">1,917</span><span class="l">phone codes in use; 44 cover half of tickets; 660 used under 10 times</span></div>
+    <div class="stat"><span class="n">~2,150</span><span class="l">codes picked per service day (about 180 an hour, 7am to 7pm, 6 days)</span></div>
+    <div class="stat"><span class="n">1,323</span><span class="l">phone + web bounces in 2025 (1,128 phone)</span></div>
+    <div class="stat"><span class="n">1.6 days</span><span class="l">median wait before a bounce; 22.3% wait more than 7 days</span></div>
+    <div class="stat"><span class="n">$100K/yr</span><span class="l">City cost of wrong codes (P10 to P90 $74K to $131K); $47K counted</span></div>
+    <div class="stat"><span class="n">$139K to $154K</span><span class="l">the same cost at the 2026 pace</span></div>
+    <div class="stat"><span class="n">5.6%</span><span class="l">bounce probability above which "ask the owner first" beats "pick now"</span></div>
+    <div class="stat"><span class="n">43%</span><span class="l">bounce rate on the can code (Facility Maintenance) vs 0.55% average referral</span></div>
+    <div class="stat"><span class="n">98.7%</span><span class="l">City's headline "resolved on initial contact"; no routing measure</span></div>
+  </div>
+</section>
+
+<section id="cast">
+  <h2>The cast: three composite 311 agents, one lens each</h2>
+  <div class="cast">
+    <div class="char"><div class="lens">Rational · voiced by Lauren Lonsberry</div><h3>Logical Lauren</h3><p>"What does a wrong code cost, and who pays?" Profit tree, Monte Carlo, decision tree, threshold, loss beside the average.</p></div>
+    <div class="char"><div class="lens">Psychological · voiced by Nav Sekhon</div><h3>Neuro Nav</h3><p>"Why does a wrong code still feel right?" System 1 and 2, feedback, confirmation, overconfidence, reference point.</p></div>
+    <div class="char"><div class="lens">Political · voiced by Rick Auger</div><h3>Ruling Rick</h3><p>"Who decides, and why is the miss not counted?" Players and moves, authority vs accountability, espoused vs enacted values.</p></div>
+  </div>
+  <p style="margin-top:12px;font-size:14px;color:var(--muted)">A running caller story ("Caller 4", an overflowing park garbage can) threads through the deck from Monday's call to Thursday's repeat call. Caller and dialogue are illustrative; codes, counts and timings are real. Claims carry labels: VERIFIED, INFERRED, HYPOTHESIS, CORRELATION, ABSENCE.</p>
+</section>
+
+<section id="gap" class="gap">
+  <h2>What this deck does not yet cover for the final presentation</h2>
+  <p>The final brief asks for a full proposal. This deck stops at diagnosis, so these parts are still to build:</p>
+  <ul>
+    <li><b>The algorithmic routine:</b> inputs, outputs, who acts on it, what happens when it is wrong, and what is automated vs left to the agent. The deck's own findings point at candidates: a code suggestion on the agent's screen, an "ask the owner" prompt on high-bounce codes, and a bounce feedback loop back to the agent.</li>
+    <li><b>Data construction:</b> what exists (open data q7ua-agfg, scripts), what does not (agent's first code, link from bounce to re-route, quiet misroutes), and what would have to be created.</li>
+    <li><b>Integration and phasing:</b> a 90-day plan, phase-two gates, and success measures. The deck flags the CRM's 2030 end of life and the CSU 52 / agent-replacement concern as constraints.</li>
+    <li><b>Open questions with the City:</b> three questions sent via Open Data; no substantive answers as of Oct 22, 2026.</li>
+  </ul>
+</section>
+
+<section id="main">
+  <h2>Main deck, slide by slide</h2>
+  <div class="slides">
+
+    <article class="slide"><div class="no">1</div><div class="body">
+      <div class="tag">Cover</div>
+      <h3>Which code fits these words?</h3>
+      <ul>
+        <li>Monday, 4:29 PM: a resident reports an overflowing can by a park. The agent searches "garbage can", four codes fit, and the agent picks Facility Maintenance. Wrong queue; the ticket waits 1.6 days before it is sent back.</li>
+        <li>Illustrative screen: 4 codes, 3 descriptions, 4 owners (Parks 283, Transit 192, Facility Maintenance 116, River Valley Ops 23 tickets).</li>
+        <li>Dot field: every phone code used in 2025; 44 cover half the tickets.</li>
+      </ul>
+    </div></article>
+
+    <article class="slide"><div class="no">2</div><div class="body">
+      <div class="tag">The problem in brief</div>
+      <h3>A wrong code on a phone or web ticket sends work to the wrong City area. It costs about $100K a year; no published measure tracks it</h3>
+      <ul>
+        <li>Phone 665,225 tickets (agent picks from 1,917 codes); web 29,911 (form or map sets the code by rule, staff code emails).</li>
+        <li>Visible: 1,323 bounces in 2025. Not visible: quiet fixes inside areas and wrong answers among 473,564 phone-resolved calls.</li>
+        <li>Introduces the three characters, the call bar, and the evidence labels.</li>
+      </ul>
+    </div></article>
+
+    <article class="slide"><div class="no">3</div><div class="body">
+      <div class="tag">Caller 4's ticket, Monday to Thursday</div>
+      <h3>One wrong code cost Caller 4 two days in the wrong queue and a second call, and nothing tells the agent who picked it</h3>
+      <ul>
+        <li>Timeline: call 9:05, code picked 9:06, bounced Wednesday, re-route not public, second call Thursday.</li>
+        <li>2025 phone: 1,128 bounces; 22.3% waited over 7 days; 14,272 days summed in the wrong queue; 61 of 116 tickets on the picked code closed as not theirs.</li>
+        <li>Per service day: ~2,150 codes picked, ~4 bounced, 46 days added to wrong queues.</li>
+      </ul>
+    </div></article>
+
+    <article class="slide"><div class="no">4</div><div class="body">
+      <div class="tag">The decision, named · five-part test</div>
+      <h3>The decision passes all five tests: on a call, a 311 agent picks 1 of 1,917 codes</h3>
+      <ul>
+        <li>Who/how often: 140+ agents, 665,225 picks a year. Inputs: caller's words and address, code list, ~900 scripts, experience.</li>
+        <li>Options: 1,917 codes, each fixing receiving area and (99.4%) resolve-or-refer. Cost: ~$31 a bounce before field visits; ~$100K a year.</li>
+        <li>Could a model do it: plausibly; the City's app AI already suggests a service from words or a photo.</li>
+        <li>Scope: phone and web in; app, duplicate linking and any solution out.</li>
+      </ul>
+    </div></article>
+
+    <article class="slide"><div class="no">5</div><div class="body">
+      <div class="tag">Why this decision · 11 candidates, 9 criteria</div>
+      <h3>Phone coding is the only one of 11 at full grain and frequency: third on team weights, first of 311's own decisions, 7th blind</h3>
+      <ul>
+        <li>Weighted score 67 (bylaw triage 72 and pothole plan 71 lead but are decided outside 311).</li>
+        <li>Scores 1 on value and payback, 5 on grain and frequency. Duplicate linking not scored (already underway).</li>
+        <li>A blind AI re-score ranked it 7th of 12; the team calls the pick a judgment and says so.</li>
+      </ul>
+    </div></article>
+
+    <article class="slide"><div class="no">6</div><div class="body">
+      <div class="tag">What the City automated, and what it left</div>
+      <h3>The City added AI to the app, where residents pick. On the phone (74% of tickets), agents pick with no suggestion found</h3>
+      <ul>
+        <li>App (205,298 tickets): AI suggests a service since Jul 14, 2026, "to reduce incorrect assignments"; performance unpublished.</li>
+        <li>Underway: AI search over ~900 scripts for agents, framed around shorter calls. "AI backends to help direct callers" is a reporter's paraphrase.</li>
+        <li>Left to people: the phone stays "the primary access point". Framed with Reassembly's configuration, embedding, performance.</li>
+      </ul>
+    </div></article>
+
+    <article class="slide"><div class="no">7</div><div class="body">
+      <div class="tag">What the bounce count shows, 2023 to 2026</div>
+      <h3>The 2026 rise in bounces is no clear sign of worse coding: 39% is new recording, 52% is areas back at their 2023 rate</h3>
+      <ul>
+        <li>Phone bounces per referral, Jan to Sep: 0.57% (2023), 0.48%, 0.44%, 1.03% (2026). Fall 2025: City "aligned ticket closure processes".</li>
+        <li>Phone bounces Jan to Sep rose 661 to 1,673; eight rarely-recording areas went 8 to 398.</li>
+        <li>The can code fails on both channels in 2026: 37 of 78 phone, 469 of 645 app. The problem is in the code set, not only who picks.</li>
+      </ul>
+    </div></article>
+
+    <article class="slide"><div class="no">8</div><div class="body">
+      <div class="tag">Problem tree, by stage of one call</div>
+      <h3>Wrong codes start before and during the call; after it, no published measure counts them and nothing tells the agent</h3>
+      <ul>
+        <li>Before: 1,917 codes; areas sign off scripts; ownership follows the asset, not the problem.</li>
+        <li>During: caller's words rarely name the owner; rare codes bounce 14x more (3.80% vs 0.27%) but are 5% of bounces; speed incentives (120 s answer).</li>
+        <li>After: no count, no word back, no link from bounce to re-route. Stated assumption: a bounce is treated as a coding error.</li>
+      </ul>
+    </div></article>
+
+    <article class="slide"><div class="no">9</div><div class="body">
+      <div class="tag">The decision today · six activities, five conditions</div>
+      <h3>One pick records the request, proposes the action and commits the route; no second check before routing and no feedback after</h3>
+      <ul>
+        <li>Notice, Record, Propose, Authorize, Carry out, Learn: Authorize and Learn are the gaps.</li>
+        <li>Conditions for meaningful review: evidence ✕, expertise ~, time ✕, authority ~, feedback ~.</li>
+        <li>311 holds authority over the code; the area holds accountability for the result; no owner of the hand-off.</li>
+      </ul>
+    </div></article>
+
+    <article class="slide"><div class="no">10</div><div class="body">
+      <div class="tag">The stake · profit tree</div>
+      <h3>Wrong codes on phone and web tickets cost the City about $100K a year; only $47K comes from tickets the open data counts</h3>
+      <ul>
+        <li>Counted $46.6K (bounces $40.4K, wrong jurisdiction $5.6K, "more info" $0.6K) + unrecorded $11.5K + knock-on $42.4K (visits $13.4K, repeat calls $29.0K).</li>
+        <li>13 triangular inputs, 50,000 Monte Carlo draws, seed 20261018. All at most likely: $69.4K.</li>
+        <li>Biggest swing input: wrong answers caused by the code (team judgment). Who pays: 311 ~60%, areas ~40%.</li>
+      </ul>
+    </div></article>
+
+    <article class="slide"><div class="no">11</div><div class="body">
+      <div class="tag">Logical Lauren · decision trees</div>
+      <h3>Wrong codes cost about $0.14 a ticket. Asking the owner first pays only on often-bounced codes; nothing tells the agent which</h3>
+      <ul>
+        <li>EV of one ticket today: -$0.1449; × 693,357 priced tickets = -$100.5K, reconciling to the profit tree.</li>
+        <li>Pick now vs ask first (20 s, $1.02): asking pays when bounce probability p &gt; 5.6%.</li>
+        <li>Average referral p 0.55% favours picking; the can code p 43% favours asking. The agent never sees p.</li>
+      </ul>
+    </div></article>
+
+    <article class="slide"><div class="no">12</div><div class="body">
+      <div class="tag">Neuro Nav · one call as the agent meets it</div>
+      <h3>A wrong code can still feel right: no word back to the agent, and 1,366 of 1,917 codes come up fewer than 100 times a year</h3>
+      <ul>
+        <li>Glaser's five questions applied to one call; System 1 offers a can code before the owner is asked.</li>
+        <li>Bounce rate by code use: 3.80% (1-9), 1.96% (10-99), 0.64% (100-999), 0.27% (1,000+). Correlation only.</li>
+        <li>Situation / tendency / neglected table for agents, 311 leaders and receiving areas. Hypotheses H1 to H7.</li>
+      </ul>
+    </div></article>
+
+    <article class="slide"><div class="no">13</div><div class="body">
+      <div class="tag">Ruling Rick · the players</div>
+      <h3>311 picks the code; the business areas sign off the scripts and own the result; no published scorecard counts a wrong pick</h3>
+      <ul>
+        <li>Player table: agents, 311 management, business areas, City Auditor, residents, CSU 52, each with measures, moves, stakes.</li>
+        <li>Council asked about closures, duplicates, compliance; the Sep 2026 report gave 98.7% / 81% / 94%, no bounce count.</li>
+        <li>Sedimentation: 2023 audit called full-service tickets "low risk"; 2026 says "efficiently routed" with no routing measure. The 2030 CRM replacement is where ownership will be settled.</li>
+      </ul>
+    </div></article>
+
+    <article class="slide"><div class="no">14</div><div class="body">
+      <div class="tag">The full picture · 2026 pace, residents, hazards</div>
+      <h3>At the 2026 pace the City cost would be $139K to $154K a year: recorded bounces more than doubled, even if errors did not</h3>
+      <ul>
+        <li>Residents: 16,987 days in the wrong queue in 2025; about $8K of residents' time on 2,017 extra contacts.</li>
+        <li>Hazards: 231 hazard-type phone tickets bounced, 2,915 days in the wrong queue. Alberta MGA s. 532(6) liability question left open.</li>
+        <li>At marginal agent time only, the 2025 stake is $61K.</li>
+      </ul>
+    </div></article>
+
+    <article class="slide"><div class="no">15</div><div class="body">
+      <div class="tag">Shift debrief</div>
+      <h3>One choice, made about 2,150 times a day on the phone: no published measure, no word back and no owner of the miss</h3>
+      <ul>
+        <li>Lauren: what it costs. Nav: why it repeats. Rick: why it is uncounted.</li>
+        <li>Unknowns: does the code call up the script; how often resolved calls got the wrong code; how bounces are re-routed; who adds or retires codes.</li>
+        <li>Questions for the City: 311 team lead, area dispatcher, 311 agent.</li>
+      </ul>
+    </div></article>
+
+    <article class="slide"><div class="no">16</div><div class="body">
+      <div class="tag">Why the City has not measured it yet</div>
+      <h3>No published measure counts wrong codes: the data shows only recorded bounces, ownership is split, scorecards count speed</h3>
+      <ul>
+        <li>Data built to assign work, not count misses. Ownership "shared by everyone, owned by no one".</li>
+        <li>Espoused access vs enacted efficiency. Updates, not learning: every recent fix targets other problems.</li>
+        <li>Framed as not concealment: the City publishes every recorded bounce. CRM end of life in 2030.</li>
+      </ul>
+    </div></article>
+
+    <article class="slide"><div class="no">17</div><div class="body">
+      <div class="tag">AI process reflection</div>
+      <h3>AI's first answers were fast and fluent, like System 1. A self-check can defend them, so independent checks decided what we believed</h3>
+      <ul>
+        <li>Tools: Claude (Opus, Fable, Sonnet/Haiku), Gemini Pro; critic agents, LLM council, blind re-score, deck analyzer, HTML keep/cut tool.</li>
+        <li>Human-in-the-loop: the team found the City already working on duplicates and steered AI to ticket coding.</li>
+        <li>Errors caught: 24/7 line assumption, misread benchmarks, reporter paraphrase treated as quote, biased re-score; four cost models reconciled with a Monte Carlo.</li>
+      </ul>
+    </div></article>
+  </div>
+</section>
+
+<section id="appendix">
+  <h2>Appendix</h2>
+  <div class="slides">
+    <article class="slide appx"><div class="no">A</div><div class="body"><div class="tag">Slide 18 · Assumptions and ranges</div><h3>14 assumptions ranked by swing</h3><ul><li>Top movers: wrong answers caused by the code (0/20/60%, $54K-$100K), area desk time per misroute (5/10/20 min), wrong answers on resolved calls (2/5/11%).</li><li>Each row lists its anchor source and the City data that would confirm it.</li></ul></div></article>
+    <article class="slide appx"><div class="no">A2</div><div class="body"><div class="tag">Slide 19 · Calculation log</div><h3>How each stake line is built</h3><ul><li>Counted volume × unit cost per draw; total $100.5K. Model evolution: $92K first inputs, $78K after fixing misread anchors, $100K with Edmonton sources.</li><li>P10 vs P90 year differ by $57K, 64% of it repeat calls.</li></ul></div></article>
+    <article class="slide appx"><div class="no">A3</div><div class="body"><div class="tag">Slide 20 · What goes into the stake</div><h3>Phone + web ($100K) chosen because 311 makes that decision</h3><ul><li>Alternatives: proposal's all-cause $427K, all channels $284K, phone only $87K.</li></ul></div></article>
+    <article class="slide appx"><div class="no">B</div><div class="body"><div class="tag">Slide 21 · The cast</div><h3>Three composite agents, each voiced by one team member</h3><ul><li>Lauren (rational), Nav (psychological, nine years on phones), Rick (political, CSU 52 steward).</li></ul></div></article>
+    <article class="slide appx"><div class="no">B2</div><div class="body"><div class="tag">Slide 22 · Reference points and biases</div><h3>Each group's reference point; each bias a hypothesis</h3><ul><li>311 leaders: confirmation. Experienced agents: overconfidence. Business areas: status quo. Agents and CSU 52: loss aversion (fear of replacement by AI).</li><li>Directly relevant to adoption risk for any proposed tool.</li></ul></div></article>
+    <article class="slide appx"><div class="no">C</div><div class="body"><div class="tag">Slide 23 · The call, in full</div><h3>Caller 4 from first ring to Day 3, and who loses what</h3><ul><li>Residents: days and a second call. 311: ~60% of cost. Areas: ~40%.</li></ul></div></article>
+    <article class="slide appx"><div class="no">D</div><div class="body"><div class="tag">Slide 24 · Scoring matrix</div><h3>All 11 candidates with scores, city status and the 311 gate</h3><ul><li>Robustness: in 2,000 re-scorings, potholes first 38%, bylaw 35%, phone coding 11%.</li></ul></div></article>
+    <article class="slide appx"><div class="no">E</div><div class="body"><div class="tag">Slide 25 · Open-data queries</div><h3>Every count comes from a re-runnable SoQL query (Q1-Q14, R4, S1)</h3><ul><li>See the Open data section below.</li></ul></div></article>
+    <article class="slide appx"><div class="no">F</div><div class="body"><div class="tag">Slide 26 · Reconciling the team's figures</div><h3>Of 13 inherited figures: 3 held, 8 changed, 2 dropped</h3><ul><li>Dropped: 10,354 call-backs (no data field), Hashemi 83% (model accuracy, not human error).</li></ul></div></article>
+    <article class="slide appx"><div class="no">G</div><div class="body"><div class="tag">Slide 27 · Primary research</div><h3>Open, unsignalled questions per seat, with the leading version to avoid</h3><ul><li>Seats: 311 team lead, agent, area dispatcher, quality coach. Tests H1-H7.</li></ul></div></article>
+    <article class="slide appx"><div class="no">G2</div><div class="body"><div class="tag">Slide 28 · Outreach log</div><h3>Request via the City's Open Data team; replies Oct 8 and Oct 22, 2026</h3><ul><li>No one reached who could answer yet; agents "have scripts to follow for most every topic".</li></ul></div></article>
+    <article class="slide appx"><div class="no">H</div><div class="body"><div class="tag">Slide 29 · Sources</div><h3>City documents, wages and law, news, course readings, benchmarks</h3><ul><li>Key City sources: CSD03148 (311 Service Experience, Exec Committee, Sep 2, 2026); OCA City's Response to 311 Requests (Nov 2023); FCS02139; open data q7ua-agfg and da9s-v9j8.</li><li>Course: Glaser (2026) Reassembly of Agency, Psychological Perspective, Analytic Trees; Allison and Zelikow; Kahneman and Klein (2009).</li></ul></div></article>
+  </div>
+</section>
+
+<section id="data">
+  <h2>Open data the deck runs on</h2>
+  <p>Dataset: City of Edmonton Open Data, <b>311 Requests</b> (<code>q7ua-agfg</code>). The deck queries it through <a href="https://data.edmonton.ca/resource/q7ua-agfg.json" target="_blank" rel="noopener">data.edmonton.ca/resource/q7ua-agfg.json</a> with SoQL; the v3 endpoint <a href="https://data.edmonton.ca/api/v3/views/q7ua-agfg/query.json" target="_blank" rel="noopener">api/v3/views/q7ua-agfg/query.json</a> is the same dataset. Budget: Approved Operating Budget (<code>da9s-v9j8</code>).</p>
+  <div class="tbl"><table>
+    <thead><tr><th>Concept</th><th>Field filter used in the deck</th></tr></thead>
+    <tbody>
+      <tr><td>Phone ticket</td><td><code>interaction_channel = 'Phone Call'</code> (others: Mobile App, Web Form, ESRI MAP, Email)</td></tr>
+      <tr><td>Bounce</td><td><code>status_detail = '311 Redirecting to Other Business Area'</code></td></tr>
+      <tr><td>Wrong jurisdiction</td><td><code>status_detail</code> in Redirected to External Organization / Other Government Agency / Non-City Service or Location</td></tr>
+      <tr><td>A "code"</td><td><code>service_area</code> + <code>service_category</code> + <code>service_description</code></td></tr>
+      <tr><td>Resolve vs refer</td><td><code>referral_type</code></td></tr>
+      <tr><td>Time in wrong queue</td><td><code>date_closed - date_created</code> on bounced rows</td></tr>
+    </tbody>
+  </table></div>
+  <p style="margin-top:12px;font-size:14px;color:var(--muted)">Not in the data: the agent's first code, any link from a bounce to its re-route, and quiet misroutes fixed inside an area. All 26 published fields were checked.</p>
+</section>
+
+<div class="foot">Reference outline of Team 2's Oct 26, 2026 diagnosis deck, built from its slide text and speaker notes. Slide headlines are quoted closely; bullets are condensed. Sources cited on each slide are in the original deck's footnotes and Appendix H.</div>
+</div>

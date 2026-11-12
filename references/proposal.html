@@ -1,0 +1,136 @@
+<title>Team 2 Proposal: Edmonton 311</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,500..800&family=Public+Sans:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: single reading column, a ticket-style header strip, tables for the five-part test */
+:root{
+  --bg:#f5f7f8; --surface:#ffffff; --fg:#17242b; --muted:#53636c; --line:#d5dde1;
+  --accent:#0b5d73; --accent-soft:#e1eef2; --flag:#a85a00; --flag-soft:#fbefe0;
+  --display:"Archivo","Arial Narrow",system-ui,sans-serif;
+  --body:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f171b; --surface:#16222a; --fg:#e3eaed; --muted:#9aabb3; --line:#2a3a43;
+  --accent:#5cc0da; --accent-soft:#163541; --flag:#f0a64a; --flag-soft:#3a2a14; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f171b; --surface:#16222a; --fg:#e3eaed; --muted:#9aabb3; --line:#2a3a43;
+  --accent:#5cc0da; --accent-soft:#163541; --flag:#f0a64a; --flag-soft:#3a2a14; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.6}
+.wrap{max-width:820px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:40px 64px;display:flex;flex-direction:column;gap:40px}
+header{display:flex;flex-direction:column;gap:12px;border-bottom:2px solid var(--fg);padding-bottom:24px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:var(--display);font-stretch:80%;font-weight:800;font-size:clamp(32px,6vw,48px);line-height:1.05;margin:0;text-wrap:balance}
+h2{font-family:var(--display);font-stretch:85%;font-weight:700;font-size:24px;margin:0 0 12px;text-wrap:balance}
+h3{font-family:var(--display);font-weight:600;font-size:17px;margin:0 0 6px}
+p{margin:0 0 12px;max-width:68ch}
+.meta{display:flex;flex-wrap:wrap;gap:8px 20px;font-size:14px;color:var(--muted)}
+.meta b{color:var(--fg);font-weight:600}
+.decision{background:var(--accent-soft);border-left:4px solid var(--accent);padding:20px 22px;display:flex;flex-direction:column;gap:6px}
+.decision .q{font-family:var(--display);font-stretch:85%;font-weight:700;font-size:22px;line-height:1.25}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}
+.stat{background:var(--surface);border:1px solid var(--line);padding:14px 16px;display:flex;flex-direction:column;gap:2px}
+.stat .n{font-family:var(--display);font-weight:800;font-size:28px;font-variant-numeric:tabular-nums;color:var(--accent)}
+.stat .l{font-size:13px;color:var(--muted);line-height:1.4}
+.tbl{overflow-x:auto;border:1px solid var(--line);background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th,td{text-align:left;vertical-align:top;padding:12px 14px;border-bottom:1px solid var(--line)}
+tr:last-child td{border-bottom:none}
+th{font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:500}
+td:first-child{font-weight:600;width:30%;min-width:140px}
+.changed{background:var(--flag-soft);border:1px solid var(--flag);padding:18px 20px}
+.changed h2{color:var(--flag)}
+.changed ul{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:8px}
+.team{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.member{background:var(--surface);border:1px solid var(--line);padding:14px 16px}
+.member .email{font-family:var(--mono);font-size:13px;color:var(--muted);user-select:all}
+.member p{font-size:14px;margin:6px 0 0}
+.refs{display:flex;flex-direction:column;gap:12px;padding:0;margin:0;list-style:none;font-size:14px}
+.refs li{padding-left:20px;text-indent:-20px}
+a{color:var(--accent);text-underline-offset:2px;overflow-wrap:anywhere}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.foot{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:16px}
+</style>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">SEM 620 · Strategic Analytics Initiative · Project Proposal · Sep 2026</div>
+  <h1>City of Edmonton 311: service request classification and routing</h1>
+  <div class="meta">
+    <span><b>Client</b> 311 and Customer Access, City of Edmonton</span>
+    <span><b>Team</b> Team 2</span>
+    <span><b>Source</b> Team 2 Project Proposal 1.pdf (2 pages)</span>
+  </div>
+</header>
+
+<section>
+  <h2>The organization</h2>
+  <p>Edmonton 311 is the City's non-emergency contact centre, staffed by more than 140 representatives. The City publishes a live 311 request dataset (673,101 requests at retrieval) and a 2023 City Auditor report on 311. The team is local to Edmonton, which makes primary research practical.</p>
+</section>
+
+<section class="decision">
+  <div class="eyebrow">Core analytic decision, as proposed</div>
+  <div class="q">When a request comes in, which category and program code does it get, and does 311 resolve it directly or refer it to the responsible business area?</div>
+</section>
+
+<section>
+  <h2>Scale, as cited in the proposal</h2>
+  <div class="stats">
+    <div class="stat"><span class="n">6.5M</span><span class="l">tickets created by 311 agents, 2018 to 2022 (about 1.3M a year)</span></div>
+    <div class="stat"><span class="n">73%</span><span class="l">of 2018 to 2022 tickets were full service (resolved on the call)</span></div>
+    <div class="stat"><span class="n">$14.66M</span><span class="l">2026 budget for 311 and Customer Access</span></div>
+    <div class="stat"><span class="n">$16.29</span><span class="l">cost per inquiry ($14.66M ÷ 900,000 inquiries)</span></div>
+  </div>
+</section>
+
+<section>
+  <h2>The five-part test</h2>
+  <div class="tbl"><table>
+    <thead><tr><th>Test question</th><th>Finding</th></tr></thead>
+    <tbody>
+      <tr><td>1. Who makes it, and how often?</td><td>A 311 agent, one of 140+ representatives. Agents created 6.5M tickets from 2018 to 2022. In 2026 to date, 311 has closed 662,473 tickets and has 12,017 open. The City handles about 900,000 inquiries a year through 311.</td></tr>
+      <tr><td>2. What inputs are used now?</td><td>The citizen's description of the problem and its location, checked against scripts supplied by each business area. Agents may ask clarifying questions before assigning a program code and ticket type.</td></tr>
+      <tr><td>3. What are the options?</td><td>Resolve the request directly, refer it to the responsible business area, or create and close the ticket when the request is transferred. Full service was 73% of tickets, 2018 to 2022.</td></tr>
+      <tr><td>4. What does a bad instance cost?</td><td>The Auditor did not cost a ticket. From 2018 to 2022 there were about 79,000 duplicate and 52,000 follow-up tickets. At $16.29 a call, duplicates could cost about $1.29M and follow-ups about $0.85M, over $2.1M in total. Unresolved concerns can escalate to Councillors or the Mayor. Toronto's 311 costs $11 to $16 a call.</td></tr>
+      <tr><td>5. Could an algorithm make it instead?</td><td>Yes. A peer-reviewed study classified 311 requests from citizen descriptions with over 83% accuracy (Hashemi, 2022). Edmonton added an AI feature in July 2026 that suggests a service category from a photo or description; its role in routing was still to be confirmed.</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section class="changed">
+  <h2>What the October deck changed</h2>
+  <ul>
+    <li><b>Decision narrowed</b> to which service code a phone or web ticket gets (1 of 1,917 phone codes), because the code sets both the receiving area and resolve-or-refer on 99.4% of phone tickets.</li>
+    <li><b>Duplicates dropped from scope.</b> Council's July 2025 motion already targets them and the City auto-links about 1 in 3 at intake.</li>
+    <li><b>Stake revised from $2.1M to about $100K a year</b> (Monte Carlo, P10 to P90 $74K to $131K). The proposal's figure counted every duplicate and follow-up, most of which no code caused.</li>
+    <li><b>$16.29 per contact replaced</b> with 2025 budget figures ($15.52 / $15.89 / $21.50), since the original mixed a 2026 budget with 2025 volumes.</li>
+    <li><b>Hashemi's 83% dropped</b> as a human error benchmark. It is a neural network's test accuracy on nine classes in San Diego.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Division of work</h2>
+  <div class="team">
+    <div class="member"><h3>Lauren Lonsberry</h3><div class="email">llonsber@ualberta.ca</div><p>Project lead and facilitator: schedule, responsibilities, meetings, progress against deadlines.</p></div>
+    <div class="member"><h3>Curtis Middleton</h3><div class="email">curtis5@ualberta.ca</div><p>Presentation lead and coordinator: builds the presentation structure and keeps formatting consistent. Also meeting organizer and record keeper.</p></div>
+    <div class="member"><h3>Nav Sekhon</h3><div class="email">nssekhon@ualberta.ca</div><p>Research lead: coordinates research and finds credible academic, government and other sources.</p></div>
+    <div class="member"><h3>Rick Auger</h3><div class="email">rlauger@ualberta.ca</div><p>Writing expert and peer reviewer: coordinates written components and reviews for clarity and fit with the brief.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>References</h2>
+  <ul class="refs">
+    <li>Bingley, M. (2024, Jan 19). Calling 311 to make a complaint costs Toronto up to $16 per call [Video]. Global News. <a href="https://globalnews.ca/video/10239074/calling-311-to-make-a-complaint-costs-toronto-up-to-16-per-call" target="_blank" rel="noopener">globalnews.ca</a></li>
+    <li>City of Edmonton, Office of the City Auditor. (2023, Nov 14). City's Response to 311 Requests [Audit report]. <a href="https://pub-edmonton.escribemeetings.com/filestream.ashx?DocumentId=205790" target="_blank" rel="noopener">pub-edmonton.escribemeetings.com</a></li>
+    <li>City of Edmonton. (2026a). 2026 operating budget: FCS SIP, 311 and Customer Access [Dashboard]. <a href="https://budget.edmonton.ca/#!/year/2026/operating/0/program/FCS~SIP+-+311+and+Customer+Access/0/fund_type?vis=barChart" target="_blank" rel="noopener">budget.edmonton.ca</a></li>
+    <li>City of Edmonton. (2026b). 311 Open Data. <a href="https://www.edmonton.ca/programs-services" target="_blank" rel="noopener">edmonton.ca</a></li>
+    <li>City of Edmonton 311. (2026a). Requests [Live public dataset]. <a href="https://311.edmonton.ca/tickets" target="_blank" rel="noopener">311.edmonton.ca/tickets</a></li>
+    <li>City of Edmonton 311. (2026b, Jul 14). 311 App upgrade [AI service suggestion from photo or description]. <a href="https://edmonton2-production.spotmobile.net/" target="_blank" rel="noopener">spotmobile.net</a></li>
+    <li>Hashemi, M. (2022). Automatic Type Detection of 311 Service Requests Based on Customer-Provided Descriptions. <i>Applied Artificial Intelligence</i>, 36(1), 2073717. <a href="https://doi.org/10.1080/08839514.2022.2073717" target="_blank" rel="noopener">doi.org/10.1080/08839514.2022.2073717</a></li>
+  </ul>
+</section>
+
+<div class="foot">Reference copy of Team 2's September 2026 proposal, transcribed from the PDF. The "What the October deck changed" box is added from the team's later diagnosis deck. The proposal notes that AI was used in its making.</div>
+</div>
